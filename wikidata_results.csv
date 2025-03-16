@@ -1,0 +1,101 @@
+language,languageLabel,field,fieldLabel
+http://www.wikidata.org/entity/Q2005,JavaScript,http://www.wikidata.org/entity/Q80006,Programmierung
+http://www.wikidata.org/entity/Q2005,JavaScript,http://www.wikidata.org/entity/Q386275,Webentwicklung
+http://www.wikidata.org/entity/Q2407,C++,http://www.wikidata.org/entity/Q1936256,Systemprogrammierung
+http://www.wikidata.org/entity/Q5301,TeX,http://www.wikidata.org/entity/Q837721,Satz
+http://www.wikidata.org/entity/Q42478,Perl,http://www.wikidata.org/entity/Q80006,Programmierung
+http://www.wikidata.org/entity/Q42478,Perl,http://www.wikidata.org/entity/Q386275,Webentwicklung
+http://www.wikidata.org/entity/Q42478,Perl,http://www.wikidata.org/entity/Q123819227,creating
+http://www.wikidata.org/entity/Q47607,SQL,http://www.wikidata.org/entity/Q3932296,relationales Datenbankmanagementsystem
+http://www.wikidata.org/entity/Q81294,Mathematica,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q83303,Fortran,http://www.wikidata.org/entity/Q80006,Programmierung
+http://www.wikidata.org/entity/Q83303,Fortran,http://www.wikidata.org/entity/Q217602,Analyse
+http://www.wikidata.org/entity/Q83303,Fortran,http://www.wikidata.org/entity/Q123819227,creating
+http://www.wikidata.org/entity/Q131140,COBOL,http://www.wikidata.org/entity/Q80006,Programmierung
+http://www.wikidata.org/entity/Q131140,COBOL,http://www.wikidata.org/entity/Q123819227,creating
+http://www.wikidata.org/entity/Q139380,Maple,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q165372,CLIPS,http://www.wikidata.org/entity/Q11660,künstliche Intelligenz
+http://www.wikidata.org/entity/Q169478,MATLAB,http://www.wikidata.org/entity/Q11216,numerische Mathematik
+http://www.wikidata.org/entity/Q169478,MATLAB,http://www.wikidata.org/entity/Q217602,Analyse
+http://www.wikidata.org/entity/Q169478,MATLAB,http://www.wikidata.org/entity/Q6504956,Datenvisualiserung
+http://www.wikidata.org/entity/Q178817,ASP.NET,http://www.wikidata.org/entity/Q386275,Webentwicklung
+http://www.wikidata.org/entity/Q178817,ASP.NET,http://www.wikidata.org/entity/Q1330336,Webframework
+http://www.wikidata.org/entity/Q178817,ASP.NET,http://www.wikidata.org/entity/Q3972943,Veröffentlichung
+http://www.wikidata.org/entity/Q188436,ALGOL,http://www.wikidata.org/entity/Q80006,Programmierung
+http://www.wikidata.org/entity/Q188436,ALGOL,http://www.wikidata.org/entity/Q123819227,creating
+http://www.wikidata.org/entity/Q206904,R,http://www.wikidata.org/entity/Q80006,Programmierung
+http://www.wikidata.org/entity/Q206904,R,http://www.wikidata.org/entity/Q217602,Analyse
+http://www.wikidata.org/entity/Q206904,R,http://www.wikidata.org/entity/Q1172378,Datenbereinigung
+http://www.wikidata.org/entity/Q206904,R,http://www.wikidata.org/entity/Q2374463,Data Science
+http://www.wikidata.org/entity/Q206904,R,http://www.wikidata.org/entity/Q5157340,Computational Statistics
+http://www.wikidata.org/entity/Q206904,R,http://www.wikidata.org/entity/Q6504956,Datenvisualiserung
+http://www.wikidata.org/entity/Q206904,R,http://www.wikidata.org/entity/Q95832426,visual analysis
+http://www.wikidata.org/entity/Q206904,R,http://www.wikidata.org/entity/Q123750937,enriching
+http://www.wikidata.org/entity/Q206904,R,http://www.wikidata.org/entity/Q123819227,creating
+http://www.wikidata.org/entity/Q223433,PL/I,http://www.wikidata.org/entity/Q80006,Programmierung
+http://www.wikidata.org/entity/Q223433,PL/I,http://www.wikidata.org/entity/Q217602,Analyse
+http://www.wikidata.org/entity/Q223433,PL/I,http://www.wikidata.org/entity/Q653137,Inhaltsanalyse
+http://www.wikidata.org/entity/Q223433,PL/I,http://www.wikidata.org/entity/Q12772819,Entdeckung
+http://www.wikidata.org/entity/Q223433,PL/I,http://www.wikidata.org/entity/Q123819227,creating
+http://www.wikidata.org/entity/Q223679,GNU Octave,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q223679,GNU Octave,http://www.wikidata.org/entity/Q11216,numerische Mathematik
+http://www.wikidata.org/entity/Q223679,GNU Octave,http://www.wikidata.org/entity/Q12483,Statistik
+http://www.wikidata.org/entity/Q263544,Common Intermediate Language,http://www.wikidata.org/entity/Q244916,Zwischencode
+http://www.wikidata.org/entity/Q285886,Haxe,http://www.wikidata.org/entity/Q386275,Webentwicklung
+http://www.wikidata.org/entity/Q285886,Haxe,http://www.wikidata.org/entity/Q1061635,Computerspieleentwicklung
+http://www.wikidata.org/entity/Q286196,Altair BASIC,http://www.wikidata.org/entity/Q1201810,Microsoft BASIC
+http://www.wikidata.org/entity/Q286443,NesC,http://www.wikidata.org/entity/Q3962217,distributed system
+http://www.wikidata.org/entity/Q297730,ASIC,http://www.wikidata.org/entity/Q42979,BASIC
+http://www.wikidata.org/entity/Q300867,make,http://www.wikidata.org/entity/Q1362142,Erstellungsprozess
+http://www.wikidata.org/entity/Q300867,make,http://www.wikidata.org/entity/Q2727468,Build-Automatisierung
+http://www.wikidata.org/entity/Q344266,Active Server Pages,http://www.wikidata.org/entity/Q1330336,Webframework
+http://www.wikidata.org/entity/Q375913,WebGL,http://www.wikidata.org/entity/Q189177,3D-Computergrafik
+http://www.wikidata.org/entity/Q3411311,Pyrex,http://www.wikidata.org/entity/Q9143,Programmiersprache
+http://www.wikidata.org/entity/Q3627873,Atari LOGO,http://www.wikidata.org/entity/Q201436,Logo
+http://www.wikidata.org/entity/Q3627876,Atari ST BASIC,http://www.wikidata.org/entity/Q42979,BASIC
+http://www.wikidata.org/entity/Q3841543,MS BASIC für Macintosh,http://www.wikidata.org/entity/Q1201810,Microsoft BASIC
+http://www.wikidata.org/entity/Q4041852,JoCaml,http://www.wikidata.org/entity/Q9143,Programmiersprache
+http://www.wikidata.org/entity/Q4046690,Perl Data Language,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q4651150,ADMB,http://www.wikidata.org/entity/Q12483,Statistik
+http://www.wikidata.org/entity/Q4654106,ASCEND,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q4751143,Analytica,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q4807752,AspectC++,http://www.wikidata.org/entity/Q2990416,Transcompiler
+http://www.wikidata.org/entity/Q4817198,Atom,http://www.wikidata.org/entity/Q1335007,Embedded Software Engineering
+http://www.wikidata.org/entity/Q5499643,FreeFem++,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q5527588,Gauche,http://www.wikidata.org/entity/Q9143,Programmiersprache
+http://www.wikidata.org/entity/Q5555121,Gforth,http://www.wikidata.org/entity/Q183065,Interpreter
+http://www.wikidata.org/entity/Q5583799,Google Apps Script,http://www.wikidata.org/entity/Q1330336,Webframework
+http://www.wikidata.org/entity/Q5644861,Hamilton C shell,http://www.wikidata.org/entity/Q14663,Unix-Shell
+http://www.wikidata.org/entity/Q5933700,Hugo,http://www.wikidata.org/entity/Q1143118,Interactive Fiction
+http://www.wikidata.org/entity/Q5957572,HyperFun,http://www.wikidata.org/entity/Q5508776,Function representation
+http://www.wikidata.org/entity/Q6000370,Illumination Software Creator,http://www.wikidata.org/entity/Q80006,Programmierung
+http://www.wikidata.org/entity/Q6398316,Keykit,http://www.wikidata.org/entity/Q9143,Programmiersprache
+http://www.wikidata.org/entity/Q6509476,Lean Theorembeweiser,http://www.wikidata.org/entity/Q431667,Automatisches Beweisen von Theoremen
+http://www.wikidata.org/entity/Q6717087,MOO,http://www.wikidata.org/entity/Q2252405,MOO
+http://www.wikidata.org/entity/Q6753717,MapBasic,http://www.wikidata.org/entity/Q483130,Geoinformationssystem
+http://www.wikidata.org/entity/Q6898824,Mondrian,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q6955411,NS BASIC,http://www.wikidata.org/entity/Q9143,Programmiersprache
+http://www.wikidata.org/entity/Q7119554,PL/C,http://www.wikidata.org/entity/Q217602,Analyse
+http://www.wikidata.org/entity/Q7119554,PL/C,http://www.wikidata.org/entity/Q857525,Annotation
+http://www.wikidata.org/entity/Q7197271,Pipeline Pilot,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q7197271,Pipeline Pilot,http://www.wikidata.org/entity/Q128570,Bioinformatik
+http://www.wikidata.org/entity/Q7257107,Ptolemy Project,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q7450966,SenseTalk,http://www.wikidata.org/entity/Q837900,Hypermedia
+http://www.wikidata.org/entity/Q7452449,SequenceL,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q7574230,Speakeasy,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q7607505,Stencyl,http://www.wikidata.org/entity/Q1061635,Computerspieleentwicklung
+http://www.wikidata.org/entity/Q7931258,Vimscript,http://www.wikidata.org/entity/Q1781447,Konfiguration
+http://www.wikidata.org/entity/Q8046036,YS MegaBasic,http://www.wikidata.org/entity/Q42979,BASIC
+http://www.wikidata.org/entity/Q9161323,Astek,http://www.wikidata.org/entity/Q12483,Statistik
+http://www.wikidata.org/entity/Q14378091,Xojo,http://www.wikidata.org/entity/Q9143,Programmiersprache
+http://www.wikidata.org/entity/Q16975484,PottersWheel,http://www.wikidata.org/entity/Q486902,mathematisches Modell
+http://www.wikidata.org/entity/Q16976264,Ox,http://www.wikidata.org/entity/Q9143,Programmiersprache
+http://www.wikidata.org/entity/Q17009745,DADiSP,http://www.wikidata.org/entity/Q336,Wissenschaft
+http://www.wikidata.org/entity/Q17020459,Halide,http://www.wikidata.org/entity/Q1070689,digitale Bildverarbeitung
+http://www.wikidata.org/entity/Q17042580,MUDDL,http://www.wikidata.org/entity/Q751424,Multi User Dungeon
+http://www.wikidata.org/entity/Q17085538,Basic4android,http://www.wikidata.org/entity/Q9143,Programmiersprache
+http://www.wikidata.org/entity/Q21467844,Vienna Definition Language,http://www.wikidata.org/entity/Q1930895,Operationelle Semantik
+http://www.wikidata.org/entity/Q25111997,B4X,http://www.wikidata.org/entity/Q9143,Programmiersprache
+http://www.wikidata.org/entity/Q25303708,Hierarchical Editing Language for Macromolecules,http://www.wikidata.org/entity/Q2329,Chemie
+http://www.wikidata.org/entity/Q26898104,EXAPT,http://www.wikidata.org/entity/Q190247,Computerized Numerical Control
+http://www.wikidata.org/entity/Q27578833,TouchDesigner,http://www.wikidata.org/entity/Q189177,3D-Computergrafik

@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# IDE-spezifische Dateien
+.vscode/
+.idea/
+
+# System/Logs
+*.log
+*.sqlite

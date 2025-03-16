@@ -1,0 +1,866 @@
+{
+  "nodes": [
+    {
+      "id": "JavaScript"
+    },
+    {
+      "id": "C++"
+    },
+    {
+      "id": "TeX"
+    },
+    {
+      "id": "Perl"
+    },
+    {
+      "id": "SQL"
+    },
+    {
+      "id": "Mathematica"
+    },
+    {
+      "id": "Fortran"
+    },
+    {
+      "id": "COBOL"
+    },
+    {
+      "id": "Maple"
+    },
+    {
+      "id": "CLIPS"
+    },
+    {
+      "id": "MATLAB"
+    },
+    {
+      "id": "ASP.NET"
+    },
+    {
+      "id": "ALGOL"
+    },
+    {
+      "id": "R"
+    },
+    {
+      "id": "PL/I"
+    },
+    {
+      "id": "GNU Octave"
+    },
+    {
+      "id": "Common Intermediate Language"
+    },
+    {
+      "id": "Haxe"
+    },
+    {
+      "id": "Altair BASIC"
+    },
+    {
+      "id": "NesC"
+    },
+    {
+      "id": "ASIC"
+    },
+    {
+      "id": "make"
+    },
+    {
+      "id": "Active Server Pages"
+    },
+    {
+      "id": "WebGL"
+    },
+    {
+      "id": "Pyrex"
+    },
+    {
+      "id": "Atari LOGO"
+    },
+    {
+      "id": "Atari ST BASIC"
+    },
+    {
+      "id": "MS BASIC für Macintosh"
+    },
+    {
+      "id": "JoCaml"
+    },
+    {
+      "id": "Perl Data Language"
+    },
+    {
+      "id": "ADMB"
+    },
+    {
+      "id": "ASCEND"
+    },
+    {
+      "id": "Analytica"
+    },
+    {
+      "id": "AspectC++"
+    },
+    {
+      "id": "Atom"
+    },
+    {
+      "id": "FreeFem++"
+    },
+    {
+      "id": "Gauche"
+    },
+    {
+      "id": "Gforth"
+    },
+    {
+      "id": "Google Apps Script"
+    },
+    {
+      "id": "Hamilton C shell"
+    },
+    {
+      "id": "Hugo"
+    },
+    {
+      "id": "HyperFun"
+    },
+    {
+      "id": "Illumination Software Creator"
+    },
+    {
+      "id": "Keykit"
+    },
+    {
+      "id": "Lean Theorembeweiser"
+    },
+    {
+      "id": "MOO"
+    },
+    {
+      "id": "MapBasic"
+    },
+    {
+      "id": "Mondrian"
+    },
+    {
+      "id": "NS BASIC"
+    },
+    {
+      "id": "PL/C"
+    },
+    {
+      "id": "Pipeline Pilot"
+    },
+    {
+      "id": "Ptolemy Project"
+    },
+    {
+      "id": "SenseTalk"
+    },
+    {
+      "id": "SequenceL"
+    },
+    {
+      "id": "Speakeasy"
+    },
+    {
+      "id": "Stencyl"
+    },
+    {
+      "id": "Vimscript"
+    },
+    {
+      "id": "YS MegaBasic"
+    },
+    {
+      "id": "Astek"
+    },
+    {
+      "id": "Xojo"
+    },
+    {
+      "id": "PottersWheel"
+    },
+    {
+      "id": "Ox"
+    },
+    {
+      "id": "DADiSP"
+    },
+    {
+      "id": "Halide"
+    },
+    {
+      "id": "MUDDL"
+    },
+    {
+      "id": "Basic4android"
+    },
+    {
+      "id": "Vienna Definition Language"
+    },
+    {
+      "id": "B4X"
+    },
+    {
+      "id": "Hierarchical Editing Language for Macromolecules"
+    },
+    {
+      "id": "EXAPT"
+    },
+    {
+      "id": "TouchDesigner"
+    },
+    {
+      "id": "Programmierung"
+    },
+    {
+      "id": "Webentwicklung"
+    },
+    {
+      "id": "Systemprogrammierung"
+    },
+    {
+      "id": "Satz"
+    },
+    {
+      "id": "creating"
+    },
+    {
+      "id": "relationales Datenbankmanagementsystem"
+    },
+    {
+      "id": "Wissenschaft"
+    },
+    {
+      "id": "Analyse"
+    },
+    {
+      "id": "künstliche Intelligenz"
+    },
+    {
+      "id": "numerische Mathematik"
+    },
+    {
+      "id": "Datenvisualiserung"
+    },
+    {
+      "id": "Webframework"
+    },
+    {
+      "id": "Veröffentlichung"
+    },
+    {
+      "id": "Datenbereinigung"
+    },
+    {
+      "id": "Data Science"
+    },
+    {
+      "id": "Computational Statistics"
+    },
+    {
+      "id": "visual analysis"
+    },
+    {
+      "id": "enriching"
+    },
+    {
+      "id": "Inhaltsanalyse"
+    },
+    {
+      "id": "Entdeckung"
+    },
+    {
+      "id": "Statistik"
+    },
+    {
+      "id": "Zwischencode"
+    },
+    {
+      "id": "Computerspieleentwicklung"
+    },
+    {
+      "id": "Microsoft BASIC"
+    },
+    {
+      "id": "distributed system"
+    },
+    {
+      "id": "BASIC"
+    },
+    {
+      "id": "Erstellungsprozess"
+    },
+    {
+      "id": "Build-Automatisierung"
+    },
+    {
+      "id": "3D-Computergrafik"
+    },
+    {
+      "id": "Programmiersprache"
+    },
+    {
+      "id": "Logo"
+    },
+    {
+      "id": "Transcompiler"
+    },
+    {
+      "id": "Embedded Software Engineering"
+    },
+    {
+      "id": "Interpreter"
+    },
+    {
+      "id": "Unix-Shell"
+    },
+    {
+      "id": "Interactive Fiction"
+    },
+    {
+      "id": "Function representation"
+    },
+    {
+      "id": "Automatisches Beweisen von Theoremen"
+    },
+    {
+      "id": "Geoinformationssystem"
+    },
+    {
+      "id": "Annotation"
+    },
+    {
+      "id": "Bioinformatik"
+    },
+    {
+      "id": "Hypermedia"
+    },
+    {
+      "id": "Konfiguration"
+    },
+    {
+      "id": "mathematisches Modell"
+    },
+    {
+      "id": "digitale Bildverarbeitung"
+    },
+    {
+      "id": "Multi User Dungeon"
+    },
+    {
+      "id": "Operationelle Semantik"
+    },
+    {
+      "id": "Chemie"
+    },
+    {
+      "id": "Computerized Numerical Control"
+    }
+  ],
+  "links": [
+    {
+      "source": "JavaScript",
+      "target": "Programmierung",
+      "value": 1
+    },
+    {
+      "source": "JavaScript",
+      "target": "Webentwicklung",
+      "value": 1
+    },
+    {
+      "source": "C++",
+      "target": "Systemprogrammierung",
+      "value": 1
+    },
+    {
+      "source": "TeX",
+      "target": "Satz",
+      "value": 1
+    },
+    {
+      "source": "Perl",
+      "target": "Programmierung",
+      "value": 1
+    },
+    {
+      "source": "Perl",
+      "target": "Webentwicklung",
+      "value": 1
+    },
+    {
+      "source": "Perl",
+      "target": "creating",
+      "value": 1
+    },
+    {
+      "source": "SQL",
+      "target": "relationales Datenbankmanagementsystem",
+      "value": 1
+    },
+    {
+      "source": "Mathematica",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "Fortran",
+      "target": "Programmierung",
+      "value": 1
+    },
+    {
+      "source": "Fortran",
+      "target": "Analyse",
+      "value": 1
+    },
+    {
+      "source": "Fortran",
+      "target": "creating",
+      "value": 1
+    },
+    {
+      "source": "COBOL",
+      "target": "Programmierung",
+      "value": 1
+    },
+    {
+      "source": "COBOL",
+      "target": "creating",
+      "value": 1
+    },
+    {
+      "source": "Maple",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "CLIPS",
+      "target": "künstliche Intelligenz",
+      "value": 1
+    },
+    {
+      "source": "MATLAB",
+      "target": "numerische Mathematik",
+      "value": 1
+    },
+    {
+      "source": "MATLAB",
+      "target": "Analyse",
+      "value": 1
+    },
+    {
+      "source": "MATLAB",
+      "target": "Datenvisualiserung",
+      "value": 1
+    },
+    {
+      "source": "ASP.NET",
+      "target": "Webentwicklung",
+      "value": 1
+    },
+    {
+      "source": "ASP.NET",
+      "target": "Webframework",
+      "value": 1
+    },
+    {
+      "source": "ASP.NET",
+      "target": "Veröffentlichung",
+      "value": 1
+    },
+    {
+      "source": "ALGOL",
+      "target": "Programmierung",
+      "value": 1
+    },
+    {
+      "source": "ALGOL",
+      "target": "creating",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "Programmierung",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "Analyse",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "Datenbereinigung",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "Data Science",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "Computational Statistics",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "Datenvisualiserung",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "visual analysis",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "enriching",
+      "value": 1
+    },
+    {
+      "source": "R",
+      "target": "creating",
+      "value": 1
+    },
+    {
+      "source": "PL/I",
+      "target": "Programmierung",
+      "value": 1
+    },
+    {
+      "source": "PL/I",
+      "target": "Analyse",
+      "value": 1
+    },
+    {
+      "source": "PL/I",
+      "target": "Inhaltsanalyse",
+      "value": 1
+    },
+    {
+      "source": "PL/I",
+      "target": "Entdeckung",
+      "value": 1
+    },
+    {
+      "source": "PL/I",
+      "target": "creating",
+      "value": 1
+    },
+    {
+      "source": "GNU Octave",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "GNU Octave",
+      "target": "numerische Mathematik",
+      "value": 1
+    },
+    {
+      "source": "GNU Octave",
+      "target": "Statistik",
+      "value": 1
+    },
+    {
+      "source": "Common Intermediate Language",
+      "target": "Zwischencode",
+      "value": 1
+    },
+    {
+      "source": "Haxe",
+      "target": "Webentwicklung",
+      "value": 1
+    },
+    {
+      "source": "Haxe",
+      "target": "Computerspieleentwicklung",
+      "value": 1
+    },
+    {
+      "source": "Altair BASIC",
+      "target": "Microsoft BASIC",
+      "value": 1
+    },
+    {
+      "source": "NesC",
+      "target": "distributed system",
+      "value": 1
+    },
+    {
+      "source": "ASIC",
+      "target": "BASIC",
+      "value": 1
+    },
+    {
+      "source": "make",
+      "target": "Erstellungsprozess",
+      "value": 1
+    },
+    {
+      "source": "make",
+      "target": "Build-Automatisierung",
+      "value": 1
+    },
+    {
+      "source": "Active Server Pages",
+      "target": "Webframework",
+      "value": 1
+    },
+    {
+      "source": "WebGL",
+      "target": "3D-Computergrafik",
+      "value": 1
+    },
+    {
+      "source": "Pyrex",
+      "target": "Programmiersprache",
+      "value": 1
+    },
+    {
+      "source": "Atari LOGO",
+      "target": "Logo",
+      "value": 1
+    },
+    {
+      "source": "Atari ST BASIC",
+      "target": "BASIC",
+      "value": 1
+    },
+    {
+      "source": "MS BASIC für Macintosh",
+      "target": "Microsoft BASIC",
+      "value": 1
+    },
+    {
+      "source": "JoCaml",
+      "target": "Programmiersprache",
+      "value": 1
+    },
+    {
+      "source": "Perl Data Language",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "ADMB",
+      "target": "Statistik",
+      "value": 1
+    },
+    {
+      "source": "ASCEND",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "Analytica",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "AspectC++",
+      "target": "Transcompiler",
+      "value": 1
+    },
+    {
+      "source": "Atom",
+      "target": "Embedded Software Engineering",
+      "value": 1
+    },
+    {
+      "source": "FreeFem++",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "Gauche",
+      "target": "Programmiersprache",
+      "value": 1
+    },
+    {
+      "source": "Gforth",
+      "target": "Interpreter",
+      "value": 1
+    },
+    {
+      "source": "Google Apps Script",
+      "target": "Webframework",
+      "value": 1
+    },
+    {
+      "source": "Hamilton C shell",
+      "target": "Unix-Shell",
+      "value": 1
+    },
+    {
+      "source": "Hugo",
+      "target": "Interactive Fiction",
+      "value": 1
+    },
+    {
+      "source": "HyperFun",
+      "target": "Function representation",
+      "value": 1
+    },
+    {
+      "source": "Illumination Software Creator",
+      "target": "Programmierung",
+      "value": 1
+    },
+    {
+      "source": "Keykit",
+      "target": "Programmiersprache",
+      "value": 1
+    },
+    {
+      "source": "Lean Theorembeweiser",
+      "target": "Automatisches Beweisen von Theoremen",
+      "value": 1
+    },
+    {
+      "source": "MOO",
+      "target": "MOO",
+      "value": 1
+    },
+    {
+      "source": "MapBasic",
+      "target": "Geoinformationssystem",
+      "value": 1
+    },
+    {
+      "source": "Mondrian",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "NS BASIC",
+      "target": "Programmiersprache",
+      "value": 1
+    },
+    {
+      "source": "PL/C",
+      "target": "Analyse",
+      "value": 1
+    },
+    {
+      "source": "PL/C",
+      "target": "Annotation",
+      "value": 1
+    },
+    {
+      "source": "Pipeline Pilot",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "Pipeline Pilot",
+      "target": "Bioinformatik",
+      "value": 1
+    },
+    {
+      "source": "Ptolemy Project",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "SenseTalk",
+      "target": "Hypermedia",
+      "value": 1
+    },
+    {
+      "source": "SequenceL",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "Speakeasy",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "Stencyl",
+      "target": "Computerspieleentwicklung",
+      "value": 1
+    },
+    {
+      "source": "Vimscript",
+      "target": "Konfiguration",
+      "value": 1
+    },
+    {
+      "source": "YS MegaBasic",
+      "target": "BASIC",
+      "value": 1
+    },
+    {
+      "source": "Astek",
+      "target": "Statistik",
+      "value": 1
+    },
+    {
+      "source": "Xojo",
+      "target": "Programmiersprache",
+      "value": 1
+    },
+    {
+      "source": "PottersWheel",
+      "target": "mathematisches Modell",
+      "value": 1
+    },
+    {
+      "source": "Ox",
+      "target": "Programmiersprache",
+      "value": 1
+    },
+    {
+      "source": "DADiSP",
+      "target": "Wissenschaft",
+      "value": 1
+    },
+    {
+      "source": "Halide",
+      "target": "digitale Bildverarbeitung",
+      "value": 1
+    },
+    {
+      "source": "MUDDL",
+      "target": "Multi User Dungeon",
+      "value": 1
+    },
+    {
+      "source": "Basic4android",
+      "target": "Programmiersprache",
+      "value": 1
+    },
+    {
+      "source": "Vienna Definition Language",
+      "target": "Operationelle Semantik",
+      "value": 1
+    },
+    {
+      "source": "B4X",
+      "target": "Programmiersprache",
+      "value": 1
+    },
+    {
+      "source": "Hierarchical Editing Language for Macromolecules",
+      "target": "Chemie",
+      "value": 1
+    },
+    {
+      "source": "EXAPT",
+      "target": "Computerized Numerical Control",
+      "value": 1
+    },
+    {
+      "source": "TouchDesigner",
+      "target": "3D-Computergrafik",
+      "value": 1
+    }
+  ]
+}

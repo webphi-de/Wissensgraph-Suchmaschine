@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+<body>
+  <svg width="1600" height="1200"></svg>
+
+  <script>
+    // Daten laden
+    d3.json("graph_data.json").then(data => {
+      console.log("Geladene Daten:", data);
+  
+      // -------- ZOOM & SCHWENKEN KONFIGURATION --------
+      const svg = d3.select("svg");
+      const container = svg.append("g"); // Gruppe für alle Graph-Elemente
+  
+      // 1. Zoom: STRG + Mausrad (sanft)
+      const zoom = d3.zoom()
+        .scaleExtent([0.5, 4])
+        .wheelDelta(() => -d3.event.deltaY * 0.002)
+        .on("zoom", (event) => {
+          container.attr("transform", event.transform);
+        });
+  
+      // 2. Schwenken: ALT + Linke Maustaste
+      let startX, startY;
+      const dragHandler = d3.drag()
+        .on("start", (event) => {
+          if (event.sourceEvent.altKey) {
+            svg.style("cursor", "grabbing");
+            startX = event.x;
+            startY = event.y;
+          }
+        })
+        .on("drag", (event) => {
+          if (event.sourceEvent.altKey) {
+            const dx = event.x - startX;
+            const dy = event.y - startY;
+            container.attr("transform", `translate(${dx},${dy})`);
+          }
+        })
+        .on("end", () => svg.style("cursor", "default"));
+  
+      // 3. Kontextmenü blockieren
+      svg.on("contextmenu", () => d3.event.preventDefault());
+  
+      // Event-Listener aktivieren
+      svg.call(zoom)
+         .call(dragHandler);
+  
+      // -------- FORCE-SIMULATION --------
+      const simulation = d3.forceSimulation(data.nodes)
+        .force("link", d3.forceLink(data.links).id(d => d.id).distance(150))
+        .force("charge", d3.forceManyBody().strength(-200))
+        .force("collision", d3.forceCollide(15))
+        .force("center", d3.forceCenter(400, 300));
+  
+      // -------- KANTEN ZEICHNEN --------
+      const links = container.append("g")
+        .selectAll("line")
+        .data(data.links)
+        .enter().append("line")
+        .attr("stroke", "#999")
+        .attr("stroke-width", d => (d.value || 1) * 2);
+  
+      // -------- KNOTEN ZEICHNEN + INTERAKTION --------
+      // Drag-Funktion für Knoten
+      const drag = d3.drag()
+        .on("start", (event, d) => {
+          if (!event.active) simulation.alphaTarget(0.3).restart();
+          d.fx = d.x;
+          d.fy = d.y;
+          d3.select(event.sourceEvent.target).style("cursor", "grabbing");
+        })
+        .on("drag", (event, d) => {
+          d.fx = event.x;
+          d.fy = event.y;
+          simulation.restart();
+        })
+        .on("end", (event, d) => {
+          if (!event.active) simulation.alphaTarget(0);
+          d.fx = null;
+          d.fy = null;
+          d3.select(event.sourceEvent.target).style("cursor", "grab");
+        });
+  
+      // Knoten erstellen
+      const nodes = container.append("g")
+        .selectAll("circle")
+        .data(data.nodes)
+        .enter().append("circle")
+        .attr("r", 8)
+        .attr("fill", "#69b3a2")
+        .style("cursor", "grab") // Cursor-Änderung
+        .call(drag)
+        .on("click", (event, d) => alert(`Gewählter Knoten: ${d.id}`));
+  
+      // Tooltips
+      nodes.append("title")
+        .text(d => d.id);
+  
+      // -------- SIMULATION UPDATES --------
+      simulation.on("tick", () => {
+        links
+          .attr("x1", d => d.source.x)
+          .attr("y1", d => d.source.y)
+          .attr("x2", d => d.target.x)
+          .attr("y2", d => d.target.y);
+        
+        nodes
+          .attr("cx", d => d.x)
+          .attr("cy", d => d.y);
+      });
+    });
+  </script>
+
+</body>
+</html>

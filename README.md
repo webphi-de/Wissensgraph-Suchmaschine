@@ -12,3 +12,5 @@ Eine visuell-dynamische Suchmaschine zur explorativen Navigation von Themen und 
 1. Repository klonen:
    ```bash
    git clone https://github.com/webphi-de/Wissensgraph-Suchmaschine.git
+
+   test

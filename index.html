@@ -2,9 +2,17 @@
 <html>
 <head>
   <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    svg {
+      width: 100%;
+      height: 100vh;
+      border: 1px solid #ddd; /* Optional für Debugging */
+      overflow: hidden; /* Verhindert Scrollbars */
+    }
+  </style>
 </head>
 <body>
-  <svg width="1600" height="1200"></svg>
+  <svg width="800" height="600"></svg>
 
   <script>
     // Daten laden
@@ -15,23 +23,21 @@
       const svg = d3.select("svg");
       const container = svg.append("g"); // Gruppe für alle Graph-Elemente
   
-      // Zoom-Konfiguration
-      const zoom = d3.zoom()
-        .scaleExtent([0.5, 4])  // Zoom-Bereich
-        .on("zoom", (event) => {
-          event.preventDefault(); // Browser-Zoom blockieren
-          container.attr("transform", event.transform);
-        });
+// Zoom-Handler
+const zoom = d3.zoom()
+  .scaleExtent([0.5, 4])
+  .on("zoom", function(event) { // 👈 `function` statt Pfeilfunktion für korrektes `this`
+    // Nutze `event.transform` direkt
+    container.attr("transform", event.transform);
+  });
 
-      // Zoom direkt an das SVG binden (ohne Tastenkombination)
-      svg.call(zoom);
+// Zoom an SVG binden
+svg.call(zoom);
 
-      // Mausrad-Zoom ohne STRG erzwingen
-      svg.on("wheel.zoom", null); // Alten Listener entfernen
-      svg.on("wheel", function(event) {
-        event.preventDefault(); // Browser-Zoom blockieren
-        zoom.scaleBy(svg.transition(), Math.pow(2, -event.deltaY * 0.002));
-      });
+// Browser-Zoom unterdrücken
+svg.on("wheel", function(event) {
+  event.preventDefault(); // 🚨 Native Event-Referenz
+});
 
       // 2. Schwenken: ALT + Linke Maustaste
       let startX, startY;
@@ -77,24 +83,22 @@
       // -------- KNOTEN ZEICHNEN + INTERAKTION --------
       // Drag-Funktion für Knoten
       const drag = d3.drag()
-        .on("start", (event, d) => {
-          if (!event.active) simulation.alphaTarget(0.3).restart();
-          d.fx = d.x;
-          d.fy = d.y;
-          d3.select(event.sourceEvent.target).style("cursor", "grabbing");
-        })
-        .on("drag", (event, d) => {
-          d.fx = event.x;
-          d.fy = event.y;
-          simulation.restart();
-        })
-        .on("end", (event, d) => {
-          if (!event.active) simulation.alphaTarget(0);
-          d.fx = null;
-          d.fy = null;
-          d3.select(event.sourceEvent.target).style("cursor", "grab");
-        });
-  
+  .on("start", function(event, d) { // 👈 `function` statt Pfeilfunktion
+    event.sourceEvent.preventDefault(); // Native Event
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  })
+  .on("drag", function(event, d) {
+    d.fx = event.x;
+    d.fy = event.y;
+    simulation.restart();
+  })
+  .on("end", function(event, d) {
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  });  
       // Knoten erstellen
       const nodes = container.append("g")
         .selectAll("circle")

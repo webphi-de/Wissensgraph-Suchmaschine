@@ -365,502 +365,502 @@
     {
       "source": "JavaScript",
       "target": "Programmierung",
-      "value": 1
+      "value": 0.6
     },
     {
       "source": "JavaScript",
       "target": "Webentwicklung",
-      "value": 1
+      "value": 0.8
     },
     {
       "source": "C++",
       "target": "Systemprogrammierung",
-      "value": 1
+      "value": 0.88
     },
     {
       "source": "TeX",
       "target": "Satz",
-      "value": 1
+      "value": 1.39
     },
     {
       "source": "Perl",
       "target": "Programmierung",
-      "value": 1
+      "value": 0.84
     },
     {
       "source": "Perl",
       "target": "Webentwicklung",
-      "value": 1
+      "value": 0.89
     },
     {
       "source": "Perl",
       "target": "creating",
-      "value": 1
+      "value": 0.93
     },
     {
       "source": "SQL",
       "target": "relationales Datenbankmanagementsystem",
-      "value": 1
+      "value": 0.76
     },
     {
       "source": "Mathematica",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 0.92
     },
     {
       "source": "Fortran",
       "target": "Programmierung",
-      "value": 1
+      "value": 1.39
     },
     {
       "source": "Fortran",
       "target": "Analyse",
-      "value": 1
+      "value": 0.74
     },
     {
       "source": "Fortran",
       "target": "creating",
-      "value": 1
+      "value": 0.87
     },
     {
       "source": "COBOL",
       "target": "Programmierung",
-      "value": 1
+      "value": 1.22
     },
     {
       "source": "COBOL",
       "target": "creating",
-      "value": 1
+      "value": 1.26
     },
     {
       "source": "Maple",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 1.43
     },
     {
       "source": "CLIPS",
       "target": "künstliche Intelligenz",
-      "value": 1
+      "value": 0.63
     },
     {
       "source": "MATLAB",
       "target": "numerische Mathematik",
-      "value": 1
+      "value": 0.58
     },
     {
       "source": "MATLAB",
       "target": "Analyse",
-      "value": 1
+      "value": 0.6
     },
     {
       "source": "MATLAB",
       "target": "Datenvisualiserung",
-      "value": 1
+      "value": 0.95
     },
     {
       "source": "ASP.NET",
       "target": "Webentwicklung",
-      "value": 1
+      "value": 0.78
     },
     {
       "source": "ASP.NET",
       "target": "Webframework",
-      "value": 1
+      "value": 1.48
     },
     {
       "source": "ASP.NET",
       "target": "Veröffentlichung",
-      "value": 1
+      "value": 0.91
     },
     {
       "source": "ALGOL",
       "target": "Programmierung",
-      "value": 1
+      "value": 0.91
     },
     {
       "source": "ALGOL",
       "target": "creating",
-      "value": 1
+      "value": 1.49
     },
     {
       "source": "R",
       "target": "Programmierung",
-      "value": 1
+      "value": 0.95
     },
     {
       "source": "R",
       "target": "Analyse",
-      "value": 1
+      "value": 0.91
     },
     {
       "source": "R",
       "target": "Datenbereinigung",
-      "value": 1
+      "value": 1.4
     },
     {
       "source": "R",
       "target": "Data Science",
-      "value": 1
+      "value": 0.79
     },
     {
       "source": "R",
       "target": "Computational Statistics",
-      "value": 1
+      "value": 1.17
     },
     {
       "source": "R",
       "target": "Datenvisualiserung",
-      "value": 1
+      "value": 0.9
     },
     {
       "source": "R",
       "target": "visual analysis",
-      "value": 1
+      "value": 0.65
     },
     {
       "source": "R",
       "target": "enriching",
-      "value": 1
+      "value": 1.31
     },
     {
       "source": "R",
       "target": "creating",
-      "value": 1
+      "value": 0.95
     },
     {
       "source": "PL/I",
       "target": "Programmierung",
-      "value": 1
+      "value": 1.12
     },
     {
       "source": "PL/I",
       "target": "Analyse",
-      "value": 1
+      "value": 1.41
     },
     {
       "source": "PL/I",
       "target": "Inhaltsanalyse",
-      "value": 1
+      "value": 1.03
     },
     {
       "source": "PL/I",
       "target": "Entdeckung",
-      "value": 1
+      "value": 1.38
     },
     {
       "source": "PL/I",
       "target": "creating",
-      "value": 1
+      "value": 1.46
     },
     {
       "source": "GNU Octave",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 0.86
     },
     {
       "source": "GNU Octave",
       "target": "numerische Mathematik",
-      "value": 1
+      "value": 1.34
     },
     {
       "source": "GNU Octave",
       "target": "Statistik",
-      "value": 1
+      "value": 0.56
     },
     {
       "source": "Common Intermediate Language",
       "target": "Zwischencode",
-      "value": 1
+      "value": 1.19
     },
     {
       "source": "Haxe",
       "target": "Webentwicklung",
-      "value": 1
+      "value": 0.57
     },
     {
       "source": "Haxe",
       "target": "Computerspieleentwicklung",
-      "value": 1
+      "value": 1.18
     },
     {
       "source": "Altair BASIC",
       "target": "Microsoft BASIC",
-      "value": 1
+      "value": 0.6
     },
     {
       "source": "NesC",
       "target": "distributed system",
-      "value": 1
+      "value": 0.75
     },
     {
       "source": "ASIC",
       "target": "BASIC",
-      "value": 1
+      "value": 0.96
     },
     {
       "source": "make",
       "target": "Erstellungsprozess",
-      "value": 1
+      "value": 1.22
     },
     {
       "source": "make",
       "target": "Build-Automatisierung",
-      "value": 1
+      "value": 0.81
     },
     {
       "source": "Active Server Pages",
       "target": "Webframework",
-      "value": 1
+      "value": 0.69
     },
     {
       "source": "WebGL",
       "target": "3D-Computergrafik",
-      "value": 1
+      "value": 0.8
     },
     {
       "source": "Pyrex",
       "target": "Programmiersprache",
-      "value": 1
+      "value": 0.75
     },
     {
       "source": "Atari LOGO",
       "target": "Logo",
-      "value": 1
+      "value": 0.73
     },
     {
       "source": "Atari ST BASIC",
       "target": "BASIC",
-      "value": 1
+      "value": 0.96
     },
     {
       "source": "MS BASIC für Macintosh",
       "target": "Microsoft BASIC",
-      "value": 1
+      "value": 1.34
     },
     {
       "source": "JoCaml",
       "target": "Programmiersprache",
-      "value": 1
+      "value": 0.6
     },
     {
       "source": "Perl Data Language",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 0.86
     },
     {
       "source": "ADMB",
       "target": "Statistik",
-      "value": 1
+      "value": 1.12
     },
     {
       "source": "ASCEND",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 1.16
     },
     {
       "source": "Analytica",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 0.89
     },
     {
       "source": "AspectC++",
       "target": "Transcompiler",
-      "value": 1
+      "value": 0.71
     },
     {
       "source": "Atom",
       "target": "Embedded Software Engineering",
-      "value": 1
+      "value": 0.95
     },
     {
       "source": "FreeFem++",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 1.04
     },
     {
       "source": "Gauche",
       "target": "Programmiersprache",
-      "value": 1
+      "value": 1.46
     },
     {
       "source": "Gforth",
       "target": "Interpreter",
-      "value": 1
+      "value": 1.28
     },
     {
       "source": "Google Apps Script",
       "target": "Webframework",
-      "value": 1
+      "value": 1.27
     },
     {
       "source": "Hamilton C shell",
       "target": "Unix-Shell",
-      "value": 1
+      "value": 1.01
     },
     {
       "source": "Hugo",
       "target": "Interactive Fiction",
-      "value": 1
+      "value": 1.44
     },
     {
       "source": "HyperFun",
       "target": "Function representation",
-      "value": 1
+      "value": 0.86
     },
     {
       "source": "Illumination Software Creator",
       "target": "Programmierung",
-      "value": 1
+      "value": 1.02
     },
     {
       "source": "Keykit",
       "target": "Programmiersprache",
-      "value": 1
+      "value": 0.82
     },
     {
       "source": "Lean Theorembeweiser",
       "target": "Automatisches Beweisen von Theoremen",
-      "value": 1
+      "value": 1.45
     },
     {
       "source": "MOO",
       "target": "MOO",
-      "value": 1
+      "value": 0.58
     },
     {
       "source": "MapBasic",
       "target": "Geoinformationssystem",
-      "value": 1
+      "value": 1.31
     },
     {
       "source": "Mondrian",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 1.44
     },
     {
       "source": "NS BASIC",
       "target": "Programmiersprache",
-      "value": 1
+      "value": 0.6
     },
     {
       "source": "PL/C",
       "target": "Analyse",
-      "value": 1
+      "value": 1.49
     },
     {
       "source": "PL/C",
       "target": "Annotation",
-      "value": 1
+      "value": 0.53
     },
     {
       "source": "Pipeline Pilot",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 1.22
     },
     {
       "source": "Pipeline Pilot",
       "target": "Bioinformatik",
-      "value": 1
+      "value": 1.33
     },
     {
       "source": "Ptolemy Project",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 0.61
     },
     {
       "source": "SenseTalk",
       "target": "Hypermedia",
-      "value": 1
+      "value": 1.29
     },
     {
       "source": "SequenceL",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 0.68
     },
     {
       "source": "Speakeasy",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 1.27
     },
     {
       "source": "Stencyl",
       "target": "Computerspieleentwicklung",
-      "value": 1
+      "value": 0.67
     },
     {
       "source": "Vimscript",
       "target": "Konfiguration",
-      "value": 1
+      "value": 0.96
     },
     {
       "source": "YS MegaBasic",
       "target": "BASIC",
-      "value": 1
+      "value": 1.09
     },
     {
       "source": "Astek",
       "target": "Statistik",
-      "value": 1
+      "value": 1.21
     },
     {
       "source": "Xojo",
       "target": "Programmiersprache",
-      "value": 1
+      "value": 0.57
     },
     {
       "source": "PottersWheel",
       "target": "mathematisches Modell",
-      "value": 1
+      "value": 0.95
     },
     {
       "source": "Ox",
       "target": "Programmiersprache",
-      "value": 1
+      "value": 1.41
     },
     {
       "source": "DADiSP",
       "target": "Wissenschaft",
-      "value": 1
+      "value": 0.5
     },
     {
       "source": "Halide",
       "target": "digitale Bildverarbeitung",
-      "value": 1
+      "value": 1.06
     },
     {
       "source": "MUDDL",
       "target": "Multi User Dungeon",
-      "value": 1
+      "value": 1.23
     },
     {
       "source": "Basic4android",
       "target": "Programmiersprache",
-      "value": 1
+      "value": 1.07
     },
     {
       "source": "Vienna Definition Language",
       "target": "Operationelle Semantik",
-      "value": 1
+      "value": 1.09
     },
     {
       "source": "B4X",
       "target": "Programmiersprache",
-      "value": 1
+      "value": 1.22
     },
     {
       "source": "Hierarchical Editing Language for Macromolecules",
       "target": "Chemie",
-      "value": 1
+      "value": 0.98
     },
     {
       "source": "EXAPT",
       "target": "Computerized Numerical Control",
-      "value": 1
+      "value": 1.37
     },
     {
       "source": "TouchDesigner",
       "target": "3D-Computergrafik",
-      "value": 1
+      "value": 0.87
     }
   ]
 }

@@ -18,11 +18,22 @@
       // 1. Zoom: STRG + Mausrad (sanft)
       const zoom = d3.zoom()
         .scaleExtent([0.5, 4])
-        .wheelDelta(() => -d3.event.deltaY * 0.01)
         .on("zoom", (event) => {
-          container.attr("transform", event.transform);
-        });
-  
+        event.preventDefault(); // Wichtig: Browser-Zoom blockieren
+        container.attr("transform", event.transform);
+      })
+      // Mousewheel-Empfindlichkeit anpassen
+      .filter(event => {
+        return event.type === 'wheel' ? event.ctrlKey : true; // Nur STRG + Mausrad
+      });
+
+    // Event-Listener für STRG + Mausrad hinzufügen
+    svg.on("wheel", (event) => {
+      if (event.ctrlKey) {
+        event.preventDefault(); // Browser-Zoom unterdrücken
+        zoom.scaleBy(svg.transition(), Math.pow(2, -event.deltaY * 0.002));
+      }
+    });  
       // 2. Schwenken: ALT + Linke Maustaste
       let startX, startY;
       const dragHandler = d3.drag()

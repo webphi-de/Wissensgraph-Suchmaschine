@@ -4,7 +4,7 @@ Eine visuell-dynamische Suchmaschine zur explorativen Navigation von Themen und 
 
 ## Features (geplant)
 - [x] 2D-Force-Graph mit Zoom/Schwenken
-- [ ] Dynamische Detailanzeige beim Heranzoomen
+- [x] Dynamische Detailanzeige beim Heranzoomen
 - [ ] Benutzerdefinierte Kantengewichtungen
 - [ ] 3D-Version (optional)
 

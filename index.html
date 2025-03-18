@@ -18,7 +18,7 @@
       // 1. Zoom: STRG + Mausrad (sanft)
       const zoom = d3.zoom()
         .scaleExtent([0.5, 4])
-        .wheelDelta(() => -d3.event.deltaY * 0.002)
+        .wheelDelta(() => -d3.event.deltaY * 0.01)
         .on("zoom", (event) => {
           container.attr("transform", event.transform);
         });
@@ -62,7 +62,7 @@
         .data(data.links)
         .enter().append("line")
         .attr("stroke", "#999")
-        .attr("stroke-width", d => (d.value || 1) * 2);
+        .attr("stroke-width", d => d.value * 2);
   
       // -------- KNOTEN ZEICHNEN + INTERAKTION --------
       // Drag-Funktion für Knoten

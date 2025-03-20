@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <style>
@@ -7,37 +8,42 @@
       width: 100%;
       height: 100vh;
       border: 1px solid #ddd;
+      background: white;
+    }
+
+    .node {
+      cursor: grab;
     }
   </style>
 </head>
+
 <body>
   <svg></svg>
 
   <script>
-    // 1. SVG-Element initialisieren
+    // 1. SVG und Container initialisieren
     const svg = d3.select("svg");
-    const container = svg.append("g"); // Container für alle Elemente
+    const container = svg.append("g");
 
-    // 2. Daten laden
+    // 2. Zoom-Funktion definieren
+    const zoom = d3.zoom()
+      .scaleExtent([0.5, 4])
+      .on("zoom", (event) => {
+        container.attr("transform", event.transform);
+      });
+
+    // 3. Zoom aktivieren
+    svg.call(zoom);
+
+    // 4. Daten laden
     d3.json("graph_data.json").then(data => {
-      console.log("Geladene Daten:", data);
-
-      // 3. Force-Simulation
+      // 5. Force-Simulation
       const simulation = d3.forceSimulation(data.nodes)
         .force("link", d3.forceLink(data.links).id(d => d.id).distance(100))
         .force("charge", d3.forceManyBody().strength(-50))
         .force("center", d3.forceCenter(400, 300));
 
-      // 4. Zoom-Handler
-      const zoom = d3.zoom()
-        .scaleExtent([0.5, 4])
-        .on("zoom", (event) => {
-          container.attr("transform", event.transform);
-        });
-
-      container.call(zoom); // 🔴 WICHTIG: Zoom auf Container binden
-
-      // 5. Kanten zeichnen
+      // 6. Kanten zeichnen
       const links = container.append("g")
         .selectAll("line")
         .data(data.links)
@@ -45,26 +51,43 @@
         .attr("stroke", "#999")
         .attr("stroke-width", d => d.value * 2);
 
-      // 6. Knoten zeichnen
+      // 7. Knoten zeichnen mit Drag
       const nodes = container.append("g")
         .selectAll("circle")
         .data(data.nodes)
         .enter().append("circle")
         .attr("r", 8)
-        .attr("fill", "#69b3a2");
+        .attr("fill", "#69b3a2")
+        .call(d3.drag()
+          .on("start", (event, d) => {
+            if (!event.active) simulation.alphaTarget(0.3).restart();
+            d.fx = d.x;
+            d.fy = d.y;
+          })
+          .on("drag", (event, d) => {
+            d.fx = event.x;
+            d.fy = event.y;
+            simulation.alpha(1).restart();
+          })
+          .on("end", (event, d) => {
+            if (!event.active) simulation.alphaTarget(0);
+            d.fx = null;
+            d.fy = null;
+          }));
 
-      // 7. Drag & Drop für Knoten
-      nodes.call(d3.drag()
-        .on("drag", (event, d) => {
-          d.fx = event.x;
-          d.fy = event.y;
-          simulation.alpha(1).restart();
-        })
-        .on("end", (event, d) => {
-          d.fx = null;
-          d.fy = null;
-        })
-      );
+      // Tooltips (erscheinen beim Hovern)
+      nodes.append("title")
+        .text(d => d.id);
+
+      // Sichtbare Labels (direkt neben den Knoten)
+      const labels = container.append("g")
+        .selectAll("text")
+        .data(data.nodes)
+        .enter().append("text")
+        .text(d => d.id)
+        .attr("font-size", "12px")
+        .attr("dx", 10) // Versatz rechts vom Knoten
+        .attr("dy", 5); // Versatz nach unten
 
       // 8. Simulation updaten
       simulation.on("tick", () => {
@@ -73,12 +96,17 @@
           .attr("y1", d => d.source.y)
           .attr("x2", d => d.target.x)
           .attr("y2", d => d.target.y);
-        
+
         nodes
           .attr("cx", d => d.x)
           .attr("cy", d => d.y);
+
+        labels
+          .attr("x", d => d.x)
+          .attr("y", d => d.y);
       });
     });
   </script>
 </body>
+
 </html>

@@ -25,38 +25,42 @@
       // -------- ZOOM & SCHWENKEN KONFIGURATION --------
       const svg = d3.select("svg");
       const container = svg.append("g"); // Gruppe für alle Graph-Elemente
-  
-      // 1. Zoom nur auf den Container anwenden (nicht auf das SVG!)
-const zoom = d3.zoom()
-  .scaleExtent([0.5, 4])
-  .on("zoom", (event) => {
-    container.attr("transform", event.transform);
-  });
 
-// 2. Schwenken mit linker Maustaste (nur auf den Container!)
-let isDragging = false;
-let startX, startY;
+      // Zoom nur auf den Container (nicht auf das SVG)
+      const zoom = d3.zoom()
+        .scaleExtent([0.5, 4])
+        .on("zoom", (event) => {
+          container.attr("transform", event.transform);
+        });
 
-svg.call(d3.drag()
-  .on("start", (event) => {
-    isDragging = true;
-    startX = event.x;
-    startY = event.y;
-    svg.style("cursor", "grabbing");
-  })
-  .on("drag", (event) => {
-    if (isDragging) {
-      const dx = event.x - startX;
-      const dy = event.y - startY;
-      container.attr("transform", `translate(${dx},${dy})`);
-    }
-  })
-  .on("end", () => {
-    isDragging = false;
-    svg.style("cursor", "grab");
-  })
-);
-  
+      // Zoom an den Container binden (nicht an das SVG!)
+      container.call(zoom);  
+
+      // 2. Schwenken mit linker Maustaste (nur auf den Container!)
+      let isDragging = false;
+      let initialX, initialY;
+
+      // Schwenken auf dem SVG (nicht auf dem Container)
+      svg.call(d3.drag()
+        .on("start", (event) => {
+          isDragging = true;
+          initialX = event.x;
+          initialY = event.y;
+          svg.style("cursor", "grabbing");
+        })
+        .on("drag", (event) => {
+          if (isDragging) {
+            const dx = event.x - initialX;
+            const dy = event.y - initialY;
+            container.attr("transform", `translate(${dx},${dy})`);
+          }
+        })
+        .on("end", () => {
+          isDragging = false;
+          svg.style("cursor", "grab");
+        })
+      );
+
       // 3. Kontextmenü blockieren
       svg.on("contextmenu", () => d3.event.preventDefault());
   
@@ -80,13 +84,18 @@ svg.call(d3.drag()
         .attr("stroke-width", d => d.value * 2);
   
       // -------- KNOTEN ZEICHNEN + INTERAKTION --------
-      // Drag-Funktion für Knoten
-      const drag = d3.drag()
-  .on("drag", (event, d) => {
-    d.fx = event.x;
-    d.fy = event.y;
-    simulation.alpha(1).restart(); // 🔄 Simulation neu starten
-  }); 
+      // Knoten-Drag mit Force-Update
+      nodes.call(d3.drag()
+        .on("drag", (event, d) => {
+          d.fx = event.x;
+          d.fy = event.y;
+          simulation.alpha(1).restart(); // 🔄 Simulation aktualisieren
+        })
+        .on("end", (event, d) => {
+          d.fx = null;
+          d.fy = null;
+        })
+      ); 
       // Knoten erstellen
       const nodes = container.append("g")
         .selectAll("circle")

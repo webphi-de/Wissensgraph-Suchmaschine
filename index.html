@@ -23,21 +23,21 @@
       const svg = d3.select("svg");
       const container = svg.append("g"); // Gruppe für alle Graph-Elemente
   
-// Zoom-Handler
-const zoom = d3.zoom()
-  .scaleExtent([0.5, 4])
-  .on("zoom", function(event) { // 👈 `function` statt Pfeilfunktion für korrektes `this`
-    // Nutze `event.transform` direkt
-    container.attr("transform", event.transform);
-  });
+      // Zoom-Handler
+      const zoom = d3.zoom()
+        .scaleExtent([0.5, 4])
+        .on("zoom", function(event) { // 👈 `function` statt Pfeilfunktion für korrektes `this`
+          // Nutze `event.transform` direkt
+          container.attr("transform", event.transform);
+        });
 
-// Zoom an SVG binden
-svg.call(zoom);
+      // Zoom an SVG binden
+      svg.call(zoom);
 
-// Browser-Zoom unterdrücken
-svg.on("wheel", function(event) {
-  event.preventDefault(); // 🚨 Native Event-Referenz
-});
+      // Browser-Zoom unterdrücken
+      svg.on("wheel", function(event) {
+        event.preventDefault(); // 🚨 Native Event-Referenz
+      });
 
       // 2. Schwenken: ALT + Linke Maustaste
       let startX, startY;
@@ -83,22 +83,22 @@ svg.on("wheel", function(event) {
       // -------- KNOTEN ZEICHNEN + INTERAKTION --------
       // Drag-Funktion für Knoten
       const drag = d3.drag()
-  .on("start", function(event, d) { // 👈 `function` statt Pfeilfunktion
-    event.sourceEvent.preventDefault(); // Native Event
-    if (!event.active) simulation.alphaTarget(0.3).restart();
-    d.fx = d.x;
-    d.fy = d.y;
-  })
-  .on("drag", function(event, d) {
-    d.fx = event.x;
-    d.fy = event.y;
-    simulation.restart();
-  })
-  .on("end", function(event, d) {
-    if (!event.active) simulation.alphaTarget(0);
-    d.fx = null;
-    d.fy = null;
-  });  
+      .on("start", function(event, d) { // 👈 `function` statt Pfeilfunktion
+        event.sourceEvent.preventDefault(); // Native Event
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+      })
+      .on("drag", function(event, d) {
+        d.fx = event.x;
+        d.fy = event.y;
+        simulation.restart();
+      })
+      .on("end", function(event, d) {
+        if (!event.active) simulation.alphaTarget(0);
+        d.fx = null;
+        d.fy = null;
+      });  
       // Knoten erstellen
       const nodes = container.append("g")
         .selectAll("circle")

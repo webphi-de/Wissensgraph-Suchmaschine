@@ -365,502 +365,702 @@
     {
       "source": "JavaScript",
       "target": "Programmierung",
-      "value": 0.6
+      "source_id": "Q2005",
+      "target_id": "Q80006",
+      "value": 1.34
     },
     {
       "source": "JavaScript",
       "target": "Webentwicklung",
-      "value": 0.8
+      "source_id": "Q2005",
+      "target_id": "Q386275",
+      "value": 0.52
     },
     {
       "source": "C++",
       "target": "Systemprogrammierung",
-      "value": 0.88
+      "source_id": "Q2407",
+      "target_id": "Q1936256",
+      "value": 0.79
     },
     {
       "source": "TeX",
       "target": "Satz",
-      "value": 1.39
+      "source_id": "Q5301",
+      "target_id": "Q837721",
+      "value": 0.8
     },
     {
       "source": "Perl",
       "target": "Programmierung",
-      "value": 0.84
+      "source_id": "Q42478",
+      "target_id": "Q80006",
+      "value": 0.57
     },
     {
       "source": "Perl",
       "target": "Webentwicklung",
-      "value": 0.89
+      "source_id": "Q42478",
+      "target_id": "Q386275",
+      "value": 0.94
     },
     {
       "source": "Perl",
       "target": "creating",
-      "value": 0.93
+      "source_id": "Q42478",
+      "target_id": "Q123819227",
+      "value": 1.22
     },
     {
       "source": "SQL",
       "target": "relationales Datenbankmanagementsystem",
-      "value": 0.76
+      "source_id": "Q47607",
+      "target_id": "Q3932296",
+      "value": 1.17
     },
     {
       "source": "Mathematica",
       "target": "Wissenschaft",
-      "value": 0.92
+      "source_id": "Q81294",
+      "target_id": "Q336",
+      "value": 0.96
     },
     {
       "source": "Fortran",
       "target": "Programmierung",
-      "value": 1.39
+      "source_id": "Q83303",
+      "target_id": "Q80006",
+      "value": 1.34
     },
     {
       "source": "Fortran",
       "target": "Analyse",
-      "value": 0.74
+      "source_id": "Q83303",
+      "target_id": "Q217602",
+      "value": 0.99
     },
     {
       "source": "Fortran",
       "target": "creating",
-      "value": 0.87
+      "source_id": "Q83303",
+      "target_id": "Q123819227",
+      "value": 0.96
     },
     {
       "source": "COBOL",
       "target": "Programmierung",
-      "value": 1.22
+      "source_id": "Q131140",
+      "target_id": "Q80006",
+      "value": 1.14
     },
     {
       "source": "COBOL",
       "target": "creating",
-      "value": 1.26
+      "source_id": "Q131140",
+      "target_id": "Q123819227",
+      "value": 1.06
     },
     {
       "source": "Maple",
       "target": "Wissenschaft",
-      "value": 1.43
+      "source_id": "Q139380",
+      "target_id": "Q336",
+      "value": 1.49
     },
     {
       "source": "CLIPS",
       "target": "künstliche Intelligenz",
-      "value": 0.63
+      "source_id": "Q165372",
+      "target_id": "Q11660",
+      "value": 1.04
     },
     {
       "source": "MATLAB",
       "target": "numerische Mathematik",
-      "value": 0.58
+      "source_id": "Q169478",
+      "target_id": "Q11216",
+      "value": 1.38
     },
     {
       "source": "MATLAB",
       "target": "Analyse",
-      "value": 0.6
+      "source_id": "Q169478",
+      "target_id": "Q217602",
+      "value": 1.24
     },
     {
       "source": "MATLAB",
       "target": "Datenvisualiserung",
-      "value": 0.95
+      "source_id": "Q169478",
+      "target_id": "Q6504956",
+      "value": 0.8
     },
     {
       "source": "ASP.NET",
       "target": "Webentwicklung",
-      "value": 0.78
+      "source_id": "Q178817",
+      "target_id": "Q386275",
+      "value": 1.12
     },
     {
       "source": "ASP.NET",
       "target": "Webframework",
-      "value": 1.48
+      "source_id": "Q178817",
+      "target_id": "Q1330336",
+      "value": 1.0
     },
     {
       "source": "ASP.NET",
       "target": "Veröffentlichung",
-      "value": 0.91
+      "source_id": "Q178817",
+      "target_id": "Q3972943",
+      "value": 0.8
     },
     {
       "source": "ALGOL",
       "target": "Programmierung",
-      "value": 0.91
+      "source_id": "Q188436",
+      "target_id": "Q80006",
+      "value": 1.41
     },
     {
       "source": "ALGOL",
       "target": "creating",
-      "value": 1.49
+      "source_id": "Q188436",
+      "target_id": "Q123819227",
+      "value": 1.46
     },
     {
       "source": "R",
       "target": "Programmierung",
-      "value": 0.95
+      "source_id": "Q206904",
+      "target_id": "Q80006",
+      "value": 1.0
     },
     {
       "source": "R",
       "target": "Analyse",
-      "value": 0.91
+      "source_id": "Q206904",
+      "target_id": "Q217602",
+      "value": 1.32
     },
     {
       "source": "R",
       "target": "Datenbereinigung",
-      "value": 1.4
+      "source_id": "Q206904",
+      "target_id": "Q1172378",
+      "value": 0.97
     },
     {
       "source": "R",
       "target": "Data Science",
-      "value": 0.79
+      "source_id": "Q206904",
+      "target_id": "Q2374463",
+      "value": 1.32
     },
     {
       "source": "R",
       "target": "Computational Statistics",
-      "value": 1.17
+      "source_id": "Q206904",
+      "target_id": "Q5157340",
+      "value": 1.0
     },
     {
       "source": "R",
       "target": "Datenvisualiserung",
-      "value": 0.9
+      "source_id": "Q206904",
+      "target_id": "Q6504956",
+      "value": 0.82
     },
     {
       "source": "R",
       "target": "visual analysis",
-      "value": 0.65
+      "source_id": "Q206904",
+      "target_id": "Q95832426",
+      "value": 0.94
     },
     {
       "source": "R",
       "target": "enriching",
-      "value": 1.31
+      "source_id": "Q206904",
+      "target_id": "Q123750937",
+      "value": 0.91
     },
     {
       "source": "R",
       "target": "creating",
-      "value": 0.95
+      "source_id": "Q206904",
+      "target_id": "Q123819227",
+      "value": 1.47
     },
     {
       "source": "PL/I",
       "target": "Programmierung",
-      "value": 1.12
+      "source_id": "Q223433",
+      "target_id": "Q80006",
+      "value": 0.7
     },
     {
       "source": "PL/I",
       "target": "Analyse",
-      "value": 1.41
+      "source_id": "Q223433",
+      "target_id": "Q217602",
+      "value": 0.81
     },
     {
       "source": "PL/I",
       "target": "Inhaltsanalyse",
-      "value": 1.03
+      "source_id": "Q223433",
+      "target_id": "Q653137",
+      "value": 0.9
     },
     {
       "source": "PL/I",
       "target": "Entdeckung",
-      "value": 1.38
+      "source_id": "Q223433",
+      "target_id": "Q12772819",
+      "value": 0.89
     },
     {
       "source": "PL/I",
       "target": "creating",
-      "value": 1.46
+      "source_id": "Q223433",
+      "target_id": "Q123819227",
+      "value": 1.25
     },
     {
       "source": "GNU Octave",
       "target": "Wissenschaft",
-      "value": 0.86
+      "source_id": "Q223679",
+      "target_id": "Q336",
+      "value": 1.2
     },
     {
       "source": "GNU Octave",
       "target": "numerische Mathematik",
-      "value": 1.34
+      "source_id": "Q223679",
+      "target_id": "Q11216",
+      "value": 0.67
     },
     {
       "source": "GNU Octave",
       "target": "Statistik",
-      "value": 0.56
+      "source_id": "Q223679",
+      "target_id": "Q12483",
+      "value": 0.62
     },
     {
       "source": "Common Intermediate Language",
       "target": "Zwischencode",
-      "value": 1.19
+      "source_id": "Q263544",
+      "target_id": "Q244916",
+      "value": 1.38
     },
     {
       "source": "Haxe",
       "target": "Webentwicklung",
-      "value": 0.57
+      "source_id": "Q285886",
+      "target_id": "Q386275",
+      "value": 0.9
     },
     {
       "source": "Haxe",
       "target": "Computerspieleentwicklung",
-      "value": 1.18
+      "source_id": "Q285886",
+      "target_id": "Q1061635",
+      "value": 1.41
     },
     {
       "source": "Altair BASIC",
       "target": "Microsoft BASIC",
-      "value": 0.6
+      "source_id": "Q286196",
+      "target_id": "Q1201810",
+      "value": 1.3
     },
     {
       "source": "NesC",
       "target": "distributed system",
-      "value": 0.75
+      "source_id": "Q286443",
+      "target_id": "Q3962217",
+      "value": 1.02
     },
     {
       "source": "ASIC",
       "target": "BASIC",
-      "value": 0.96
+      "source_id": "Q297730",
+      "target_id": "Q42979",
+      "value": 1.1
     },
     {
       "source": "make",
       "target": "Erstellungsprozess",
-      "value": 1.22
+      "source_id": "Q300867",
+      "target_id": "Q1362142",
+      "value": 0.53
     },
     {
       "source": "make",
       "target": "Build-Automatisierung",
-      "value": 0.81
+      "source_id": "Q300867",
+      "target_id": "Q2727468",
+      "value": 0.91
     },
     {
       "source": "Active Server Pages",
       "target": "Webframework",
-      "value": 0.69
+      "source_id": "Q344266",
+      "target_id": "Q1330336",
+      "value": 0.92
     },
     {
       "source": "WebGL",
       "target": "3D-Computergrafik",
-      "value": 0.8
+      "source_id": "Q375913",
+      "target_id": "Q189177",
+      "value": 1.37
     },
     {
       "source": "Pyrex",
       "target": "Programmiersprache",
-      "value": 0.75
+      "source_id": "Q3411311",
+      "target_id": "Q9143",
+      "value": 1.36
     },
     {
       "source": "Atari LOGO",
       "target": "Logo",
-      "value": 0.73
+      "source_id": "Q3627873",
+      "target_id": "Q201436",
+      "value": 0.76
     },
     {
       "source": "Atari ST BASIC",
       "target": "BASIC",
-      "value": 0.96
+      "source_id": "Q3627876",
+      "target_id": "Q42979",
+      "value": 0.99
     },
     {
       "source": "MS BASIC für Macintosh",
       "target": "Microsoft BASIC",
-      "value": 1.34
+      "source_id": "Q3841543",
+      "target_id": "Q1201810",
+      "value": 1.01
     },
     {
       "source": "JoCaml",
       "target": "Programmiersprache",
-      "value": 0.6
+      "source_id": "Q4041852",
+      "target_id": "Q9143",
+      "value": 1.25
     },
     {
       "source": "Perl Data Language",
       "target": "Wissenschaft",
-      "value": 0.86
+      "source_id": "Q4046690",
+      "target_id": "Q336",
+      "value": 0.64
     },
     {
       "source": "ADMB",
       "target": "Statistik",
-      "value": 1.12
+      "source_id": "Q4651150",
+      "target_id": "Q12483",
+      "value": 0.99
     },
     {
       "source": "ASCEND",
       "target": "Wissenschaft",
-      "value": 1.16
+      "source_id": "Q4654106",
+      "target_id": "Q336",
+      "value": 1.03
     },
     {
       "source": "Analytica",
       "target": "Wissenschaft",
-      "value": 0.89
+      "source_id": "Q4751143",
+      "target_id": "Q336",
+      "value": 1.42
     },
     {
       "source": "AspectC++",
       "target": "Transcompiler",
-      "value": 0.71
+      "source_id": "Q4807752",
+      "target_id": "Q2990416",
+      "value": 1.25
     },
     {
       "source": "Atom",
       "target": "Embedded Software Engineering",
-      "value": 0.95
+      "source_id": "Q4817198",
+      "target_id": "Q1335007",
+      "value": 1.22
     },
     {
       "source": "FreeFem++",
       "target": "Wissenschaft",
-      "value": 1.04
+      "source_id": "Q5499643",
+      "target_id": "Q336",
+      "value": 0.95
     },
     {
       "source": "Gauche",
       "target": "Programmiersprache",
-      "value": 1.46
+      "source_id": "Q5527588",
+      "target_id": "Q9143",
+      "value": 1.06
     },
     {
       "source": "Gforth",
       "target": "Interpreter",
-      "value": 1.28
+      "source_id": "Q5555121",
+      "target_id": "Q183065",
+      "value": 1.15
     },
     {
       "source": "Google Apps Script",
       "target": "Webframework",
-      "value": 1.27
+      "source_id": "Q5583799",
+      "target_id": "Q1330336",
+      "value": 0.61
     },
     {
       "source": "Hamilton C shell",
       "target": "Unix-Shell",
-      "value": 1.01
+      "source_id": "Q5644861",
+      "target_id": "Q14663",
+      "value": 1.08
     },
     {
       "source": "Hugo",
       "target": "Interactive Fiction",
-      "value": 1.44
+      "source_id": "Q5933700",
+      "target_id": "Q1143118",
+      "value": 0.77
     },
     {
       "source": "HyperFun",
       "target": "Function representation",
-      "value": 0.86
+      "source_id": "Q5957572",
+      "target_id": "Q5508776",
+      "value": 1.27
     },
     {
       "source": "Illumination Software Creator",
       "target": "Programmierung",
-      "value": 1.02
+      "source_id": "Q6000370",
+      "target_id": "Q80006",
+      "value": 0.84
     },
     {
       "source": "Keykit",
       "target": "Programmiersprache",
-      "value": 0.82
+      "source_id": "Q6398316",
+      "target_id": "Q9143",
+      "value": 0.56
     },
     {
       "source": "Lean Theorembeweiser",
       "target": "Automatisches Beweisen von Theoremen",
-      "value": 1.45
+      "source_id": "Q6509476",
+      "target_id": "Q431667",
+      "value": 0.9
     },
     {
       "source": "MOO",
       "target": "MOO",
-      "value": 0.58
+      "source_id": "Q6717087",
+      "target_id": "Q2252405",
+      "value": 0.5
     },
     {
       "source": "MapBasic",
       "target": "Geoinformationssystem",
-      "value": 1.31
+      "source_id": "Q6753717",
+      "target_id": "Q483130",
+      "value": 1.29
     },
     {
       "source": "Mondrian",
       "target": "Wissenschaft",
-      "value": 1.44
+      "source_id": "Q6898824",
+      "target_id": "Q336",
+      "value": 1.04
     },
     {
       "source": "NS BASIC",
       "target": "Programmiersprache",
-      "value": 0.6
+      "source_id": "Q6955411",
+      "target_id": "Q9143",
+      "value": 0.79
     },
     {
       "source": "PL/C",
       "target": "Analyse",
-      "value": 1.49
+      "source_id": "Q7119554",
+      "target_id": "Q217602",
+      "value": 0.88
     },
     {
       "source": "PL/C",
       "target": "Annotation",
-      "value": 0.53
+      "source_id": "Q7119554",
+      "target_id": "Q857525",
+      "value": 1.28
     },
     {
       "source": "Pipeline Pilot",
       "target": "Wissenschaft",
-      "value": 1.22
+      "source_id": "Q7197271",
+      "target_id": "Q336",
+      "value": 1.09
     },
     {
       "source": "Pipeline Pilot",
       "target": "Bioinformatik",
-      "value": 1.33
+      "source_id": "Q7197271",
+      "target_id": "Q128570",
+      "value": 1.32
     },
     {
       "source": "Ptolemy Project",
       "target": "Wissenschaft",
-      "value": 0.61
+      "source_id": "Q7257107",
+      "target_id": "Q336",
+      "value": 0.59
     },
     {
       "source": "SenseTalk",
       "target": "Hypermedia",
-      "value": 1.29
+      "source_id": "Q7450966",
+      "target_id": "Q837900",
+      "value": 0.92
     },
     {
       "source": "SequenceL",
       "target": "Wissenschaft",
-      "value": 0.68
+      "source_id": "Q7452449",
+      "target_id": "Q336",
+      "value": 0.79
     },
     {
       "source": "Speakeasy",
       "target": "Wissenschaft",
-      "value": 1.27
+      "source_id": "Q7574230",
+      "target_id": "Q336",
+      "value": 1.01
     },
     {
       "source": "Stencyl",
       "target": "Computerspieleentwicklung",
-      "value": 0.67
+      "source_id": "Q7607505",
+      "target_id": "Q1061635",
+      "value": 0.64
     },
     {
       "source": "Vimscript",
       "target": "Konfiguration",
-      "value": 0.96
+      "source_id": "Q7931258",
+      "target_id": "Q1781447",
+      "value": 0.89
     },
     {
       "source": "YS MegaBasic",
       "target": "BASIC",
-      "value": 1.09
+      "source_id": "Q8046036",
+      "target_id": "Q42979",
+      "value": 1.42
     },
     {
       "source": "Astek",
       "target": "Statistik",
-      "value": 1.21
+      "source_id": "Q9161323",
+      "target_id": "Q12483",
+      "value": 1.4
     },
     {
       "source": "Xojo",
       "target": "Programmiersprache",
-      "value": 0.57
+      "source_id": "Q14378091",
+      "target_id": "Q9143",
+      "value": 0.88
     },
     {
       "source": "PottersWheel",
       "target": "mathematisches Modell",
-      "value": 0.95
+      "source_id": "Q16975484",
+      "target_id": "Q486902",
+      "value": 1.25
     },
     {
       "source": "Ox",
       "target": "Programmiersprache",
-      "value": 1.41
+      "source_id": "Q16976264",
+      "target_id": "Q9143",
+      "value": 0.85
     },
     {
       "source": "DADiSP",
       "target": "Wissenschaft",
-      "value": 0.5
+      "source_id": "Q17009745",
+      "target_id": "Q336",
+      "value": 0.88
     },
     {
       "source": "Halide",
       "target": "digitale Bildverarbeitung",
-      "value": 1.06
+      "source_id": "Q17020459",
+      "target_id": "Q1070689",
+      "value": 0.85
     },
     {
       "source": "MUDDL",
       "target": "Multi User Dungeon",
-      "value": 1.23
+      "source_id": "Q17042580",
+      "target_id": "Q751424",
+      "value": 1.31
     },
     {
       "source": "Basic4android",
       "target": "Programmiersprache",
-      "value": 1.07
+      "source_id": "Q17085538",
+      "target_id": "Q9143",
+      "value": 1.45
     },
     {
       "source": "Vienna Definition Language",
       "target": "Operationelle Semantik",
-      "value": 1.09
+      "source_id": "Q21467844",
+      "target_id": "Q1930895",
+      "value": 0.77
     },
     {
       "source": "B4X",
       "target": "Programmiersprache",
-      "value": 1.22
+      "source_id": "Q25111997",
+      "target_id": "Q9143",
+      "value": 1.08
     },
     {
       "source": "Hierarchical Editing Language for Macromolecules",
       "target": "Chemie",
-      "value": 0.98
+      "source_id": "Q25303708",
+      "target_id": "Q2329",
+      "value": 0.85
     },
     {
       "source": "EXAPT",
       "target": "Computerized Numerical Control",
-      "value": 1.37
+      "source_id": "Q26898104",
+      "target_id": "Q190247",
+      "value": 0.65
     },
     {
       "source": "TouchDesigner",
       "target": "3D-Computergrafik",
-      "value": 0.87
+      "source_id": "Q27578833",
+      "target_id": "Q189177",
+      "value": 0.75
     }
   ]
 }

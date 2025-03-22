@@ -82,14 +82,14 @@
             if (!event.active) simulation.alphaTarget(0);
             d.fx = null;
             d.fy = null;
-          }));
+          })
           .on("click", (event, d) => {
             // Sidebar einblenden
             d3.select("#sidebar")
               .style("right", "0") // Slide-in-Effekt
               .html(`<h2>${d.id}</h2>
            <p><strong>Verbindungen:</strong> ${d3.sum(data.links, l => (l.source.id === d.id || l.target.id === d.id) ? 1 : 0)}</p>`);
-          });
+          }));
 
       // Sidebar schließen bei Klick außerhalb
       d3.select("body").on("click", (event) => {

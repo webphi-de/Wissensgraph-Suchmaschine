@@ -75,6 +75,13 @@
             d.fy = null;
           }));
 
+      // Farbskala definieren
+      const colorScale = d3.scaleLinear()
+        .domain([0.5, 1.5]) // Annahme: Werte in graph_data.json sind 0.5–1.5
+        .range(["#44ff44", "#ff4444"]); // Rot → Grün
+
+      // Kanten einfärben
+      links.attr("stroke", d => colorScale(d.value));
       // Tooltips (erscheinen beim Hovern)
       nodes.append("title")
         .text(d => d.id);

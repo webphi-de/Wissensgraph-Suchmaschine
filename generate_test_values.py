@@ -1,35 +1,36 @@
 import pandas as pd
 import json
-import random
 
-# 1. Daten laden (Spaltennamen anpassen!)
+# Daten laden
 data = pd.read_csv("wikidata_results.csv")
 
-# Im Python-Skript (bevor du die JSON generierst):
-data["source_id"] = data["language"].str.split("/").str[-1]  # Extrahiert "Q2005" aus der URL
-data["target_id"] = data["field"].str.split("/").str[-1]
+# Nodes erstellen (mit id und name)
+nodes = []
+seen_ids = set()
 
-# 2. Spalten umbenennen (Wikidata-Standard → source/target)
-data = data.rename(columns={
-    "languageLabel": "source",   # Originalname in Wikidata-CSV
-    "fieldLabel": "target"       # Originalname in Wikidata-CSV
-})
+for _, row in data.iterrows():
+    # Source-Knoten
+    source_id = row["language"].split("/")[-1]  # Q2005
+    source_name = row["languageLabel"]          # JavaScript
+    if source_id not in seen_ids:
+        nodes.append({ "id": source_id, "name": source_name })
+        seen_ids.add(source_id)
+    
+    # Target-Knoten
+    target_id = row["field"].split("/")[-1]     # Q80006
+    target_name = row["fieldLabel"]             # Programmierung
+    if target_id not in seen_ids:
+        nodes.append({ "id": target_id, "name": target_name })
+        seen_ids.add(target_id)
 
-""" # 3. Nodes extrahieren
-nodes = pd.unique(data[["source", "target"]].values.ravel("K")).tolist()
-nodes = [{"id": node} for node in nodes]
+# Links erstellen (verweisen auf ids)
+links = [
+    { "source": row["language"].split("/")[-1], 
+      "target": row["field"].split("/")[-1], 
+      "value": 0.91 }
+    for _, row in data.iterrows()
+]
 
-# 4. Links mit zufälligen Werten (0.5 bis 1.5)
-links = data[["source", "target"]].to_dict("records") """
-# Nodes mit Wikidata-IDs erstellen
-nodes = pd.unique(data[["source", "target"]].values.ravel("K")).tolist()
-nodes = [{"id": node} for node in nodes]
-
-# Links mit Wikidata-IDs
-links = data[["source", "target","source_id","target_id"]].to_dict("records")
-for link in links:
-    link["value"] = round(random.uniform(0.5, 1.5), 2)
-
-# 5. Speichern
+# Speichern
 with open("graph_data.json", "w") as f:
-    json.dump({"nodes": nodes, "links": links}, f, indent=2, ensure_ascii=False)
+    json.dump({ "nodes": nodes, "links": links }, f, indent=2, ensure_ascii=False)

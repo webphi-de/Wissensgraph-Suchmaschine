@@ -114,23 +114,29 @@
         // Ladeindikator anzeigen
         d3.select("#sidebar").html("<p>Lade Daten...</p>").style("right", "0");
 
+        const wikidataId = d.id;
+
         try {
           // Wikidata-Daten abrufen (z. B. für "JavaScript" → Q2005)
-          const response = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${d.id}&format=json&origin=*&props=descriptions|sitelinks|claims`);
+          const response = await fetch(`https://www.wikidata.org/w/api.php?action=wbgetentities&ids=${wikidataId}&format=json&origin=*&props=descriptions|sitelinks|claims`);
           const data = await response.json();
 
           // Extrahiere relevante Infos
           const entity = data.entities[d.id];
           const description = entity.descriptions?.de?.value || "Keine Beschreibung verfügbar.";
-          const wikipediaLink = entity.sitelinks?.dewiki?.url || "#";
+          const wikipediaPath = entity.sitelinks?.dewiki?.url;
+          const wikipediaLink = wikipediaPath
+            ? `https://de.wikipedia.org${wikipediaPath}`
+            : "#";
+          // const wikipediaLink = entity.sitelinks?.dewiki?.url || "#";
           const image = entity.claims?.P18?.[0]?.mainsnak?.datavalue?.value;
 
           // Sidebar füllen
           d3.select("#sidebar").html(`
-      <h2>${d.id}</h2>
+      <h2>${d.name}</h2>
       ${image ? `<img src="https://commons.wikimedia.org/w/thumb.php?f=${image}&w=200" alt="Bild">` : ""}
       <p>${description}</p>
-      <a href="${wikipediaLink}" target="_blank">Wikipedia-Artikel</a>
+      <a href="${wikipediaLink}" target="_blank"  rel="noopener">Wikipedia-Artikel</a>
     `);
         } catch (error) {
           d3.select("#sidebar").html("<p>Fehler beim Laden der Daten.</p>");
@@ -160,7 +166,7 @@
         .selectAll("text")
         .data(data.nodes)
         .enter().append("text")
-        .text(d => d.id)
+        .text(d => d.name)
         .attr("font-size", "12px")
         .attr("dx", 10)
         .attr("dy", 5);

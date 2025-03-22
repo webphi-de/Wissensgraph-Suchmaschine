@@ -1,1066 +1,990 @@
 {
   "nodes": [
     {
-      "id": "JavaScript"
+      "id": "Q2005",
+      "name": "JavaScript"
     },
     {
-      "id": "C++"
+      "id": "Q80006",
+      "name": "Programmierung"
     },
     {
-      "id": "TeX"
+      "id": "Q386275",
+      "name": "Webentwicklung"
     },
     {
-      "id": "Perl"
+      "id": "Q2407",
+      "name": "C++"
     },
     {
-      "id": "SQL"
+      "id": "Q1936256",
+      "name": "Systemprogrammierung"
     },
     {
-      "id": "Mathematica"
+      "id": "Q5301",
+      "name": "TeX"
     },
     {
-      "id": "Fortran"
+      "id": "Q837721",
+      "name": "Satz"
     },
     {
-      "id": "COBOL"
+      "id": "Q42478",
+      "name": "Perl"
     },
     {
-      "id": "Maple"
+      "id": "Q123819227",
+      "name": "creating"
     },
     {
-      "id": "CLIPS"
+      "id": "Q47607",
+      "name": "SQL"
     },
     {
-      "id": "MATLAB"
+      "id": "Q3932296",
+      "name": "relationales Datenbankmanagementsystem"
     },
     {
-      "id": "ASP.NET"
+      "id": "Q81294",
+      "name": "Mathematica"
     },
     {
-      "id": "ALGOL"
+      "id": "Q336",
+      "name": "Wissenschaft"
     },
     {
-      "id": "R"
+      "id": "Q83303",
+      "name": "Fortran"
     },
     {
-      "id": "PL/I"
+      "id": "Q217602",
+      "name": "Analyse"
     },
     {
-      "id": "GNU Octave"
+      "id": "Q131140",
+      "name": "COBOL"
     },
     {
-      "id": "Common Intermediate Language"
+      "id": "Q139380",
+      "name": "Maple"
     },
     {
-      "id": "Haxe"
+      "id": "Q165372",
+      "name": "CLIPS"
     },
     {
-      "id": "Altair BASIC"
+      "id": "Q11660",
+      "name": "künstliche Intelligenz"
     },
     {
-      "id": "NesC"
+      "id": "Q169478",
+      "name": "MATLAB"
     },
     {
-      "id": "ASIC"
+      "id": "Q11216",
+      "name": "numerische Mathematik"
     },
     {
-      "id": "make"
+      "id": "Q6504956",
+      "name": "Datenvisualiserung"
     },
     {
-      "id": "Active Server Pages"
+      "id": "Q178817",
+      "name": "ASP.NET"
     },
     {
-      "id": "WebGL"
+      "id": "Q1330336",
+      "name": "Webframework"
     },
     {
-      "id": "Pyrex"
+      "id": "Q3972943",
+      "name": "Veröffentlichung"
     },
     {
-      "id": "Atari LOGO"
+      "id": "Q188436",
+      "name": "ALGOL"
     },
     {
-      "id": "Atari ST BASIC"
+      "id": "Q206904",
+      "name": "R"
     },
     {
-      "id": "MS BASIC für Macintosh"
+      "id": "Q1172378",
+      "name": "Datenbereinigung"
     },
     {
-      "id": "JoCaml"
+      "id": "Q2374463",
+      "name": "Data Science"
     },
     {
-      "id": "Perl Data Language"
+      "id": "Q5157340",
+      "name": "Computational Statistics"
     },
     {
-      "id": "ADMB"
+      "id": "Q95832426",
+      "name": "visual analysis"
     },
     {
-      "id": "ASCEND"
+      "id": "Q123750937",
+      "name": "enriching"
     },
     {
-      "id": "Analytica"
+      "id": "Q223433",
+      "name": "PL/I"
     },
     {
-      "id": "AspectC++"
+      "id": "Q653137",
+      "name": "Inhaltsanalyse"
     },
     {
-      "id": "Atom"
+      "id": "Q12772819",
+      "name": "Entdeckung"
     },
     {
-      "id": "FreeFem++"
+      "id": "Q223679",
+      "name": "GNU Octave"
     },
     {
-      "id": "Gauche"
+      "id": "Q12483",
+      "name": "Statistik"
     },
     {
-      "id": "Gforth"
+      "id": "Q263544",
+      "name": "Common Intermediate Language"
     },
     {
-      "id": "Google Apps Script"
+      "id": "Q244916",
+      "name": "Zwischencode"
     },
     {
-      "id": "Hamilton C shell"
+      "id": "Q285886",
+      "name": "Haxe"
     },
     {
-      "id": "Hugo"
+      "id": "Q1061635",
+      "name": "Computerspieleentwicklung"
     },
     {
-      "id": "HyperFun"
+      "id": "Q286196",
+      "name": "Altair BASIC"
     },
     {
-      "id": "Illumination Software Creator"
+      "id": "Q1201810",
+      "name": "Microsoft BASIC"
     },
     {
-      "id": "Keykit"
+      "id": "Q286443",
+      "name": "NesC"
     },
     {
-      "id": "Lean Theorembeweiser"
+      "id": "Q3962217",
+      "name": "distributed system"
     },
     {
-      "id": "MOO"
+      "id": "Q297730",
+      "name": "ASIC"
     },
     {
-      "id": "MapBasic"
+      "id": "Q42979",
+      "name": "BASIC"
     },
     {
-      "id": "Mondrian"
+      "id": "Q300867",
+      "name": "make"
     },
     {
-      "id": "NS BASIC"
+      "id": "Q1362142",
+      "name": "Erstellungsprozess"
     },
     {
-      "id": "PL/C"
+      "id": "Q2727468",
+      "name": "Build-Automatisierung"
     },
     {
-      "id": "Pipeline Pilot"
+      "id": "Q344266",
+      "name": "Active Server Pages"
     },
     {
-      "id": "Ptolemy Project"
+      "id": "Q375913",
+      "name": "WebGL"
     },
     {
-      "id": "SenseTalk"
+      "id": "Q189177",
+      "name": "3D-Computergrafik"
     },
     {
-      "id": "SequenceL"
+      "id": "Q3411311",
+      "name": "Pyrex"
     },
     {
-      "id": "Speakeasy"
+      "id": "Q9143",
+      "name": "Programmiersprache"
     },
     {
-      "id": "Stencyl"
+      "id": "Q3627873",
+      "name": "Atari LOGO"
     },
     {
-      "id": "Vimscript"
+      "id": "Q201436",
+      "name": "Logo"
     },
     {
-      "id": "YS MegaBasic"
+      "id": "Q3627876",
+      "name": "Atari ST BASIC"
     },
     {
-      "id": "Astek"
+      "id": "Q3841543",
+      "name": "MS BASIC für Macintosh"
     },
     {
-      "id": "Xojo"
+      "id": "Q4041852",
+      "name": "JoCaml"
     },
     {
-      "id": "PottersWheel"
+      "id": "Q4046690",
+      "name": "Perl Data Language"
     },
     {
-      "id": "Ox"
+      "id": "Q4651150",
+      "name": "ADMB"
     },
     {
-      "id": "DADiSP"
+      "id": "Q4654106",
+      "name": "ASCEND"
     },
     {
-      "id": "Halide"
+      "id": "Q4751143",
+      "name": "Analytica"
     },
     {
-      "id": "MUDDL"
+      "id": "Q4807752",
+      "name": "AspectC++"
     },
     {
-      "id": "Basic4android"
+      "id": "Q2990416",
+      "name": "Transcompiler"
     },
     {
-      "id": "Vienna Definition Language"
+      "id": "Q4817198",
+      "name": "Atom"
     },
     {
-      "id": "B4X"
+      "id": "Q1335007",
+      "name": "Embedded Software Engineering"
     },
     {
-      "id": "Hierarchical Editing Language for Macromolecules"
+      "id": "Q5499643",
+      "name": "FreeFem++"
     },
     {
-      "id": "EXAPT"
+      "id": "Q5527588",
+      "name": "Gauche"
     },
     {
-      "id": "TouchDesigner"
+      "id": "Q5555121",
+      "name": "Gforth"
     },
     {
-      "id": "Programmierung"
+      "id": "Q183065",
+      "name": "Interpreter"
     },
     {
-      "id": "Webentwicklung"
+      "id": "Q5583799",
+      "name": "Google Apps Script"
     },
     {
-      "id": "Systemprogrammierung"
+      "id": "Q5644861",
+      "name": "Hamilton C shell"
     },
     {
-      "id": "Satz"
+      "id": "Q14663",
+      "name": "Unix-Shell"
     },
     {
-      "id": "creating"
+      "id": "Q5933700",
+      "name": "Hugo"
     },
     {
-      "id": "relationales Datenbankmanagementsystem"
+      "id": "Q1143118",
+      "name": "Interactive Fiction"
     },
     {
-      "id": "Wissenschaft"
+      "id": "Q5957572",
+      "name": "HyperFun"
     },
     {
-      "id": "Analyse"
+      "id": "Q5508776",
+      "name": "Function representation"
     },
     {
-      "id": "künstliche Intelligenz"
+      "id": "Q6000370",
+      "name": "Illumination Software Creator"
     },
     {
-      "id": "numerische Mathematik"
+      "id": "Q6398316",
+      "name": "Keykit"
     },
     {
-      "id": "Datenvisualiserung"
+      "id": "Q6509476",
+      "name": "Lean Theorembeweiser"
     },
     {
-      "id": "Webframework"
+      "id": "Q431667",
+      "name": "Automatisches Beweisen von Theoremen"
     },
     {
-      "id": "Veröffentlichung"
+      "id": "Q6717087",
+      "name": "MOO"
     },
     {
-      "id": "Datenbereinigung"
+      "id": "Q2252405",
+      "name": "MOO"
     },
     {
-      "id": "Data Science"
+      "id": "Q6753717",
+      "name": "MapBasic"
     },
     {
-      "id": "Computational Statistics"
+      "id": "Q483130",
+      "name": "Geoinformationssystem"
     },
     {
-      "id": "visual analysis"
+      "id": "Q6898824",
+      "name": "Mondrian"
     },
     {
-      "id": "enriching"
+      "id": "Q6955411",
+      "name": "NS BASIC"
     },
     {
-      "id": "Inhaltsanalyse"
+      "id": "Q7119554",
+      "name": "PL/C"
     },
     {
-      "id": "Entdeckung"
+      "id": "Q857525",
+      "name": "Annotation"
     },
     {
-      "id": "Statistik"
+      "id": "Q7197271",
+      "name": "Pipeline Pilot"
     },
     {
-      "id": "Zwischencode"
+      "id": "Q128570",
+      "name": "Bioinformatik"
     },
     {
-      "id": "Computerspieleentwicklung"
+      "id": "Q7257107",
+      "name": "Ptolemy Project"
     },
     {
-      "id": "Microsoft BASIC"
+      "id": "Q7450966",
+      "name": "SenseTalk"
     },
     {
-      "id": "distributed system"
+      "id": "Q837900",
+      "name": "Hypermedia"
     },
     {
-      "id": "BASIC"
+      "id": "Q7452449",
+      "name": "SequenceL"
     },
     {
-      "id": "Erstellungsprozess"
+      "id": "Q7574230",
+      "name": "Speakeasy"
     },
     {
-      "id": "Build-Automatisierung"
+      "id": "Q7607505",
+      "name": "Stencyl"
     },
     {
-      "id": "3D-Computergrafik"
+      "id": "Q7931258",
+      "name": "Vimscript"
     },
     {
-      "id": "Programmiersprache"
+      "id": "Q1781447",
+      "name": "Konfiguration"
     },
     {
-      "id": "Logo"
+      "id": "Q8046036",
+      "name": "YS MegaBasic"
     },
     {
-      "id": "Transcompiler"
+      "id": "Q9161323",
+      "name": "Astek"
     },
     {
-      "id": "Embedded Software Engineering"
+      "id": "Q14378091",
+      "name": "Xojo"
     },
     {
-      "id": "Interpreter"
+      "id": "Q16975484",
+      "name": "PottersWheel"
     },
     {
-      "id": "Unix-Shell"
+      "id": "Q486902",
+      "name": "mathematisches Modell"
     },
     {
-      "id": "Interactive Fiction"
+      "id": "Q16976264",
+      "name": "Ox"
     },
     {
-      "id": "Function representation"
+      "id": "Q17009745",
+      "name": "DADiSP"
     },
     {
-      "id": "Automatisches Beweisen von Theoremen"
+      "id": "Q17020459",
+      "name": "Halide"
     },
     {
-      "id": "Geoinformationssystem"
+      "id": "Q1070689",
+      "name": "digitale Bildverarbeitung"
     },
     {
-      "id": "Annotation"
+      "id": "Q17042580",
+      "name": "MUDDL"
     },
     {
-      "id": "Bioinformatik"
+      "id": "Q751424",
+      "name": "Multi User Dungeon"
     },
     {
-      "id": "Hypermedia"
+      "id": "Q17085538",
+      "name": "Basic4android"
     },
     {
-      "id": "Konfiguration"
+      "id": "Q21467844",
+      "name": "Vienna Definition Language"
     },
     {
-      "id": "mathematisches Modell"
+      "id": "Q1930895",
+      "name": "Operationelle Semantik"
     },
     {
-      "id": "digitale Bildverarbeitung"
+      "id": "Q25111997",
+      "name": "B4X"
     },
     {
-      "id": "Multi User Dungeon"
+      "id": "Q25303708",
+      "name": "Hierarchical Editing Language for Macromolecules"
     },
     {
-      "id": "Operationelle Semantik"
+      "id": "Q2329",
+      "name": "Chemie"
     },
     {
-      "id": "Chemie"
+      "id": "Q26898104",
+      "name": "EXAPT"
     },
     {
-      "id": "Computerized Numerical Control"
+      "id": "Q190247",
+      "name": "Computerized Numerical Control"
+    },
+    {
+      "id": "Q27578833",
+      "name": "TouchDesigner"
     }
   ],
   "links": [
     {
-      "source": "JavaScript",
-      "target": "Programmierung",
-      "source_id": "Q2005",
-      "target_id": "Q80006",
-      "value": 1.34
-    },
-    {
-      "source": "JavaScript",
-      "target": "Webentwicklung",
-      "source_id": "Q2005",
-      "target_id": "Q386275",
-      "value": 0.52
-    },
-    {
-      "source": "C++",
-      "target": "Systemprogrammierung",
-      "source_id": "Q2407",
-      "target_id": "Q1936256",
-      "value": 0.79
-    },
-    {
-      "source": "TeX",
-      "target": "Satz",
-      "source_id": "Q5301",
-      "target_id": "Q837721",
-      "value": 0.8
-    },
-    {
-      "source": "Perl",
-      "target": "Programmierung",
-      "source_id": "Q42478",
-      "target_id": "Q80006",
-      "value": 0.57
-    },
-    {
-      "source": "Perl",
-      "target": "Webentwicklung",
-      "source_id": "Q42478",
-      "target_id": "Q386275",
-      "value": 0.94
-    },
-    {
-      "source": "Perl",
-      "target": "creating",
-      "source_id": "Q42478",
-      "target_id": "Q123819227",
-      "value": 1.22
-    },
-    {
-      "source": "SQL",
-      "target": "relationales Datenbankmanagementsystem",
-      "source_id": "Q47607",
-      "target_id": "Q3932296",
-      "value": 1.17
-    },
-    {
-      "source": "Mathematica",
-      "target": "Wissenschaft",
-      "source_id": "Q81294",
-      "target_id": "Q336",
-      "value": 0.96
-    },
-    {
-      "source": "Fortran",
-      "target": "Programmierung",
-      "source_id": "Q83303",
-      "target_id": "Q80006",
-      "value": 1.34
-    },
-    {
-      "source": "Fortran",
-      "target": "Analyse",
-      "source_id": "Q83303",
-      "target_id": "Q217602",
-      "value": 0.99
-    },
-    {
-      "source": "Fortran",
-      "target": "creating",
-      "source_id": "Q83303",
-      "target_id": "Q123819227",
-      "value": 0.96
-    },
-    {
-      "source": "COBOL",
-      "target": "Programmierung",
-      "source_id": "Q131140",
-      "target_id": "Q80006",
-      "value": 1.14
-    },
-    {
-      "source": "COBOL",
-      "target": "creating",
-      "source_id": "Q131140",
-      "target_id": "Q123819227",
-      "value": 1.06
-    },
-    {
-      "source": "Maple",
-      "target": "Wissenschaft",
-      "source_id": "Q139380",
-      "target_id": "Q336",
-      "value": 1.49
-    },
-    {
-      "source": "CLIPS",
-      "target": "künstliche Intelligenz",
-      "source_id": "Q165372",
-      "target_id": "Q11660",
-      "value": 1.04
-    },
-    {
-      "source": "MATLAB",
-      "target": "numerische Mathematik",
-      "source_id": "Q169478",
-      "target_id": "Q11216",
-      "value": 1.38
-    },
-    {
-      "source": "MATLAB",
-      "target": "Analyse",
-      "source_id": "Q169478",
-      "target_id": "Q217602",
-      "value": 1.24
-    },
-    {
-      "source": "MATLAB",
-      "target": "Datenvisualiserung",
-      "source_id": "Q169478",
-      "target_id": "Q6504956",
-      "value": 0.8
-    },
-    {
-      "source": "ASP.NET",
-      "target": "Webentwicklung",
-      "source_id": "Q178817",
-      "target_id": "Q386275",
-      "value": 1.12
-    },
-    {
-      "source": "ASP.NET",
-      "target": "Webframework",
-      "source_id": "Q178817",
-      "target_id": "Q1330336",
-      "value": 1.0
-    },
-    {
-      "source": "ASP.NET",
-      "target": "Veröffentlichung",
-      "source_id": "Q178817",
-      "target_id": "Q3972943",
-      "value": 0.8
-    },
-    {
-      "source": "ALGOL",
-      "target": "Programmierung",
-      "source_id": "Q188436",
-      "target_id": "Q80006",
-      "value": 1.41
-    },
-    {
-      "source": "ALGOL",
-      "target": "creating",
-      "source_id": "Q188436",
-      "target_id": "Q123819227",
-      "value": 1.46
-    },
-    {
-      "source": "R",
-      "target": "Programmierung",
-      "source_id": "Q206904",
-      "target_id": "Q80006",
-      "value": 1.0
-    },
-    {
-      "source": "R",
-      "target": "Analyse",
-      "source_id": "Q206904",
-      "target_id": "Q217602",
-      "value": 1.32
-    },
-    {
-      "source": "R",
-      "target": "Datenbereinigung",
-      "source_id": "Q206904",
-      "target_id": "Q1172378",
-      "value": 0.97
-    },
-    {
-      "source": "R",
-      "target": "Data Science",
-      "source_id": "Q206904",
-      "target_id": "Q2374463",
-      "value": 1.32
-    },
-    {
-      "source": "R",
-      "target": "Computational Statistics",
-      "source_id": "Q206904",
-      "target_id": "Q5157340",
-      "value": 1.0
-    },
-    {
-      "source": "R",
-      "target": "Datenvisualiserung",
-      "source_id": "Q206904",
-      "target_id": "Q6504956",
-      "value": 0.82
-    },
-    {
-      "source": "R",
-      "target": "visual analysis",
-      "source_id": "Q206904",
-      "target_id": "Q95832426",
-      "value": 0.94
-    },
-    {
-      "source": "R",
-      "target": "enriching",
-      "source_id": "Q206904",
-      "target_id": "Q123750937",
+      "source": "Q2005",
+      "target": "Q80006",
       "value": 0.91
     },
     {
-      "source": "R",
-      "target": "creating",
-      "source_id": "Q206904",
-      "target_id": "Q123819227",
-      "value": 1.47
-    },
-    {
-      "source": "PL/I",
-      "target": "Programmierung",
-      "source_id": "Q223433",
-      "target_id": "Q80006",
-      "value": 0.7
-    },
-    {
-      "source": "PL/I",
-      "target": "Analyse",
-      "source_id": "Q223433",
-      "target_id": "Q217602",
-      "value": 0.81
-    },
-    {
-      "source": "PL/I",
-      "target": "Inhaltsanalyse",
-      "source_id": "Q223433",
-      "target_id": "Q653137",
-      "value": 0.9
-    },
-    {
-      "source": "PL/I",
-      "target": "Entdeckung",
-      "source_id": "Q223433",
-      "target_id": "Q12772819",
-      "value": 0.89
-    },
-    {
-      "source": "PL/I",
-      "target": "creating",
-      "source_id": "Q223433",
-      "target_id": "Q123819227",
-      "value": 1.25
-    },
-    {
-      "source": "GNU Octave",
-      "target": "Wissenschaft",
-      "source_id": "Q223679",
-      "target_id": "Q336",
-      "value": 1.2
-    },
-    {
-      "source": "GNU Octave",
-      "target": "numerische Mathematik",
-      "source_id": "Q223679",
-      "target_id": "Q11216",
-      "value": 0.67
-    },
-    {
-      "source": "GNU Octave",
-      "target": "Statistik",
-      "source_id": "Q223679",
-      "target_id": "Q12483",
-      "value": 0.62
-    },
-    {
-      "source": "Common Intermediate Language",
-      "target": "Zwischencode",
-      "source_id": "Q263544",
-      "target_id": "Q244916",
-      "value": 1.38
-    },
-    {
-      "source": "Haxe",
-      "target": "Webentwicklung",
-      "source_id": "Q285886",
-      "target_id": "Q386275",
-      "value": 0.9
-    },
-    {
-      "source": "Haxe",
-      "target": "Computerspieleentwicklung",
-      "source_id": "Q285886",
-      "target_id": "Q1061635",
-      "value": 1.41
-    },
-    {
-      "source": "Altair BASIC",
-      "target": "Microsoft BASIC",
-      "source_id": "Q286196",
-      "target_id": "Q1201810",
-      "value": 1.3
-    },
-    {
-      "source": "NesC",
-      "target": "distributed system",
-      "source_id": "Q286443",
-      "target_id": "Q3962217",
-      "value": 1.02
-    },
-    {
-      "source": "ASIC",
-      "target": "BASIC",
-      "source_id": "Q297730",
-      "target_id": "Q42979",
-      "value": 1.1
-    },
-    {
-      "source": "make",
-      "target": "Erstellungsprozess",
-      "source_id": "Q300867",
-      "target_id": "Q1362142",
-      "value": 0.53
-    },
-    {
-      "source": "make",
-      "target": "Build-Automatisierung",
-      "source_id": "Q300867",
-      "target_id": "Q2727468",
+      "source": "Q2005",
+      "target": "Q386275",
       "value": 0.91
     },
     {
-      "source": "Active Server Pages",
-      "target": "Webframework",
-      "source_id": "Q344266",
-      "target_id": "Q1330336",
-      "value": 0.92
+      "source": "Q2407",
+      "target": "Q1936256",
+      "value": 0.91
     },
     {
-      "source": "WebGL",
-      "target": "3D-Computergrafik",
-      "source_id": "Q375913",
-      "target_id": "Q189177",
-      "value": 1.37
+      "source": "Q5301",
+      "target": "Q837721",
+      "value": 0.91
     },
     {
-      "source": "Pyrex",
-      "target": "Programmiersprache",
-      "source_id": "Q3411311",
-      "target_id": "Q9143",
-      "value": 1.36
+      "source": "Q42478",
+      "target": "Q80006",
+      "value": 0.91
     },
     {
-      "source": "Atari LOGO",
-      "target": "Logo",
-      "source_id": "Q3627873",
-      "target_id": "Q201436",
-      "value": 0.76
+      "source": "Q42478",
+      "target": "Q386275",
+      "value": 0.91
     },
     {
-      "source": "Atari ST BASIC",
-      "target": "BASIC",
-      "source_id": "Q3627876",
-      "target_id": "Q42979",
-      "value": 0.99
+      "source": "Q42478",
+      "target": "Q123819227",
+      "value": 0.91
     },
     {
-      "source": "MS BASIC für Macintosh",
-      "target": "Microsoft BASIC",
-      "source_id": "Q3841543",
-      "target_id": "Q1201810",
-      "value": 1.01
+      "source": "Q47607",
+      "target": "Q3932296",
+      "value": 0.91
     },
     {
-      "source": "JoCaml",
-      "target": "Programmiersprache",
-      "source_id": "Q4041852",
-      "target_id": "Q9143",
-      "value": 1.25
+      "source": "Q81294",
+      "target": "Q336",
+      "value": 0.91
     },
     {
-      "source": "Perl Data Language",
-      "target": "Wissenschaft",
-      "source_id": "Q4046690",
-      "target_id": "Q336",
-      "value": 0.64
+      "source": "Q83303",
+      "target": "Q80006",
+      "value": 0.91
     },
     {
-      "source": "ADMB",
-      "target": "Statistik",
-      "source_id": "Q4651150",
-      "target_id": "Q12483",
-      "value": 0.99
+      "source": "Q83303",
+      "target": "Q217602",
+      "value": 0.91
     },
     {
-      "source": "ASCEND",
-      "target": "Wissenschaft",
-      "source_id": "Q4654106",
-      "target_id": "Q336",
-      "value": 1.03
+      "source": "Q83303",
+      "target": "Q123819227",
+      "value": 0.91
     },
     {
-      "source": "Analytica",
-      "target": "Wissenschaft",
-      "source_id": "Q4751143",
-      "target_id": "Q336",
-      "value": 1.42
+      "source": "Q131140",
+      "target": "Q80006",
+      "value": 0.91
     },
     {
-      "source": "AspectC++",
-      "target": "Transcompiler",
-      "source_id": "Q4807752",
-      "target_id": "Q2990416",
-      "value": 1.25
+      "source": "Q131140",
+      "target": "Q123819227",
+      "value": 0.91
     },
     {
-      "source": "Atom",
-      "target": "Embedded Software Engineering",
-      "source_id": "Q4817198",
-      "target_id": "Q1335007",
-      "value": 1.22
+      "source": "Q139380",
+      "target": "Q336",
+      "value": 0.91
     },
     {
-      "source": "FreeFem++",
-      "target": "Wissenschaft",
-      "source_id": "Q5499643",
-      "target_id": "Q336",
-      "value": 0.95
+      "source": "Q165372",
+      "target": "Q11660",
+      "value": 0.91
     },
     {
-      "source": "Gauche",
-      "target": "Programmiersprache",
-      "source_id": "Q5527588",
-      "target_id": "Q9143",
-      "value": 1.06
+      "source": "Q169478",
+      "target": "Q11216",
+      "value": 0.91
     },
     {
-      "source": "Gforth",
-      "target": "Interpreter",
-      "source_id": "Q5555121",
-      "target_id": "Q183065",
-      "value": 1.15
+      "source": "Q169478",
+      "target": "Q217602",
+      "value": 0.91
     },
     {
-      "source": "Google Apps Script",
-      "target": "Webframework",
-      "source_id": "Q5583799",
-      "target_id": "Q1330336",
-      "value": 0.61
+      "source": "Q169478",
+      "target": "Q6504956",
+      "value": 0.91
     },
     {
-      "source": "Hamilton C shell",
-      "target": "Unix-Shell",
-      "source_id": "Q5644861",
-      "target_id": "Q14663",
-      "value": 1.08
+      "source": "Q178817",
+      "target": "Q386275",
+      "value": 0.91
     },
     {
-      "source": "Hugo",
-      "target": "Interactive Fiction",
-      "source_id": "Q5933700",
-      "target_id": "Q1143118",
-      "value": 0.77
+      "source": "Q178817",
+      "target": "Q1330336",
+      "value": 0.91
     },
     {
-      "source": "HyperFun",
-      "target": "Function representation",
-      "source_id": "Q5957572",
-      "target_id": "Q5508776",
-      "value": 1.27
+      "source": "Q178817",
+      "target": "Q3972943",
+      "value": 0.91
     },
     {
-      "source": "Illumination Software Creator",
-      "target": "Programmierung",
-      "source_id": "Q6000370",
-      "target_id": "Q80006",
-      "value": 0.84
+      "source": "Q188436",
+      "target": "Q80006",
+      "value": 0.91
     },
     {
-      "source": "Keykit",
-      "target": "Programmiersprache",
-      "source_id": "Q6398316",
-      "target_id": "Q9143",
-      "value": 0.56
+      "source": "Q188436",
+      "target": "Q123819227",
+      "value": 0.91
     },
     {
-      "source": "Lean Theorembeweiser",
-      "target": "Automatisches Beweisen von Theoremen",
-      "source_id": "Q6509476",
-      "target_id": "Q431667",
-      "value": 0.9
+      "source": "Q206904",
+      "target": "Q80006",
+      "value": 0.91
     },
     {
-      "source": "MOO",
-      "target": "MOO",
-      "source_id": "Q6717087",
-      "target_id": "Q2252405",
-      "value": 0.5
+      "source": "Q206904",
+      "target": "Q217602",
+      "value": 0.91
     },
     {
-      "source": "MapBasic",
-      "target": "Geoinformationssystem",
-      "source_id": "Q6753717",
-      "target_id": "Q483130",
-      "value": 1.29
+      "source": "Q206904",
+      "target": "Q1172378",
+      "value": 0.91
     },
     {
-      "source": "Mondrian",
-      "target": "Wissenschaft",
-      "source_id": "Q6898824",
-      "target_id": "Q336",
-      "value": 1.04
+      "source": "Q206904",
+      "target": "Q2374463",
+      "value": 0.91
     },
     {
-      "source": "NS BASIC",
-      "target": "Programmiersprache",
-      "source_id": "Q6955411",
-      "target_id": "Q9143",
-      "value": 0.79
+      "source": "Q206904",
+      "target": "Q5157340",
+      "value": 0.91
     },
     {
-      "source": "PL/C",
-      "target": "Analyse",
-      "source_id": "Q7119554",
-      "target_id": "Q217602",
-      "value": 0.88
+      "source": "Q206904",
+      "target": "Q6504956",
+      "value": 0.91
     },
     {
-      "source": "PL/C",
-      "target": "Annotation",
-      "source_id": "Q7119554",
-      "target_id": "Q857525",
-      "value": 1.28
+      "source": "Q206904",
+      "target": "Q95832426",
+      "value": 0.91
     },
     {
-      "source": "Pipeline Pilot",
-      "target": "Wissenschaft",
-      "source_id": "Q7197271",
-      "target_id": "Q336",
-      "value": 1.09
+      "source": "Q206904",
+      "target": "Q123750937",
+      "value": 0.91
     },
     {
-      "source": "Pipeline Pilot",
-      "target": "Bioinformatik",
-      "source_id": "Q7197271",
-      "target_id": "Q128570",
-      "value": 1.32
+      "source": "Q206904",
+      "target": "Q123819227",
+      "value": 0.91
     },
     {
-      "source": "Ptolemy Project",
-      "target": "Wissenschaft",
-      "source_id": "Q7257107",
-      "target_id": "Q336",
-      "value": 0.59
+      "source": "Q223433",
+      "target": "Q80006",
+      "value": 0.91
     },
     {
-      "source": "SenseTalk",
-      "target": "Hypermedia",
-      "source_id": "Q7450966",
-      "target_id": "Q837900",
-      "value": 0.92
+      "source": "Q223433",
+      "target": "Q217602",
+      "value": 0.91
     },
     {
-      "source": "SequenceL",
-      "target": "Wissenschaft",
-      "source_id": "Q7452449",
-      "target_id": "Q336",
-      "value": 0.79
+      "source": "Q223433",
+      "target": "Q653137",
+      "value": 0.91
     },
     {
-      "source": "Speakeasy",
-      "target": "Wissenschaft",
-      "source_id": "Q7574230",
-      "target_id": "Q336",
-      "value": 1.01
+      "source": "Q223433",
+      "target": "Q12772819",
+      "value": 0.91
     },
     {
-      "source": "Stencyl",
-      "target": "Computerspieleentwicklung",
-      "source_id": "Q7607505",
-      "target_id": "Q1061635",
-      "value": 0.64
+      "source": "Q223433",
+      "target": "Q123819227",
+      "value": 0.91
     },
     {
-      "source": "Vimscript",
-      "target": "Konfiguration",
-      "source_id": "Q7931258",
-      "target_id": "Q1781447",
-      "value": 0.89
+      "source": "Q223679",
+      "target": "Q336",
+      "value": 0.91
     },
     {
-      "source": "YS MegaBasic",
-      "target": "BASIC",
-      "source_id": "Q8046036",
-      "target_id": "Q42979",
-      "value": 1.42
+      "source": "Q223679",
+      "target": "Q11216",
+      "value": 0.91
     },
     {
-      "source": "Astek",
-      "target": "Statistik",
-      "source_id": "Q9161323",
-      "target_id": "Q12483",
-      "value": 1.4
+      "source": "Q223679",
+      "target": "Q12483",
+      "value": 0.91
     },
     {
-      "source": "Xojo",
-      "target": "Programmiersprache",
-      "source_id": "Q14378091",
-      "target_id": "Q9143",
-      "value": 0.88
+      "source": "Q263544",
+      "target": "Q244916",
+      "value": 0.91
     },
     {
-      "source": "PottersWheel",
-      "target": "mathematisches Modell",
-      "source_id": "Q16975484",
-      "target_id": "Q486902",
-      "value": 1.25
+      "source": "Q285886",
+      "target": "Q386275",
+      "value": 0.91
     },
     {
-      "source": "Ox",
-      "target": "Programmiersprache",
-      "source_id": "Q16976264",
-      "target_id": "Q9143",
-      "value": 0.85
+      "source": "Q285886",
+      "target": "Q1061635",
+      "value": 0.91
     },
     {
-      "source": "DADiSP",
-      "target": "Wissenschaft",
-      "source_id": "Q17009745",
-      "target_id": "Q336",
-      "value": 0.88
+      "source": "Q286196",
+      "target": "Q1201810",
+      "value": 0.91
     },
     {
-      "source": "Halide",
-      "target": "digitale Bildverarbeitung",
-      "source_id": "Q17020459",
-      "target_id": "Q1070689",
-      "value": 0.85
+      "source": "Q286443",
+      "target": "Q3962217",
+      "value": 0.91
     },
     {
-      "source": "MUDDL",
-      "target": "Multi User Dungeon",
-      "source_id": "Q17042580",
-      "target_id": "Q751424",
-      "value": 1.31
+      "source": "Q297730",
+      "target": "Q42979",
+      "value": 0.91
     },
     {
-      "source": "Basic4android",
-      "target": "Programmiersprache",
-      "source_id": "Q17085538",
-      "target_id": "Q9143",
-      "value": 1.45
+      "source": "Q300867",
+      "target": "Q1362142",
+      "value": 0.91
     },
     {
-      "source": "Vienna Definition Language",
-      "target": "Operationelle Semantik",
-      "source_id": "Q21467844",
-      "target_id": "Q1930895",
-      "value": 0.77
+      "source": "Q300867",
+      "target": "Q2727468",
+      "value": 0.91
     },
     {
-      "source": "B4X",
-      "target": "Programmiersprache",
-      "source_id": "Q25111997",
-      "target_id": "Q9143",
-      "value": 1.08
+      "source": "Q344266",
+      "target": "Q1330336",
+      "value": 0.91
     },
     {
-      "source": "Hierarchical Editing Language for Macromolecules",
-      "target": "Chemie",
-      "source_id": "Q25303708",
-      "target_id": "Q2329",
-      "value": 0.85
+      "source": "Q375913",
+      "target": "Q189177",
+      "value": 0.91
     },
     {
-      "source": "EXAPT",
-      "target": "Computerized Numerical Control",
-      "source_id": "Q26898104",
-      "target_id": "Q190247",
-      "value": 0.65
+      "source": "Q3411311",
+      "target": "Q9143",
+      "value": 0.91
     },
     {
-      "source": "TouchDesigner",
-      "target": "3D-Computergrafik",
-      "source_id": "Q27578833",
-      "target_id": "Q189177",
-      "value": 0.75
+      "source": "Q3627873",
+      "target": "Q201436",
+      "value": 0.91
+    },
+    {
+      "source": "Q3627876",
+      "target": "Q42979",
+      "value": 0.91
+    },
+    {
+      "source": "Q3841543",
+      "target": "Q1201810",
+      "value": 0.91
+    },
+    {
+      "source": "Q4041852",
+      "target": "Q9143",
+      "value": 0.91
+    },
+    {
+      "source": "Q4046690",
+      "target": "Q336",
+      "value": 0.91
+    },
+    {
+      "source": "Q4651150",
+      "target": "Q12483",
+      "value": 0.91
+    },
+    {
+      "source": "Q4654106",
+      "target": "Q336",
+      "value": 0.91
+    },
+    {
+      "source": "Q4751143",
+      "target": "Q336",
+      "value": 0.91
+    },
+    {
+      "source": "Q4807752",
+      "target": "Q2990416",
+      "value": 0.91
+    },
+    {
+      "source": "Q4817198",
+      "target": "Q1335007",
+      "value": 0.91
+    },
+    {
+      "source": "Q5499643",
+      "target": "Q336",
+      "value": 0.91
+    },
+    {
+      "source": "Q5527588",
+      "target": "Q9143",
+      "value": 0.91
+    },
+    {
+      "source": "Q5555121",
+      "target": "Q183065",
+      "value": 0.91
+    },
+    {
+      "source": "Q5583799",
+      "target": "Q1330336",
+      "value": 0.91
+    },
+    {
+      "source": "Q5644861",
+      "target": "Q14663",
+      "value": 0.91
+    },
+    {
+      "source": "Q5933700",
+      "target": "Q1143118",
+      "value": 0.91
+    },
+    {
+      "source": "Q5957572",
+      "target": "Q5508776",
+      "value": 0.91
+    },
+    {
+      "source": "Q6000370",
+      "target": "Q80006",
+      "value": 0.91
+    },
+    {
+      "source": "Q6398316",
+      "target": "Q9143",
+      "value": 0.91
+    },
+    {
+      "source": "Q6509476",
+      "target": "Q431667",
+      "value": 0.91
+    },
+    {
+      "source": "Q6717087",
+      "target": "Q2252405",
+      "value": 0.91
+    },
+    {
+      "source": "Q6753717",
+      "target": "Q483130",
+      "value": 0.91
+    },
+    {
+      "source": "Q6898824",
+      "target": "Q336",
+      "value": 0.91
+    },
+    {
+      "source": "Q6955411",
+      "target": "Q9143",
+      "value": 0.91
+    },
+    {
+      "source": "Q7119554",
+      "target": "Q217602",
+      "value": 0.91
+    },
+    {
+      "source": "Q7119554",
+      "target": "Q857525",
+      "value": 0.91
+    },
+    {
+      "source": "Q7197271",
+      "target": "Q336",
+      "value": 0.91
+    },
+    {
+      "source": "Q7197271",
+      "target": "Q128570",
+      "value": 0.91
+    },
+    {
+      "source": "Q7257107",
+      "target": "Q336",
+      "value": 0.91
+    },
+    {
+      "source": "Q7450966",
+      "target": "Q837900",
+      "value": 0.91
+    },
+    {
+      "source": "Q7452449",
+      "target": "Q336",
+      "value": 0.91
+    },
+    {
+      "source": "Q7574230",
+      "target": "Q336",
+      "value": 0.91
+    },
+    {
+      "source": "Q7607505",
+      "target": "Q1061635",
+      "value": 0.91
+    },
+    {
+      "source": "Q7931258",
+      "target": "Q1781447",
+      "value": 0.91
+    },
+    {
+      "source": "Q8046036",
+      "target": "Q42979",
+      "value": 0.91
+    },
+    {
+      "source": "Q9161323",
+      "target": "Q12483",
+      "value": 0.91
+    },
+    {
+      "source": "Q14378091",
+      "target": "Q9143",
+      "value": 0.91
+    },
+    {
+      "source": "Q16975484",
+      "target": "Q486902",
+      "value": 0.91
+    },
+    {
+      "source": "Q16976264",
+      "target": "Q9143",
+      "value": 0.91
+    },
+    {
+      "source": "Q17009745",
+      "target": "Q336",
+      "value": 0.91
+    },
+    {
+      "source": "Q17020459",
+      "target": "Q1070689",
+      "value": 0.91
+    },
+    {
+      "source": "Q17042580",
+      "target": "Q751424",
+      "value": 0.91
+    },
+    {
+      "source": "Q17085538",
+      "target": "Q9143",
+      "value": 0.91
+    },
+    {
+      "source": "Q21467844",
+      "target": "Q1930895",
+      "value": 0.91
+    },
+    {
+      "source": "Q25111997",
+      "target": "Q9143",
+      "value": 0.91
+    },
+    {
+      "source": "Q25303708",
+      "target": "Q2329",
+      "value": 0.91
+    },
+    {
+      "source": "Q26898104",
+      "target": "Q190247",
+      "value": 0.91
+    },
+    {
+      "source": "Q27578833",
+      "target": "Q189177",
+      "value": 0.91
     }
   ]
 }

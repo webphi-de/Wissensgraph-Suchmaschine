@@ -124,30 +124,27 @@
           // Extrahiere relevante Infos
           const entity = data.entities[d.id];
           const description = entity.descriptions?.de?.value || "Keine Beschreibung verfügbar.";
-          const wikipediaPath = entity.sitelinks?.dewiki?.url;
-          const wikipediaLink = wikipediaPath
-            ? `https://de.wikipedia.org${wikipediaPath}`
-            : "#";
-          // const wikipediaLink = entity.sitelinks?.dewiki?.url || "#";
-          const image = entity.claims?.P18?.[0]?.mainsnak?.datavalue?.value;
+
+          // Fallback für Wikipedia-Links
+          const wikipediaSlug = entity.sitelinks?.dewiki?.title ||
+            entity.sitelinks?.enwiki?.title ||
+            d.name.replace(/ /g, "_"); // Notfall: Name als Slug
+          const wikipediaLink = `https://de.wikipedia.org/wiki/${encodeURIComponent(wikipediaSlug)}`;
+
+          // Bild-URL (mit Fehlerbehandlung)
+          const imageClaim = entity.claims?.P18?.[0]?.mainsnak?.datavalue?.value;
+          const imageUrl = imageClaim
+            ? `https://commons.wikimedia.org/w/thumb.php?f=${imageClaim}&w=200`
+            : null;
 
           // Sidebar füllen
-          d3.select("#sidebar").html(`
-      <h2>${d.name}</h2>
-      ${image ? `<img src="https://commons.wikimedia.org/w/thumb.php?f=${image}&w=200" alt="Bild">` : ""}
-      <p>${description}</p>
-      <a href="${wikipediaLink}" target="_blank"  rel="noopener">Wikipedia-Artikel</a>
-    `);
+          d3.select("#sidebar").html(`<h2>${d.name}</h2>${imageUrl ? `<img src="${imageUrl}" alt="Bild">` : ""}
+          <p>${description}</p>
+          <a href="${wikipediaLink}" target="_blank" rel="noopener">Wikipedia-Artikel</a>`);
         } catch (error) {
           d3.select("#sidebar").html("<p>Fehler beim Laden der Daten.</p>");
         }
       });
-      /* .on("click", (event, d) => { // Click-Handler (GETRENNT vom Drag!)
-        d3.select("#sidebar")
-          .style("right", "0")
-          .html(`<h2>${d.id}</h2><p>Verbindungen: ${countLinks(d.id)}</p>`);
-        event.stopPropagation();
-      }); */
 
       // 8. Farbskala definieren
       const colorScale = d3.scaleLinear()

@@ -187,6 +187,7 @@
           .attr("x", d => d.x)
           .attr("y", d => d.y);
       });
+
       // Labels nur bei Hovern oder Zoom anzeigen
       labels
         .style("opacity", 0) // Starte unsichtbar
@@ -196,6 +197,7 @@
         .on("mouseout", function () {
           d3.select(this).style("opacity", 0); // Verstecke Label wieder
         });
+        
       // 13. Hilfsfunktion für Verbindungszählung
       function countLinks(nodeId) {
         return data.links.filter(l =>

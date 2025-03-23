@@ -156,7 +156,7 @@
 
       // 10. Tooltips (Mouseover)
       nodes.append("title")
-        .text(d => d.id);
+        .text(d => d.name);
 
       // 11. Labels neben Knoten
       const labels = container.append("g")
@@ -164,7 +164,10 @@
         .data(data.nodes)
         .enter().append("text")
         .text(d => d.name)
-        .attr("font-size", "12px")
+        .attr("font-size", "10px")
+        .attr("fill", "#333")
+        .attr("font-family", "Arial, sans-serif")
+        .style("pointer-events", "none") // Verhindert, dass Labels Mausereignisse blockieren
         .attr("dx", 10)
         .attr("dy", 5);
 
@@ -184,7 +187,15 @@
           .attr("x", d => d.x)
           .attr("y", d => d.y);
       });
-
+      // Labels nur bei Hovern oder Zoom anzeigen
+      labels
+        .style("opacity", 0) // Starte unsichtbar
+        .on("mouseover", function () {
+          d3.select(this).style("opacity", 1); // Zeige Label bei Hovern
+        })
+        .on("mouseout", function () {
+          d3.select(this).style("opacity", 0); // Verstecke Label wieder
+        });
       // 13. Hilfsfunktion für Verbindungszählung
       function countLinks(nodeId) {
         return data.links.filter(l =>

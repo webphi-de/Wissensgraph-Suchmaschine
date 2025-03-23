@@ -1,5 +1,6 @@
 import pandas as pd
 import json
+import random
 
 # Daten laden
 data = pd.read_csv("wikidata_results.csv")
@@ -27,7 +28,7 @@ for _, row in data.iterrows():
 links = [
     { "source": row["language"].split("/")[-1], 
       "target": row["field"].split("/")[-1], 
-      "value": 0.91 }
+      "value": round(random.uniform(0.5, 1.5), 2) }
     for _, row in data.iterrows()
 ]
 

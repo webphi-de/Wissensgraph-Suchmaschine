@@ -119,7 +119,7 @@
       });
 
       // Setze die Knotengröße basierend auf dem Vernetzungsgrad
-      nodes.attr("r", d => 5 + nodeDegree[d.id] * 2); // Basisgröße 5 + 2 pro Verbindung
+      nodes.attr("r", d => 5 + (nodeDegree[d.id] || 0) * 2); // 👈 `d.id` statt `d`
 
       // Beispiel-Mapping (Wikidata-ID → Farbe)
       const categoryColors = {
@@ -166,6 +166,8 @@
           d3.select("#sidebar").html("<p>Fehler beim Laden der Daten.</p>");
         }
       });
+
+
 
       // 8. Farbskala definieren
       const colorScale = d3.scaleLinear()

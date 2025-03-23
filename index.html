@@ -119,17 +119,7 @@
       });
 
       // Setze die Knotengröße basierend auf dem Vernetzungsgrad
-      nodes.attr("r", d => 5 + (nodeDegree[d.id] || 0) * 2); // 👈 `d.id` statt `d`
-
-      // Beispiel-Mapping (Wikidata-ID → Farbe)
-      // const categoryColors = {
-      //   "Q2005": "#ff0000",    // JavaScript → Rot
-      //   "Q34175": "#00ff00",   // TeX → Grün
-      //   "Q80006": "#0000ff"    // Programmierung → Blau
-      // };
-
-      // // Knoten einfärben
-      // nodes.attr("fill", d => categoryColors[d.id] || "#69b3a2"); // Fallback: Standardfarbe
+      // nodes.attr("r", d => 5 + (nodeDegree[d.id] || 0) * 2); // 👈 `d.id` statt `d`
 
       nodes.on("click", async (event, d) => { // 👈 `async` für API-Aufrufe
         // Ladeindikator anzeigen
@@ -167,23 +157,20 @@
         }
       });
 
-
-
-      // 8. Farbskala definieren
-      const colorScale = d3.scaleLinear()
-        .domain([0.5, 1.5])
-        .range(["#44ff44", "#ff4444"]);
-
-      // Farbskala für Knoten (gleiche wie für Kanten)
-
-      // Berechne den durchschnittlichen Kantenwert pro Knoten
+      // Berechne durchschnittliche Kantengewichte pro Knoten
       const nodeAvgValue = {};
       data.nodes.forEach(node => {
         const connectedLinks = data.links.filter(l => l.source === node.id || l.target === node.id);
         nodeAvgValue[node.id] = connectedLinks.length > 0
           ? d3.mean(connectedLinks, l => l.value)
-          : 0; // Fallback für isolierte Knoten
+          : 0;
       });
+
+      // Dynamische Skala
+      const nodeValues = data.nodes.map(node => nodeAvgValue[node.id]);
+      const colorScale = d3.scaleLinear()
+        .domain([d3.min(nodeValues), d3.max(nodeValues)])
+        .range(["#44ff44", "#ff4444"]);
 
       // Knoten einfärben
       nodes.attr("fill", d => colorScale(nodeAvgValue[d.id]));

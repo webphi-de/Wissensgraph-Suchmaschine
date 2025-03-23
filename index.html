@@ -110,6 +110,27 @@
               d.fy = null;
             })
         )
+
+      // Berechne den Vernetzungsgrad (Anzahl der Verbindungen) für jeden Knoten
+      const nodeDegree = {};
+      data.links.forEach(link => {
+        nodeDegree[link.source] = (nodeDegree[link.source] || 0) + 1;
+        nodeDegree[link.target] = (nodeDegree[link.target] || 0) + 1;
+      });
+
+      // Setze die Knotengröße basierend auf dem Vernetzungsgrad
+      nodes.attr("r", d => 5 + nodeDegree[d.id] * 2); // Basisgröße 5 + 2 pro Verbindung
+
+      // Beispiel-Mapping (Wikidata-ID → Farbe)
+      const categoryColors = {
+        "Q2005": "#ff0000",    // JavaScript → Rot
+        "Q34175": "#00ff00",   // TeX → Grün
+        "Q80006": "#0000ff"    // Programmierung → Blau
+      };
+
+      // Knoten einfärben
+      nodes.attr("fill", d => categoryColors[d.id] || "#69b3a2"); // Fallback: Standardfarbe
+
       nodes.on("click", async (event, d) => { // 👈 `async` für API-Aufrufe
         // Ladeindikator anzeigen
         d3.select("#sidebar").html("<p>Lade Daten...</p>").style("right", "0");
@@ -189,15 +210,12 @@
       });
 
       // Labels nur bei Hovern oder Zoom anzeigen
+
       labels
-        .style("opacity", 0) // Starte unsichtbar
-        .on("mouseover", function () {
-          d3.select(this).style("opacity", 1); // Zeige Label bei Hovern
-        })
-        .on("mouseout", function () {
-          d3.select(this).style("opacity", 0); // Verstecke Label wieder
-        });
-        
+        .style("opacity", 1) // 👈 Immer sichtbar
+        .attr("font-size", "10px")
+        .attr("fill", "#333");
+
       // 13. Hilfsfunktion für Verbindungszählung
       function countLinks(nodeId) {
         return data.links.filter(l =>

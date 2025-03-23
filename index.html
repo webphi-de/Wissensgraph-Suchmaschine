@@ -110,17 +110,6 @@
               d.fy = null;
             })
         )
-
-      // Berechne den Vernetzungsgrad (Anzahl der Verbindungen) für jeden Knoten
-      const nodeDegree = {};
-      data.links.forEach(link => {
-        nodeDegree[link.source] = (nodeDegree[link.source] || 0) + 1;
-        nodeDegree[link.target] = (nodeDegree[link.target] || 0) + 1;
-      });
-
-      // Setze die Knotengröße basierend auf dem Vernetzungsgrad
-      // nodes.attr("r", d => 5 + (nodeDegree[d.id] || 0) * 2); // 👈 `d.id` statt `d`
-
       nodes.on("click", async (event, d) => { // 👈 `async` für API-Aufrufe
         // Ladeindikator anzeigen
         d3.select("#sidebar").html("<p>Lade Daten...</p>").style("right", "0");
@@ -157,30 +146,17 @@
         }
       });
 
-      // Berechne durchschnittliche Kantengewichte pro Knoten
-      const nodeAvgValue = {};
-      data.nodes.forEach(node => {
-        const connectedLinks = data.links.filter(l => l.source === node.id || l.target === node.id);
-        nodeAvgValue[node.id] = connectedLinks.length > 0
-          ? d3.mean(connectedLinks, l => l.value)
-          : 0;
-      });
-
-      // Dynamische Skala
-      const nodeValues = data.nodes.map(node => nodeAvgValue[node.id]);
+      // 8. Farbskala definieren
       const colorScale = d3.scaleLinear()
-        .domain([d3.min(nodeValues), d3.max(nodeValues)])
+        .domain([0.5, 1.5])
         .range(["#44ff44", "#ff4444"]);
-
-      // Knoten einfärben
-      nodes.attr("fill", d => colorScale(nodeAvgValue[d.id]));
 
       // 9. Kanten einfärben
       links.attr("stroke", d => colorScale(d.value));
 
       // 10. Tooltips (Mouseover)
       nodes.append("title")
-        .text(d => d.name);
+        .text(d => d.id);
 
       // 11. Labels neben Knoten
       const labels = container.append("g")
@@ -188,10 +164,7 @@
         .data(data.nodes)
         .enter().append("text")
         .text(d => d.name)
-        .attr("font-size", "10px")
-        .attr("fill", "#333")
-        .attr("font-family", "Arial, sans-serif")
-        .style("pointer-events", "none") // Verhindert, dass Labels Mausereignisse blockieren
+        .attr("font-size", "12px")
         .attr("dx", 10)
         .attr("dy", 5);
 
@@ -212,13 +185,6 @@
           .attr("y", d => d.y);
       });
 
-      // Labels nur bei Hovern oder Zoom anzeigen
-
-      labels
-        .style("opacity", 1) // 👈 Immer sichtbar
-        .attr("font-size", "10px")
-        .attr("fill", "#333");
-
       // 13. Hilfsfunktion für Verbindungszählung
       function countLinks(nodeId) {
         return data.links.filter(l =>
@@ -233,6 +199,8 @@
         }
       });
     }); // Ende von d3.json().then()
+
+    
   </script>
 </body>
 

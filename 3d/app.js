@@ -1,8 +1,15 @@
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 const renderer = new THREE.WebGLRenderer();
-
-
+// Text mit THREE.TextGeometry (erfordert Font-Loading)
+// const loader = new THREE.FontLoader();
+// loader.load('https://cdn.jsdelivr.net/npm/three@0.132.2/examples/fonts/helvetiker_regular.typeface.json', font => {
+//   const textGeometry = new THREE.TextGeometry(node.id, { font, size: 0.2, height: 0.02 });
+//   const textMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
+//   const textMesh = new THREE.Mesh(textGeometry, textMaterial);
+//   textMesh.position.set(node.x + 0.3, node.y, node.z); // Versatz vom Knoten
+//   scene.add(textMesh);
+// });
 
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
@@ -25,7 +32,7 @@ fetch('graph_data.json').then(response => response.json()).then(data => {
   // Knoten erstellen
   data.nodes.forEach(node => {
     const degree = nodeDegree[node.id] || 0;
-const geometry = new THREE.SphereGeometry(sizeScale(degree), 16, 16);
+    const geometry = new THREE.SphereGeometry(sizeScale(degree), 16, 16);
     const color = colorScale(nodeValues[node.id]); // Farbwert berechnen
     const material = new THREE.MeshBasicMaterial({ color: color });
     const sphere = new THREE.Mesh(geometry, material);
@@ -56,6 +63,23 @@ const geometry = new THREE.SphereGeometry(sizeScale(degree), 16, 16);
       scene.add(line);
     }
   });
+  
+/*   // Force-Simulation initialisieren
+  const simulation = d3.forceSimulation(data.nodes)
+    .force("link", d3.forceLink(data.links).id(d => d.id))
+    .force("charge", d3.forceManyBody().strength(-50))
+    .force("center", d3.forceCenter(0, 0, 0));
+  
+  // Positionen in jedem Schritt aktualisieren
+  simulation.on("tick", () => {
+    data.nodes.forEach(node => {
+      const sphere = scene.children.find(s => s.userData.id === node.id);
+      if (sphere) {
+        sphere.position.set(node.x, node.y, node.z);
+      }
+    });
+  });
+ */
 });
 
 camera.position.z = 15;

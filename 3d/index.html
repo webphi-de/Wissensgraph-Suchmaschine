@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
   <title>3D-Wissensgraph</title>
-  <style> body { margin: 0; } </style>
+
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+    }
+  </style>
+
 </head>
+
 <body>
-  <!-- D3.js für Hilfsfunktionen wie d3.mean -->
+  <div id="3d-graph"></div>
+
+  <!-- Scripts in STRENGER REIHENFOLGE: -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
-  <script src="app.js"></script>
-  <script src="https://unpkg.com/d3-force-3d"></script>
+  <script src="https://unpkg.com/3d-force-graph"></script>
+  <script src="main.js"></script>
 </body>
+
+<div id="sidebar" style="display:none; position:fixed; right:0; top:0; width:300px; background:white; padding:20px; box-shadow: -2px 0 5px rgba(0,0,0,0.1);">
+  <button onclick="document.getElementById('sidebar').style.display='none'" style="float:right;">×</button>
+  <h2 id="node-title"></h2>
+  <img id="node-image" style="max-width:100%;">
+  <p id="node-description"></p>
+  <a id="wiki-link" target="_blank">WikiData ↗</a>
+</div>
+
 </html>

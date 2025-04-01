@@ -1,0 +1,990 @@
+{
+  "nodes": [
+    {
+      "id": "Q2005",
+      "name": "JavaScript"
+    },
+    {
+      "id": "Q80006",
+      "name": "Programmierung"
+    },
+    {
+      "id": "Q386275",
+      "name": "Webentwicklung"
+    },
+    {
+      "id": "Q2407",
+      "name": "C++"
+    },
+    {
+      "id": "Q1936256",
+      "name": "Systemprogrammierung"
+    },
+    {
+      "id": "Q5301",
+      "name": "TeX"
+    },
+    {
+      "id": "Q837721",
+      "name": "Satz"
+    },
+    {
+      "id": "Q42478",
+      "name": "Perl"
+    },
+    {
+      "id": "Q123819227",
+      "name": "creating"
+    },
+    {
+      "id": "Q47607",
+      "name": "SQL"
+    },
+    {
+      "id": "Q3932296",
+      "name": "relationales Datenbankmanagementsystem"
+    },
+    {
+      "id": "Q81294",
+      "name": "Mathematica"
+    },
+    {
+      "id": "Q336",
+      "name": "Wissenschaft"
+    },
+    {
+      "id": "Q83303",
+      "name": "Fortran"
+    },
+    {
+      "id": "Q217602",
+      "name": "Analyse"
+    },
+    {
+      "id": "Q131140",
+      "name": "COBOL"
+    },
+    {
+      "id": "Q139380",
+      "name": "Maple"
+    },
+    {
+      "id": "Q165372",
+      "name": "CLIPS"
+    },
+    {
+      "id": "Q11660",
+      "name": "künstliche Intelligenz"
+    },
+    {
+      "id": "Q169478",
+      "name": "MATLAB"
+    },
+    {
+      "id": "Q11216",
+      "name": "numerische Mathematik"
+    },
+    {
+      "id": "Q6504956",
+      "name": "Datenvisualiserung"
+    },
+    {
+      "id": "Q178817",
+      "name": "ASP.NET"
+    },
+    {
+      "id": "Q1330336",
+      "name": "Webframework"
+    },
+    {
+      "id": "Q3972943",
+      "name": "Veröffentlichung"
+    },
+    {
+      "id": "Q188436",
+      "name": "ALGOL"
+    },
+    {
+      "id": "Q206904",
+      "name": "R"
+    },
+    {
+      "id": "Q1172378",
+      "name": "Datenbereinigung"
+    },
+    {
+      "id": "Q2374463",
+      "name": "Data Science"
+    },
+    {
+      "id": "Q5157340",
+      "name": "Computational Statistics"
+    },
+    {
+      "id": "Q95832426",
+      "name": "visual analysis"
+    },
+    {
+      "id": "Q123750937",
+      "name": "enriching"
+    },
+    {
+      "id": "Q223433",
+      "name": "PL/I"
+    },
+    {
+      "id": "Q653137",
+      "name": "Inhaltsanalyse"
+    },
+    {
+      "id": "Q12772819",
+      "name": "Entdeckung"
+    },
+    {
+      "id": "Q223679",
+      "name": "GNU Octave"
+    },
+    {
+      "id": "Q12483",
+      "name": "Statistik"
+    },
+    {
+      "id": "Q263544",
+      "name": "Common Intermediate Language"
+    },
+    {
+      "id": "Q244916",
+      "name": "Zwischencode"
+    },
+    {
+      "id": "Q285886",
+      "name": "Haxe"
+    },
+    {
+      "id": "Q1061635",
+      "name": "Computerspieleentwicklung"
+    },
+    {
+      "id": "Q286196",
+      "name": "Altair BASIC"
+    },
+    {
+      "id": "Q1201810",
+      "name": "Microsoft BASIC"
+    },
+    {
+      "id": "Q286443",
+      "name": "NesC"
+    },
+    {
+      "id": "Q3962217",
+      "name": "distributed system"
+    },
+    {
+      "id": "Q297730",
+      "name": "ASIC"
+    },
+    {
+      "id": "Q42979",
+      "name": "BASIC"
+    },
+    {
+      "id": "Q300867",
+      "name": "make"
+    },
+    {
+      "id": "Q1362142",
+      "name": "Erstellungsprozess"
+    },
+    {
+      "id": "Q2727468",
+      "name": "Build-Automatisierung"
+    },
+    {
+      "id": "Q344266",
+      "name": "Active Server Pages"
+    },
+    {
+      "id": "Q375913",
+      "name": "WebGL"
+    },
+    {
+      "id": "Q189177",
+      "name": "3D-Computergrafik"
+    },
+    {
+      "id": "Q3411311",
+      "name": "Pyrex"
+    },
+    {
+      "id": "Q9143",
+      "name": "Programmiersprache"
+    },
+    {
+      "id": "Q3627873",
+      "name": "Atari LOGO"
+    },
+    {
+      "id": "Q201436",
+      "name": "Logo"
+    },
+    {
+      "id": "Q3627876",
+      "name": "Atari ST BASIC"
+    },
+    {
+      "id": "Q3841543",
+      "name": "MS BASIC für Macintosh"
+    },
+    {
+      "id": "Q4041852",
+      "name": "JoCaml"
+    },
+    {
+      "id": "Q4046690",
+      "name": "Perl Data Language"
+    },
+    {
+      "id": "Q4651150",
+      "name": "ADMB"
+    },
+    {
+      "id": "Q4654106",
+      "name": "ASCEND"
+    },
+    {
+      "id": "Q4751143",
+      "name": "Analytica"
+    },
+    {
+      "id": "Q4807752",
+      "name": "AspectC++"
+    },
+    {
+      "id": "Q2990416",
+      "name": "Transcompiler"
+    },
+    {
+      "id": "Q4817198",
+      "name": "Atom"
+    },
+    {
+      "id": "Q1335007",
+      "name": "Embedded Software Engineering"
+    },
+    {
+      "id": "Q5499643",
+      "name": "FreeFem++"
+    },
+    {
+      "id": "Q5527588",
+      "name": "Gauche"
+    },
+    {
+      "id": "Q5555121",
+      "name": "Gforth"
+    },
+    {
+      "id": "Q183065",
+      "name": "Interpreter"
+    },
+    {
+      "id": "Q5583799",
+      "name": "Google Apps Script"
+    },
+    {
+      "id": "Q5644861",
+      "name": "Hamilton C shell"
+    },
+    {
+      "id": "Q14663",
+      "name": "Unix-Shell"
+    },
+    {
+      "id": "Q5933700",
+      "name": "Hugo"
+    },
+    {
+      "id": "Q1143118",
+      "name": "Interactive Fiction"
+    },
+    {
+      "id": "Q5957572",
+      "name": "HyperFun"
+    },
+    {
+      "id": "Q5508776",
+      "name": "Function representation"
+    },
+    {
+      "id": "Q6000370",
+      "name": "Illumination Software Creator"
+    },
+    {
+      "id": "Q6398316",
+      "name": "Keykit"
+    },
+    {
+      "id": "Q6509476",
+      "name": "Lean Theorembeweiser"
+    },
+    {
+      "id": "Q431667",
+      "name": "Automatisches Beweisen von Theoremen"
+    },
+    {
+      "id": "Q6717087",
+      "name": "MOO"
+    },
+    {
+      "id": "Q2252405",
+      "name": "MOO"
+    },
+    {
+      "id": "Q6753717",
+      "name": "MapBasic"
+    },
+    {
+      "id": "Q483130",
+      "name": "Geoinformationssystem"
+    },
+    {
+      "id": "Q6898824",
+      "name": "Mondrian"
+    },
+    {
+      "id": "Q6955411",
+      "name": "NS BASIC"
+    },
+    {
+      "id": "Q7119554",
+      "name": "PL/C"
+    },
+    {
+      "id": "Q857525",
+      "name": "Annotation"
+    },
+    {
+      "id": "Q7197271",
+      "name": "Pipeline Pilot"
+    },
+    {
+      "id": "Q128570",
+      "name": "Bioinformatik"
+    },
+    {
+      "id": "Q7257107",
+      "name": "Ptolemy Project"
+    },
+    {
+      "id": "Q7450966",
+      "name": "SenseTalk"
+    },
+    {
+      "id": "Q837900",
+      "name": "Hypermedia"
+    },
+    {
+      "id": "Q7452449",
+      "name": "SequenceL"
+    },
+    {
+      "id": "Q7574230",
+      "name": "Speakeasy"
+    },
+    {
+      "id": "Q7607505",
+      "name": "Stencyl"
+    },
+    {
+      "id": "Q7931258",
+      "name": "Vimscript"
+    },
+    {
+      "id": "Q1781447",
+      "name": "Konfiguration"
+    },
+    {
+      "id": "Q8046036",
+      "name": "YS MegaBasic"
+    },
+    {
+      "id": "Q9161323",
+      "name": "Astek"
+    },
+    {
+      "id": "Q14378091",
+      "name": "Xojo"
+    },
+    {
+      "id": "Q16975484",
+      "name": "PottersWheel"
+    },
+    {
+      "id": "Q486902",
+      "name": "mathematisches Modell"
+    },
+    {
+      "id": "Q16976264",
+      "name": "Ox"
+    },
+    {
+      "id": "Q17009745",
+      "name": "DADiSP"
+    },
+    {
+      "id": "Q17020459",
+      "name": "Halide"
+    },
+    {
+      "id": "Q1070689",
+      "name": "digitale Bildverarbeitung"
+    },
+    {
+      "id": "Q17042580",
+      "name": "MUDDL"
+    },
+    {
+      "id": "Q751424",
+      "name": "Multi User Dungeon"
+    },
+    {
+      "id": "Q17085538",
+      "name": "Basic4android"
+    },
+    {
+      "id": "Q21467844",
+      "name": "Vienna Definition Language"
+    },
+    {
+      "id": "Q1930895",
+      "name": "Operationelle Semantik"
+    },
+    {
+      "id": "Q25111997",
+      "name": "B4X"
+    },
+    {
+      "id": "Q25303708",
+      "name": "Hierarchical Editing Language for Macromolecules"
+    },
+    {
+      "id": "Q2329",
+      "name": "Chemie"
+    },
+    {
+      "id": "Q26898104",
+      "name": "EXAPT"
+    },
+    {
+      "id": "Q190247",
+      "name": "Computerized Numerical Control"
+    },
+    {
+      "id": "Q27578833",
+      "name": "TouchDesigner"
+    }
+  ],
+  "links": [
+    {
+      "source": "Q2005",
+      "target": "Q80006",
+      "value": 1.49
+    },
+    {
+      "source": "Q2005",
+      "target": "Q386275",
+      "value": 1.05
+    },
+    {
+      "source": "Q2407",
+      "target": "Q1936256",
+      "value": 1.19
+    },
+    {
+      "source": "Q5301",
+      "target": "Q837721",
+      "value": 1.34
+    },
+    {
+      "source": "Q42478",
+      "target": "Q80006",
+      "value": 1.23
+    },
+    {
+      "source": "Q42478",
+      "target": "Q386275",
+      "value": 1.41
+    },
+    {
+      "source": "Q42478",
+      "target": "Q123819227",
+      "value": 0.94
+    },
+    {
+      "source": "Q47607",
+      "target": "Q3932296",
+      "value": 0.97
+    },
+    {
+      "source": "Q81294",
+      "target": "Q336",
+      "value": 1.39
+    },
+    {
+      "source": "Q83303",
+      "target": "Q80006",
+      "value": 0.79
+    },
+    {
+      "source": "Q83303",
+      "target": "Q217602",
+      "value": 0.5
+    },
+    {
+      "source": "Q83303",
+      "target": "Q123819227",
+      "value": 0.84
+    },
+    {
+      "source": "Q131140",
+      "target": "Q80006",
+      "value": 0.68
+    },
+    {
+      "source": "Q131140",
+      "target": "Q123819227",
+      "value": 1.28
+    },
+    {
+      "source": "Q139380",
+      "target": "Q336",
+      "value": 0.75
+    },
+    {
+      "source": "Q165372",
+      "target": "Q11660",
+      "value": 1.18
+    },
+    {
+      "source": "Q169478",
+      "target": "Q11216",
+      "value": 1.3
+    },
+    {
+      "source": "Q169478",
+      "target": "Q217602",
+      "value": 1.07
+    },
+    {
+      "source": "Q169478",
+      "target": "Q6504956",
+      "value": 0.66
+    },
+    {
+      "source": "Q178817",
+      "target": "Q386275",
+      "value": 1.04
+    },
+    {
+      "source": "Q178817",
+      "target": "Q1330336",
+      "value": 0.78
+    },
+    {
+      "source": "Q178817",
+      "target": "Q3972943",
+      "value": 1.17
+    },
+    {
+      "source": "Q188436",
+      "target": "Q80006",
+      "value": 1.15
+    },
+    {
+      "source": "Q188436",
+      "target": "Q123819227",
+      "value": 1.43
+    },
+    {
+      "source": "Q206904",
+      "target": "Q80006",
+      "value": 1.04
+    },
+    {
+      "source": "Q206904",
+      "target": "Q217602",
+      "value": 1.49
+    },
+    {
+      "source": "Q206904",
+      "target": "Q1172378",
+      "value": 1.23
+    },
+    {
+      "source": "Q206904",
+      "target": "Q2374463",
+      "value": 0.56
+    },
+    {
+      "source": "Q206904",
+      "target": "Q5157340",
+      "value": 1.19
+    },
+    {
+      "source": "Q206904",
+      "target": "Q6504956",
+      "value": 1.34
+    },
+    {
+      "source": "Q206904",
+      "target": "Q95832426",
+      "value": 0.97
+    },
+    {
+      "source": "Q206904",
+      "target": "Q123750937",
+      "value": 0.76
+    },
+    {
+      "source": "Q206904",
+      "target": "Q123819227",
+      "value": 0.71
+    },
+    {
+      "source": "Q223433",
+      "target": "Q80006",
+      "value": 0.73
+    },
+    {
+      "source": "Q223433",
+      "target": "Q217602",
+      "value": 1.49
+    },
+    {
+      "source": "Q223433",
+      "target": "Q653137",
+      "value": 0.95
+    },
+    {
+      "source": "Q223433",
+      "target": "Q12772819",
+      "value": 0.75
+    },
+    {
+      "source": "Q223433",
+      "target": "Q123819227",
+      "value": 0.51
+    },
+    {
+      "source": "Q223679",
+      "target": "Q336",
+      "value": 1.08
+    },
+    {
+      "source": "Q223679",
+      "target": "Q11216",
+      "value": 1.17
+    },
+    {
+      "source": "Q223679",
+      "target": "Q12483",
+      "value": 1.05
+    },
+    {
+      "source": "Q263544",
+      "target": "Q244916",
+      "value": 0.93
+    },
+    {
+      "source": "Q285886",
+      "target": "Q386275",
+      "value": 0.59
+    },
+    {
+      "source": "Q285886",
+      "target": "Q1061635",
+      "value": 0.57
+    },
+    {
+      "source": "Q286196",
+      "target": "Q1201810",
+      "value": 0.57
+    },
+    {
+      "source": "Q286443",
+      "target": "Q3962217",
+      "value": 0.97
+    },
+    {
+      "source": "Q297730",
+      "target": "Q42979",
+      "value": 1.05
+    },
+    {
+      "source": "Q300867",
+      "target": "Q1362142",
+      "value": 0.72
+    },
+    {
+      "source": "Q300867",
+      "target": "Q2727468",
+      "value": 1.11
+    },
+    {
+      "source": "Q344266",
+      "target": "Q1330336",
+      "value": 0.54
+    },
+    {
+      "source": "Q375913",
+      "target": "Q189177",
+      "value": 1.32
+    },
+    {
+      "source": "Q3411311",
+      "target": "Q9143",
+      "value": 1.21
+    },
+    {
+      "source": "Q3627873",
+      "target": "Q201436",
+      "value": 0.8
+    },
+    {
+      "source": "Q3627876",
+      "target": "Q42979",
+      "value": 1.35
+    },
+    {
+      "source": "Q3841543",
+      "target": "Q1201810",
+      "value": 0.85
+    },
+    {
+      "source": "Q4041852",
+      "target": "Q9143",
+      "value": 0.69
+    },
+    {
+      "source": "Q4046690",
+      "target": "Q336",
+      "value": 1.48
+    },
+    {
+      "source": "Q4651150",
+      "target": "Q12483",
+      "value": 1.34
+    },
+    {
+      "source": "Q4654106",
+      "target": "Q336",
+      "value": 1.48
+    },
+    {
+      "source": "Q4751143",
+      "target": "Q336",
+      "value": 0.74
+    },
+    {
+      "source": "Q4807752",
+      "target": "Q2990416",
+      "value": 0.83
+    },
+    {
+      "source": "Q4817198",
+      "target": "Q1335007",
+      "value": 0.51
+    },
+    {
+      "source": "Q5499643",
+      "target": "Q336",
+      "value": 0.9
+    },
+    {
+      "source": "Q5527588",
+      "target": "Q9143",
+      "value": 0.69
+    },
+    {
+      "source": "Q5555121",
+      "target": "Q183065",
+      "value": 1.46
+    },
+    {
+      "source": "Q5583799",
+      "target": "Q1330336",
+      "value": 0.95
+    },
+    {
+      "source": "Q5644861",
+      "target": "Q14663",
+      "value": 0.91
+    },
+    {
+      "source": "Q5933700",
+      "target": "Q1143118",
+      "value": 1.44
+    },
+    {
+      "source": "Q5957572",
+      "target": "Q5508776",
+      "value": 0.9
+    },
+    {
+      "source": "Q6000370",
+      "target": "Q80006",
+      "value": 0.55
+    },
+    {
+      "source": "Q6398316",
+      "target": "Q9143",
+      "value": 0.87
+    },
+    {
+      "source": "Q6509476",
+      "target": "Q431667",
+      "value": 0.99
+    },
+    {
+      "source": "Q6717087",
+      "target": "Q2252405",
+      "value": 1.46
+    },
+    {
+      "source": "Q6753717",
+      "target": "Q483130",
+      "value": 0.68
+    },
+    {
+      "source": "Q6898824",
+      "target": "Q336",
+      "value": 0.9
+    },
+    {
+      "source": "Q6955411",
+      "target": "Q9143",
+      "value": 0.82
+    },
+    {
+      "source": "Q7119554",
+      "target": "Q217602",
+      "value": 0.53
+    },
+    {
+      "source": "Q7119554",
+      "target": "Q857525",
+      "value": 1.31
+    },
+    {
+      "source": "Q7197271",
+      "target": "Q336",
+      "value": 0.66
+    },
+    {
+      "source": "Q7197271",
+      "target": "Q128570",
+      "value": 1.11
+    },
+    {
+      "source": "Q7257107",
+      "target": "Q336",
+      "value": 0.64
+    },
+    {
+      "source": "Q7450966",
+      "target": "Q837900",
+      "value": 0.56
+    },
+    {
+      "source": "Q7452449",
+      "target": "Q336",
+      "value": 1.29
+    },
+    {
+      "source": "Q7574230",
+      "target": "Q336",
+      "value": 0.93
+    },
+    {
+      "source": "Q7607505",
+      "target": "Q1061635",
+      "value": 1.05
+    },
+    {
+      "source": "Q7931258",
+      "target": "Q1781447",
+      "value": 1.47
+    },
+    {
+      "source": "Q8046036",
+      "target": "Q42979",
+      "value": 0.6
+    },
+    {
+      "source": "Q9161323",
+      "target": "Q12483",
+      "value": 1.22
+    },
+    {
+      "source": "Q14378091",
+      "target": "Q9143",
+      "value": 0.5
+    },
+    {
+      "source": "Q16975484",
+      "target": "Q486902",
+      "value": 1.04
+    },
+    {
+      "source": "Q16976264",
+      "target": "Q9143",
+      "value": 0.75
+    },
+    {
+      "source": "Q17009745",
+      "target": "Q336",
+      "value": 0.89
+    },
+    {
+      "source": "Q17020459",
+      "target": "Q1070689",
+      "value": 0.87
+    },
+    {
+      "source": "Q17042580",
+      "target": "Q751424",
+      "value": 0.63
+    },
+    {
+      "source": "Q17085538",
+      "target": "Q9143",
+      "value": 1.47
+    },
+    {
+      "source": "Q21467844",
+      "target": "Q1930895",
+      "value": 0.64
+    },
+    {
+      "source": "Q25111997",
+      "target": "Q9143",
+      "value": 1.29
+    },
+    {
+      "source": "Q25303708",
+      "target": "Q2329",
+      "value": 1.44
+    },
+    {
+      "source": "Q26898104",
+      "target": "Q190247",
+      "value": 0.65
+    },
+    {
+      "source": "Q27578833",
+      "target": "Q189177",
+      "value": 1.14
+    }
+  ]
+}

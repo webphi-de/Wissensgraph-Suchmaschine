@@ -1,35 +1,110 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 
 <head>
-
-  <title>3D-Wissensgraph</title>
-
-  <style>
-    body {
-      margin: 0;
-      overflow: hidden;
-    }
-  </style>
-
+    <meta charset="UTF-8">
+    <title>3D Graph</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/3d-force-graph"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
 </head>
 
 <body>
-  <div id="3d-graph"></div>
+    <div id="3d-graph"></div>
 
-  <!-- Scripts in STRENGER REIHENFOLGE: -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-  <script src="https://unpkg.com/3d-force-graph"></script>
-  <script src="main.js"></script>
+    <script type="module">
+
+        import SpriteText from "https://esm.sh/three-spritetext";
+        // import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.117.1/build/three.module.js';
+
+        fetch('./graph_data.json')
+            .then(response => response.json())
+            .then(data => {
+                console.log('Geladene Daten:', data.nodes.length, 'Knoten', data.links.length, 'Links');
+                Graph.graphData(data);
+            });
+
+        const Graph = new ForceGraph3D(document.getElementById('3d-graph'))
+            // data
+            .jsonUrl('./graph_data.json')
+            // behavior
+            .backgroundColor('#eeeeee')
+            .enableNodeDrag(false)
+            // links
+            .linkWidth(link => link.value * 5) // link => (link.value / 2)
+            .linkColor(link => `rgba(0, 0, 0, ${0.8}`) // link => `rgba(209, 157, 117, ${link.value / 2 + 0.2})`
+            .linkOpacity(0.5) // default 0.1
+            // nodes
+            .nodeRelSize(1) // default 4
+            // .nodeColor("#fff")
+            .nodeOpacity(0.5)
+            .nodeThreeObjectExtend(true)
+            // .nodeThreeObject(node => {
+            //     const sprite = new SpriteText(node.name);
+            //     sprite.textHeight = 3;
+            //     sprite.color = "#000";
+            //     return sprite;
+            // })
+            // .nodeColor('#ff0000')
+            .nodeThreeObject(node => {
+                // const sphere = new THREE.Mesh(
+                //     new THREE.SphereGeometry(5),
+                //     new THREE.MeshBasicMaterial({ color: 0xff0000 })
+                // );
+                // // Text-Label erstellen
+                // const canvas = document.createElement('canvas');
+                // const ctx = canvas.getContext('2d');
+                // ctx.font = '20px Arial'; // Größere Schrift
+                // ctx.fillStyle = 'white'; // Hintergrundfarbe
+                // ctx.fillRect(0, 0, 200, 50); // Hintergrundfläche
+                // ctx.fillStyle = 'black'; // Textfarbe
+                // ctx.fillText(node.name, 10, 30); // Position im Canvas
+
+                // const texture = new THREE.CanvasTexture(canvas);
+                // const label = new THREE.Sprite(new THREE.SpriteMaterial({ map: texture }));
+                // label.scale.set(100, 50, 1); // Größeres Label
+                // label.position.set(0, 15, 0); // Höher über der Kugel
+
+                // const group = new THREE.Group();
+                // group.add(sphere);
+                // group.add(label);
+
+                const sprite = new SpriteText(node.name);
+                sprite.textHeight = 4; // Basisgröße
+                sprite.color = '#000';
+                sprite.backgroundColor = '#fff';
+                sprite.padding = 2; // Weißer Hintergrund
+                sprite.borderRadius = 2; // Abgerundete Ecken
+
+                // Positioniere Text über dem Knoten (Y-Achse)
+                const group = new THREE.Group();
+                group.add(new THREE.Mesh(
+                    new THREE.SphereGeometry(5),
+                    new THREE.MeshBasicMaterial({ color: 0x000000 })
+                ));
+                group.add(sprite);
+                sprite.position.y = 10; // Höher positionieren
+                return group;
+            })
+            ;
+        // Fokussiere den ersten Knoten nach dem Laden
+        Graph.onEngineStop(() => {
+            if (Graph.graphData().nodes.length > 0) {
+                Graph.cameraPosition(
+                    { x: 0, y: 0, z: 200 }, // Kamera-Position
+                    Graph.graphData().nodes[0], // Zentrierung auf ersten Knoten
+                    3000 // Animation über 3 Sekunden
+                );
+            }
+        });
+    </script>
+
 </body>
-
-<div id="sidebar" style="display:none; position:fixed; right:0; top:0; width:300px; background:white; padding:20px; box-shadow: -2px 0 5px rgba(0,0,0,0.1);">
-  <button onclick="document.getElementById('sidebar').style.display='none'" style="float:right;">×</button>
-  <h2 id="node-title"></h2>
-  <img id="node-image" style="max-width:100%;">
-  <p id="node-description"></p>
-  <a id="wiki-link" target="_blank">WikiData ↗</a>
-</div>
 
 </html>

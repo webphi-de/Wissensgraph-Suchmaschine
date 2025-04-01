@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>3D Graph</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://unpkg.com/3d-force-graph"></script>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="3d-graph"></div>
+
+    <script type="module">
+
+        import SpriteText from "https://esm.sh/three-spritetext";
+
+        let isUserZooming = false;
+
+        // fetch('./graph_data.json')
+        //     .then(response => response.json())
+        //     .then(data => {
+        //         console.log('Geladene Daten:', data.nodes.length, 'Knoten', data.links.length, 'Links');
+        //         Graph.graphData(data);
+        //     });
+
+        const Graph = new ForceGraph3D(document.getElementById('3d-graph'))
+            // data
+            .jsonUrl('./graph_data.json')
+            // behavior
+            .backgroundColor('#eeeeee')
+            .enableNodeDrag(false)
+            // links
+            .linkWidth(link => link.value) // link => (link.value / 2)
+            .linkColor(link => `rgba(30, 30, 30, 0.4)`) // link => `rgba(209, 157, 117, ${link.value / 2 + 0.2})`
+            .linkOpacity(0.6) // default 0.1
+            // nodes
+            .nodeRelSize(1) // default 4
+            .nodeOpacity(0.5)
+            .nodeThreeObjectExtend(true)
+            .nodeThreeObject(node => {
+
+                const sprite = new SpriteText(node.name);
+                sprite.textHeight = 4; // Basisgröße
+                sprite.color = '#000';
+                // sprite.backgroundColor = '#fff';
+                // sprite.padding = 2; // Weißer Hintergrund
+                // sprite.borderRadius = 2; // Abgerundete Ecken
+
+                // Positioniere Text über dem Knoten (Y-Achse)
+                const group = new THREE.Group();
+                group.add(new THREE.Mesh(
+                    new THREE.SphereGeometry(0),
+                    new THREE.MeshBasicMaterial({ color: 0x000000 })
+                ));
+                group.add(sprite);
+                // sprite.position.y = 10; // Höher positionieren
+                return group;
+            })
+            ;
+        // Fokussiere den ersten Knoten nach dem Laden
+        Graph.onEngineStop(() => {
+            if (Graph.graphData().nodes.length > 0) {
+                Graph.cameraPosition(
+                    { x: 0, y: 0, z: 200 }, // Kamera-Position
+                    Graph.graphData().nodes[0], // Zentrierung auf ersten Knoten
+                    3000 // Animation über 3 Sekunden
+                );
+            }
+        });
+        // Automatische Label-Größe beim Zoomen
+        // Graph.onZoom(() => {
+        //     const zoomLevel = Graph.zoom();
+        //     // Textgröße anpassen
+        //     Graph.nodeThreeObject(node => {
+        //         const sprite = new SpriteText(node.name);
+        //         sprite.textHeight = zoomLevel > 2 ? 6 : 4; // Größer bei Nahzoom
+        //         sprite.color = '#000';
+        //         return sprite;
+        //     });
+        // });
+    </script>
+
+</body>
+
+</html>

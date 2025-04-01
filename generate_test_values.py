@@ -32,6 +32,12 @@ links = [
     for _, row in data.iterrows()
 ]
 
+# Füge zufällige Startpositionen hinzu
+for node in nodes:
+    node["x"] = random.uniform(-100, 100)
+    node["y"] = random.uniform(-100, 100)
+    node["z"] = random.uniform(-100, 100)
+    
 # Speichern
 with open("graph_data.json", "w") as f:
     json.dump({ "nodes": nodes, "links": links }, f, indent=2, ensure_ascii=False)

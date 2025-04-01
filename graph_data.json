@@ -2,989 +2,1352 @@
   "nodes": [
     {
       "id": "Q2005",
-      "name": "JavaScript"
+      "name": "JavaScript",
+      "x": -10.600691238761769,
+      "y": -2.2348669846992806,
+      "z": 62.97832642693422
     },
     {
       "id": "Q80006",
-      "name": "Programmierung"
+      "name": "Programmierung",
+      "x": 94.07602059931105,
+      "y": 42.77820892744003,
+      "z": -73.09099347674427
     },
     {
       "id": "Q386275",
-      "name": "Webentwicklung"
+      "name": "Webentwicklung",
+      "x": 16.902282409059083,
+      "y": -22.467238804388032,
+      "z": -15.149486963396413
     },
     {
       "id": "Q2407",
-      "name": "C++"
+      "name": "C++",
+      "x": -93.89927173296999,
+      "y": -79.13093957283186,
+      "z": -10.302397971193074
     },
     {
       "id": "Q1936256",
-      "name": "Systemprogrammierung"
+      "name": "Systemprogrammierung",
+      "x": -8.574093176173392,
+      "y": 69.2858552061264,
+      "z": -84.3925547195757
     },
     {
       "id": "Q5301",
-      "name": "TeX"
+      "name": "TeX",
+      "x": 41.59937443905656,
+      "y": 36.138190409592795,
+      "z": -78.1380905542182
     },
     {
       "id": "Q837721",
-      "name": "Satz"
+      "name": "Satz",
+      "x": 15.524035122790082,
+      "y": -98.49829892507358,
+      "z": -68.20598634319855
     },
     {
       "id": "Q42478",
-      "name": "Perl"
+      "name": "Perl",
+      "x": -32.50135885070746,
+      "y": 55.65433894166128,
+      "z": 36.273761281657954
     },
     {
       "id": "Q123819227",
-      "name": "creating"
+      "name": "creating",
+      "x": -77.51741563599256,
+      "y": 28.575885910807585,
+      "z": -6.266106338303871
     },
     {
       "id": "Q47607",
-      "name": "SQL"
+      "name": "SQL",
+      "x": -95.49201527608504,
+      "y": 90.66666283293287,
+      "z": 81.74913879749619
     },
     {
       "id": "Q3932296",
-      "name": "relationales Datenbankmanagementsystem"
+      "name": "relationales Datenbankmanagementsystem",
+      "x": 20.399223378778288,
+      "y": 21.11477381173701,
+      "z": -56.663083349855704
     },
     {
       "id": "Q81294",
-      "name": "Mathematica"
+      "name": "Mathematica",
+      "x": 72.1118180069725,
+      "y": -26.02244303959513,
+      "z": 10.689677118133005
     },
     {
       "id": "Q336",
-      "name": "Wissenschaft"
+      "name": "Wissenschaft",
+      "x": -22.271587722473768,
+      "y": 99.52188116806505,
+      "z": -75.85504010562647
     },
     {
       "id": "Q83303",
-      "name": "Fortran"
+      "name": "Fortran",
+      "x": -45.01494339596817,
+      "y": -59.82289820307223,
+      "z": -34.07306072684541
     },
     {
       "id": "Q217602",
-      "name": "Analyse"
+      "name": "Analyse",
+      "x": -5.546760744460457,
+      "y": -21.725549359001732,
+      "z": -91.89378939824468
     },
     {
       "id": "Q131140",
-      "name": "COBOL"
+      "name": "COBOL",
+      "x": 20.348639278427243,
+      "y": 14.167049342991362,
+      "z": 59.18080277997885
     },
     {
       "id": "Q139380",
-      "name": "Maple"
+      "name": "Maple",
+      "x": 78.84904883790574,
+      "y": -77.71984088311285,
+      "z": -42.250916803648586
     },
     {
       "id": "Q165372",
-      "name": "CLIPS"
+      "name": "CLIPS",
+      "x": -8.023052955447099,
+      "y": 20.366062921275628,
+      "z": -32.897398041526515
     },
     {
       "id": "Q11660",
-      "name": "künstliche Intelligenz"
+      "name": "künstliche Intelligenz",
+      "x": 51.629453873922984,
+      "y": 23.331812962348053,
+      "z": 7.701246078902173
     },
     {
       "id": "Q169478",
-      "name": "MATLAB"
+      "name": "MATLAB",
+      "x": -34.64131685114337,
+      "y": 3.046810720206139,
+      "z": 20.516653085053974
     },
     {
       "id": "Q11216",
-      "name": "numerische Mathematik"
+      "name": "numerische Mathematik",
+      "x": -1.1638460536294275,
+      "y": 79.52817865539382,
+      "z": -40.11561883582608
     },
     {
       "id": "Q6504956",
-      "name": "Datenvisualiserung"
+      "name": "Datenvisualiserung",
+      "x": 3.027982973073591,
+      "y": 3.162433721504982,
+      "z": -15.283837720856354
     },
     {
       "id": "Q178817",
-      "name": "ASP.NET"
+      "name": "ASP.NET",
+      "x": 24.273895939817592,
+      "y": -16.704037847790104,
+      "z": -74.79058247676913
     },
     {
       "id": "Q1330336",
-      "name": "Webframework"
+      "name": "Webframework",
+      "x": 1.6594831998666848,
+      "y": 85.90490076114577,
+      "z": -40.9614490485007
     },
     {
       "id": "Q3972943",
-      "name": "Veröffentlichung"
+      "name": "Veröffentlichung",
+      "x": 72.67724732102795,
+      "y": -89.39954441024538,
+      "z": 82.2042660691123
     },
     {
       "id": "Q188436",
-      "name": "ALGOL"
+      "name": "ALGOL",
+      "x": 48.88783302855512,
+      "y": -29.809543029307733,
+      "z": -71.50765231004384
     },
     {
       "id": "Q206904",
-      "name": "R"
+      "name": "R",
+      "x": -25.570285921264073,
+      "y": 28.018661297378117,
+      "z": 10.269260865082416
     },
     {
       "id": "Q1172378",
-      "name": "Datenbereinigung"
+      "name": "Datenbereinigung",
+      "x": 39.92818241896052,
+      "y": 2.971048551311057,
+      "z": -0.8981198633690468
     },
     {
       "id": "Q2374463",
-      "name": "Data Science"
+      "name": "Data Science",
+      "x": 50.788963058117645,
+      "y": 63.963846734497736,
+      "z": -19.549256328379343
     },
     {
       "id": "Q5157340",
-      "name": "Computational Statistics"
+      "name": "Computational Statistics",
+      "x": 51.49677400313044,
+      "y": -37.00733329250985,
+      "z": 77.80626571568123
     },
     {
       "id": "Q95832426",
-      "name": "visual analysis"
+      "name": "visual analysis",
+      "x": -60.77099347963384,
+      "y": 60.428681025237836,
+      "z": -51.58028106156074
     },
     {
       "id": "Q123750937",
-      "name": "enriching"
+      "name": "enriching",
+      "x": -29.884628242008105,
+      "y": 88.40829257699997,
+      "z": -2.2206130343822963
     },
     {
       "id": "Q223433",
-      "name": "PL/I"
+      "name": "PL/I",
+      "x": 81.269458910216,
+      "y": -38.675221493173595,
+      "z": 58.470675184843486
     },
     {
       "id": "Q653137",
-      "name": "Inhaltsanalyse"
+      "name": "Inhaltsanalyse",
+      "x": -48.3632585548597,
+      "y": -6.937101130135488,
+      "z": 70.20780118811311
     },
     {
       "id": "Q12772819",
-      "name": "Entdeckung"
+      "name": "Entdeckung",
+      "x": -68.50300144113919,
+      "y": -82.85797742999495,
+      "z": -46.38010909772885
     },
     {
       "id": "Q223679",
-      "name": "GNU Octave"
+      "name": "GNU Octave",
+      "x": 28.580443701039712,
+      "y": -8.676463578296918,
+      "z": -0.6733209929844719
     },
     {
       "id": "Q12483",
-      "name": "Statistik"
+      "name": "Statistik",
+      "x": -36.912667127266374,
+      "y": -89.99642781985959,
+      "z": -83.98945947190776
     },
     {
       "id": "Q263544",
-      "name": "Common Intermediate Language"
+      "name": "Common Intermediate Language",
+      "x": 95.48163856503967,
+      "y": -84.08076417932004,
+      "z": -14.497533528935477
     },
     {
       "id": "Q244916",
-      "name": "Zwischencode"
+      "name": "Zwischencode",
+      "x": -1.38762624599471,
+      "y": -6.48508180465879,
+      "z": 96.66513298482906
     },
     {
       "id": "Q285886",
-      "name": "Haxe"
+      "name": "Haxe",
+      "x": 30.70124812035465,
+      "y": 21.592095595375312,
+      "z": 57.85368097947051
     },
     {
       "id": "Q1061635",
-      "name": "Computerspieleentwicklung"
+      "name": "Computerspieleentwicklung",
+      "x": -37.66622270055828,
+      "y": -66.94827842263311,
+      "z": -97.17497659025409
     },
     {
       "id": "Q286196",
-      "name": "Altair BASIC"
+      "name": "Altair BASIC",
+      "x": -71.56990755746564,
+      "y": 34.62479580595331,
+      "z": -71.04033602087962
     },
     {
       "id": "Q1201810",
-      "name": "Microsoft BASIC"
+      "name": "Microsoft BASIC",
+      "x": 24.994178976959745,
+      "y": -23.372463313873084,
+      "z": 6.48869349184757
     },
     {
       "id": "Q286443",
-      "name": "NesC"
+      "name": "NesC",
+      "x": -75.23162506471934,
+      "y": -78.03755831878307,
+      "z": -1.4167711901748419
     },
     {
       "id": "Q3962217",
-      "name": "distributed system"
+      "name": "distributed system",
+      "x": 14.246297531988091,
+      "y": -81.93880872146164,
+      "z": -66.51151190538691
     },
     {
       "id": "Q297730",
-      "name": "ASIC"
+      "name": "ASIC",
+      "x": -40.64787319395082,
+      "y": -37.74452383995559,
+      "z": 41.74388714436907
     },
     {
       "id": "Q42979",
-      "name": "BASIC"
+      "name": "BASIC",
+      "x": -90.27527283106996,
+      "y": -68.55597359059031,
+      "z": 43.8583233842636
     },
     {
       "id": "Q300867",
-      "name": "make"
+      "name": "make",
+      "x": -13.407635213925275,
+      "y": 99.30165924936765,
+      "z": 67.27223932342037
     },
     {
       "id": "Q1362142",
-      "name": "Erstellungsprozess"
+      "name": "Erstellungsprozess",
+      "x": 52.69290397776459,
+      "y": -92.45404638198505,
+      "z": 65.83064367177087
     },
     {
       "id": "Q2727468",
-      "name": "Build-Automatisierung"
+      "name": "Build-Automatisierung",
+      "x": 43.70537645892654,
+      "y": -10.689868284806508,
+      "z": 77.26413337978917
     },
     {
       "id": "Q344266",
-      "name": "Active Server Pages"
+      "name": "Active Server Pages",
+      "x": 84.44151277870088,
+      "y": 57.293063969222686,
+      "z": 0.40419578424236136
     },
     {
       "id": "Q375913",
-      "name": "WebGL"
+      "name": "WebGL",
+      "x": 8.519957310027635,
+      "y": -34.649567820752566,
+      "z": -53.73772424132943
     },
     {
       "id": "Q189177",
-      "name": "3D-Computergrafik"
+      "name": "3D-Computergrafik",
+      "x": 2.783698919624328,
+      "y": 31.36046890274818,
+      "z": -58.986959202904444
     },
     {
       "id": "Q3411311",
-      "name": "Pyrex"
+      "name": "Pyrex",
+      "x": 11.411165940787399,
+      "y": 16.60970810870208,
+      "z": -29.072606175251778
     },
     {
       "id": "Q9143",
-      "name": "Programmiersprache"
+      "name": "Programmiersprache",
+      "x": 97.20818574027689,
+      "y": 52.25056109746666,
+      "z": 30.271246871733382
     },
     {
       "id": "Q3627873",
-      "name": "Atari LOGO"
+      "name": "Atari LOGO",
+      "x": -71.45149318536173,
+      "y": 63.293902952202416,
+      "z": 48.038147961617426
     },
     {
       "id": "Q201436",
-      "name": "Logo"
+      "name": "Logo",
+      "x": -28.77109168148155,
+      "y": 36.17719092077675,
+      "z": -17.759904269988752
     },
     {
       "id": "Q3627876",
-      "name": "Atari ST BASIC"
+      "name": "Atari ST BASIC",
+      "x": 84.99817881880537,
+      "y": 70.99304929593302,
+      "z": -47.48382759239804
     },
     {
       "id": "Q3841543",
-      "name": "MS BASIC für Macintosh"
+      "name": "MS BASIC für Macintosh",
+      "x": 79.29392057939498,
+      "y": 47.24706857839277,
+      "z": 75.66829193448785
     },
     {
       "id": "Q4041852",
-      "name": "JoCaml"
+      "name": "JoCaml",
+      "x": 35.65151455846441,
+      "y": -0.7603505957349626,
+      "z": -49.248010124182116
     },
     {
       "id": "Q4046690",
-      "name": "Perl Data Language"
+      "name": "Perl Data Language",
+      "x": -53.53281422413272,
+      "y": 52.29736034547591,
+      "z": 0.40470370872647266
     },
     {
       "id": "Q4651150",
-      "name": "ADMB"
+      "name": "ADMB",
+      "x": 86.4590670422943,
+      "y": -92.91647969394235,
+      "z": 52.59144061020942
     },
     {
       "id": "Q4654106",
-      "name": "ASCEND"
+      "name": "ASCEND",
+      "x": -14.497411632043395,
+      "y": 40.942785838297056,
+      "z": -54.06785076772398
     },
     {
       "id": "Q4751143",
-      "name": "Analytica"
+      "name": "Analytica",
+      "x": -70.92028234434463,
+      "y": -83.62941656699425,
+      "z": 43.23716473382257
     },
     {
       "id": "Q4807752",
-      "name": "AspectC++"
+      "name": "AspectC++",
+      "x": 83.20474803944236,
+      "y": 29.519072774208297,
+      "z": -6.10686169098706
     },
     {
       "id": "Q2990416",
-      "name": "Transcompiler"
+      "name": "Transcompiler",
+      "x": 60.81634807607256,
+      "y": -96.57541723200558,
+      "z": 2.0469045304085682
     },
     {
       "id": "Q4817198",
-      "name": "Atom"
+      "name": "Atom",
+      "x": 5.696459405415595,
+      "y": -58.81240444737421,
+      "z": -7.530284855442176
     },
     {
       "id": "Q1335007",
-      "name": "Embedded Software Engineering"
+      "name": "Embedded Software Engineering",
+      "x": 82.56077165984283,
+      "y": -14.633909467890675,
+      "z": -42.2840138223741
     },
     {
       "id": "Q5499643",
-      "name": "FreeFem++"
+      "name": "FreeFem++",
+      "x": 38.19718993478506,
+      "y": -15.291486308262222,
+      "z": 47.09979293827189
     },
     {
       "id": "Q5527588",
-      "name": "Gauche"
+      "name": "Gauche",
+      "x": -0.15406658428487674,
+      "y": -9.878121438078097,
+      "z": -79.51286768554968
     },
     {
       "id": "Q5555121",
-      "name": "Gforth"
+      "name": "Gforth",
+      "x": -52.56826109794146,
+      "y": 58.11106120124546,
+      "z": -34.332194742826346
     },
     {
       "id": "Q183065",
-      "name": "Interpreter"
+      "name": "Interpreter",
+      "x": 79.19473593392445,
+      "y": -21.51083683304023,
+      "z": -84.2015900991884
     },
     {
       "id": "Q5583799",
-      "name": "Google Apps Script"
+      "name": "Google Apps Script",
+      "x": -21.81028777420471,
+      "y": 77.05370131356898,
+      "z": 84.12764084802538
     },
     {
       "id": "Q5644861",
-      "name": "Hamilton C shell"
+      "name": "Hamilton C shell",
+      "x": 65.11191664624701,
+      "y": -31.923227055816497,
+      "z": -29.230918935659545
     },
     {
       "id": "Q14663",
-      "name": "Unix-Shell"
+      "name": "Unix-Shell",
+      "x": -98.1923531720544,
+      "y": -78.01764311674799,
+      "z": -50.167243467521146
     },
     {
       "id": "Q5933700",
-      "name": "Hugo"
+      "name": "Hugo",
+      "x": -96.15779266993212,
+      "y": 61.02390630762028,
+      "z": -15.838205919353413
     },
     {
       "id": "Q1143118",
-      "name": "Interactive Fiction"
+      "name": "Interactive Fiction",
+      "x": -61.96437997335307,
+      "y": 32.88178683713238,
+      "z": 37.84900476023168
     },
     {
       "id": "Q5957572",
-      "name": "HyperFun"
+      "name": "HyperFun",
+      "x": 81.75269116113577,
+      "y": 83.08537339973654,
+      "z": -5.587749404657288
     },
     {
       "id": "Q5508776",
-      "name": "Function representation"
+      "name": "Function representation",
+      "x": -93.41757095471755,
+      "y": -35.179223411131915,
+      "z": -34.205976451998126
     },
     {
       "id": "Q6000370",
-      "name": "Illumination Software Creator"
+      "name": "Illumination Software Creator",
+      "x": -64.13493270984921,
+      "y": 92.18257073577843,
+      "z": -7.321134175929458
     },
     {
       "id": "Q6398316",
-      "name": "Keykit"
+      "name": "Keykit",
+      "x": -24.422806073520448,
+      "y": 69.47307481495636,
+      "z": -87.62878338574194
     },
     {
       "id": "Q6509476",
-      "name": "Lean Theorembeweiser"
+      "name": "Lean Theorembeweiser",
+      "x": -27.165250499637324,
+      "y": 5.844976948343586,
+      "z": 28.81748409177419
     },
     {
       "id": "Q431667",
-      "name": "Automatisches Beweisen von Theoremen"
+      "name": "Automatisches Beweisen von Theoremen",
+      "x": -41.85992799679288,
+      "y": -81.78015452240048,
+      "z": -94.15425936576828
     },
     {
       "id": "Q6717087",
-      "name": "MOO"
+      "name": "MOO",
+      "x": -44.49364374711564,
+      "y": 97.11768236494012,
+      "z": -2.110574949258435
     },
     {
       "id": "Q2252405",
-      "name": "MOO"
+      "name": "MOO",
+      "x": 62.951631140385075,
+      "y": 89.62513706914686,
+      "z": -68.77272207387924
     },
     {
       "id": "Q6753717",
-      "name": "MapBasic"
+      "name": "MapBasic",
+      "x": -16.82166092113775,
+      "y": 34.58118528715465,
+      "z": -4.840760808035284
     },
     {
       "id": "Q483130",
-      "name": "Geoinformationssystem"
+      "name": "Geoinformationssystem",
+      "x": -28.205439862587326,
+      "y": 58.837116357815404,
+      "z": -14.132041050883885
     },
     {
       "id": "Q6898824",
-      "name": "Mondrian"
+      "name": "Mondrian",
+      "x": 33.230920444836585,
+      "y": 1.1565381308685971,
+      "z": -5.245834908621944
     },
     {
       "id": "Q6955411",
-      "name": "NS BASIC"
+      "name": "NS BASIC",
+      "x": -9.579695843085204,
+      "y": 73.13211750428161,
+      "z": 25.412756665535554
     },
     {
       "id": "Q7119554",
-      "name": "PL/C"
+      "name": "PL/C",
+      "x": -7.0740278053771135,
+      "y": -95.0544782303296,
+      "z": 1.138502173609396
     },
     {
       "id": "Q857525",
-      "name": "Annotation"
+      "name": "Annotation",
+      "x": 22.717597731752065,
+      "y": 68.9408724828993,
+      "z": -82.40811436034126
     },
     {
       "id": "Q7197271",
-      "name": "Pipeline Pilot"
+      "name": "Pipeline Pilot",
+      "x": 24.713265070705972,
+      "y": -29.375758154768178,
+      "z": 32.098224119272004
     },
     {
       "id": "Q128570",
-      "name": "Bioinformatik"
+      "name": "Bioinformatik",
+      "x": 37.23108589995806,
+      "y": -88.22958561524696,
+      "z": 73.73558593662315
     },
     {
       "id": "Q7257107",
-      "name": "Ptolemy Project"
+      "name": "Ptolemy Project",
+      "x": 0.4948378136838869,
+      "y": -4.141535038853988,
+      "z": -17.356050760148207
     },
     {
       "id": "Q7450966",
-      "name": "SenseTalk"
+      "name": "SenseTalk",
+      "x": 52.95741377743954,
+      "y": 0.8789673383785299,
+      "z": -32.56829256260676
     },
     {
       "id": "Q837900",
-      "name": "Hypermedia"
+      "name": "Hypermedia",
+      "x": -0.4584820176126243,
+      "y": -73.16411080659199,
+      "z": 20.967848868062816
     },
     {
       "id": "Q7452449",
-      "name": "SequenceL"
+      "name": "SequenceL",
+      "x": -73.05732376539547,
+      "y": 19.35605573127151,
+      "z": 41.46494300463604
     },
     {
       "id": "Q7574230",
-      "name": "Speakeasy"
+      "name": "Speakeasy",
+      "x": -16.732967968742372,
+      "y": 3.2870998049126,
+      "z": -65.47930920206986
     },
     {
       "id": "Q7607505",
-      "name": "Stencyl"
+      "name": "Stencyl",
+      "x": -93.4700253441237,
+      "y": -61.48840739564601,
+      "z": -18.432883865015626
     },
     {
       "id": "Q7931258",
-      "name": "Vimscript"
+      "name": "Vimscript",
+      "x": -66.6210124821998,
+      "y": 96.53671601689749,
+      "z": -9.820902722702598
     },
     {
       "id": "Q1781447",
-      "name": "Konfiguration"
+      "name": "Konfiguration",
+      "x": -27.347026704037617,
+      "y": -48.79301517129837,
+      "z": -79.52955544017556
     },
     {
       "id": "Q8046036",
-      "name": "YS MegaBasic"
+      "name": "YS MegaBasic",
+      "x": -53.12376656311806,
+      "y": -74.36985990178329,
+      "z": -48.95180455103614
     },
     {
       "id": "Q9161323",
-      "name": "Astek"
+      "name": "Astek",
+      "x": 10.608222296628739,
+      "y": -27.667879055898737,
+      "z": -0.12901950815444252
     },
     {
       "id": "Q14378091",
-      "name": "Xojo"
+      "name": "Xojo",
+      "x": -96.94675382970026,
+      "y": 74.42990936670492,
+      "z": 93.29347215072897
     },
     {
       "id": "Q16975484",
-      "name": "PottersWheel"
+      "name": "PottersWheel",
+      "x": 85.20423112744709,
+      "y": 76.16189864074516,
+      "z": 83.95994857740055
     },
     {
       "id": "Q486902",
-      "name": "mathematisches Modell"
+      "name": "mathematisches Modell",
+      "x": -99.29172495525809,
+      "y": 47.827374927984295,
+      "z": 35.40084233546904
     },
     {
       "id": "Q16976264",
-      "name": "Ox"
+      "name": "Ox",
+      "x": -53.23850430185717,
+      "y": 28.07415744032636,
+      "z": -69.9228352423626
     },
     {
       "id": "Q17009745",
-      "name": "DADiSP"
+      "name": "DADiSP",
+      "x": -61.857871018296365,
+      "y": 60.29649510840389,
+      "z": -71.54493842933942
     },
     {
       "id": "Q17020459",
-      "name": "Halide"
+      "name": "Halide",
+      "x": 80.02738772897652,
+      "y": 17.451074657411596,
+      "z": -1.7599027905195612
     },
     {
       "id": "Q1070689",
-      "name": "digitale Bildverarbeitung"
+      "name": "digitale Bildverarbeitung",
+      "x": -13.371857863916034,
+      "y": 20.33880705711306,
+      "z": -44.36942225050782
     },
     {
       "id": "Q17042580",
-      "name": "MUDDL"
+      "name": "MUDDL",
+      "x": 11.826210109114086,
+      "y": -49.59438472613493,
+      "z": 41.548948446448776
     },
     {
       "id": "Q751424",
-      "name": "Multi User Dungeon"
+      "name": "Multi User Dungeon",
+      "x": -11.019862299658925,
+      "y": -70.65408917412009,
+      "z": 38.94157296308782
     },
     {
       "id": "Q17085538",
-      "name": "Basic4android"
+      "name": "Basic4android",
+      "x": -21.81816557265104,
+      "y": -57.99963471354241,
+      "z": -95.83978975989089
     },
     {
       "id": "Q21467844",
-      "name": "Vienna Definition Language"
+      "name": "Vienna Definition Language",
+      "x": 97.46318563998199,
+      "y": -7.578473484889713,
+      "z": -3.414035752040249
     },
     {
       "id": "Q1930895",
-      "name": "Operationelle Semantik"
+      "name": "Operationelle Semantik",
+      "x": 13.563180200784132,
+      "y": -64.11027432590043,
+      "z": -82.52673937641886
     },
     {
       "id": "Q25111997",
-      "name": "B4X"
+      "name": "B4X",
+      "x": 41.34816303621483,
+      "y": -65.822487968134,
+      "z": 31.1103534668909
     },
     {
       "id": "Q25303708",
-      "name": "Hierarchical Editing Language for Macromolecules"
+      "name": "Hierarchical Editing Language for Macromolecules",
+      "x": 46.04630607192016,
+      "y": 49.149085823091326,
+      "z": -63.618449577870926
     },
     {
       "id": "Q2329",
-      "name": "Chemie"
+      "name": "Chemie",
+      "x": -7.915028032662434,
+      "y": -40.48477984551935,
+      "z": -8.910005643533452
     },
     {
       "id": "Q26898104",
-      "name": "EXAPT"
+      "name": "EXAPT",
+      "x": 2.9676503699893146,
+      "y": -8.75076242364166,
+      "z": -91.94347212175671
     },
     {
       "id": "Q190247",
-      "name": "Computerized Numerical Control"
+      "name": "Computerized Numerical Control",
+      "x": 11.343278752416737,
+      "y": -37.44920436243555,
+      "z": -2.2798964685552363
     },
     {
       "id": "Q27578833",
-      "name": "TouchDesigner"
+      "name": "TouchDesigner",
+      "x": 53.05799586424661,
+      "y": 50.81159106655042,
+      "z": 22.98487182054197
     }
   ],
   "links": [
     {
       "source": "Q2005",
       "target": "Q80006",
-      "value": 0.59
+      "value": 0.56
     },
     {
       "source": "Q2005",
       "target": "Q386275",
-      "value": 1.12
+      "value": 0.92
     },
     {
       "source": "Q2407",
       "target": "Q1936256",
-      "value": 1.07
+      "value": 1.32
     },
     {
       "source": "Q5301",
       "target": "Q837721",
-      "value": 0.87
+      "value": 1.22
     },
     {
       "source": "Q42478",
       "target": "Q80006",
-      "value": 1.31
+      "value": 0.86
     },
     {
       "source": "Q42478",
       "target": "Q386275",
-      "value": 0.71
+      "value": 0.89
     },
     {
       "source": "Q42478",
       "target": "Q123819227",
-      "value": 1.46
+      "value": 0.91
     },
     {
       "source": "Q47607",
       "target": "Q3932296",
-      "value": 1.17
+      "value": 0.74
     },
     {
       "source": "Q81294",
       "target": "Q336",
-      "value": 1.29
+      "value": 0.54
     },
     {
       "source": "Q83303",
       "target": "Q80006",
-      "value": 0.91
+      "value": 0.66
     },
     {
       "source": "Q83303",
       "target": "Q217602",
-      "value": 0.53
+      "value": 0.97
     },
     {
       "source": "Q83303",
       "target": "Q123819227",
-      "value": 0.52
+      "value": 1.46
     },
     {
       "source": "Q131140",
       "target": "Q80006",
-      "value": 1.18
+      "value": 0.62
     },
     {
       "source": "Q131140",
       "target": "Q123819227",
-      "value": 0.61
+      "value": 1.04
     },
     {
       "source": "Q139380",
       "target": "Q336",
-      "value": 0.61
+      "value": 1.03
     },
     {
       "source": "Q165372",
       "target": "Q11660",
-      "value": 0.57
+      "value": 0.94
     },
     {
       "source": "Q169478",
       "target": "Q11216",
-      "value": 0.8
+      "value": 0.66
     },
     {
       "source": "Q169478",
       "target": "Q217602",
-      "value": 0.56
+      "value": 1.08
     },
     {
       "source": "Q169478",
       "target": "Q6504956",
-      "value": 0.83
+      "value": 0.51
     },
     {
       "source": "Q178817",
       "target": "Q386275",
-      "value": 0.74
+      "value": 0.62
     },
     {
       "source": "Q178817",
       "target": "Q1330336",
-      "value": 1.3
+      "value": 0.58
     },
     {
       "source": "Q178817",
       "target": "Q3972943",
-      "value": 1.13
+      "value": 0.83
     },
     {
       "source": "Q188436",
       "target": "Q80006",
-      "value": 0.95
+      "value": 1.37
     },
     {
       "source": "Q188436",
       "target": "Q123819227",
-      "value": 1.33
+      "value": 1.04
     },
     {
       "source": "Q206904",
       "target": "Q80006",
-      "value": 1.3
+      "value": 1.28
     },
     {
       "source": "Q206904",
       "target": "Q217602",
-      "value": 1.48
+      "value": 0.56
     },
     {
       "source": "Q206904",
       "target": "Q1172378",
-      "value": 1.35
+      "value": 1.25
     },
     {
       "source": "Q206904",
       "target": "Q2374463",
-      "value": 0.73
+      "value": 0.67
     },
     {
       "source": "Q206904",
       "target": "Q5157340",
-      "value": 0.98
+      "value": 0.68
     },
     {
       "source": "Q206904",
       "target": "Q6504956",
-      "value": 1.15
+      "value": 1.39
     },
     {
       "source": "Q206904",
       "target": "Q95832426",
-      "value": 1.49
+      "value": 0.98
     },
     {
       "source": "Q206904",
       "target": "Q123750937",
-      "value": 1.21
+      "value": 0.71
     },
     {
       "source": "Q206904",
       "target": "Q123819227",
-      "value": 0.51
+      "value": 1.0
     },
     {
       "source": "Q223433",
       "target": "Q80006",
-      "value": 0.99
+      "value": 1.48
     },
     {
       "source": "Q223433",
       "target": "Q217602",
-      "value": 0.56
+      "value": 0.91
     },
     {
       "source": "Q223433",
       "target": "Q653137",
-      "value": 0.55
+      "value": 1.3
     },
     {
       "source": "Q223433",
       "target": "Q12772819",
-      "value": 0.66
+      "value": 0.73
     },
     {
       "source": "Q223433",
       "target": "Q123819227",
-      "value": 1.01
+      "value": 1.02
     },
     {
       "source": "Q223679",
       "target": "Q336",
-      "value": 1.23
+      "value": 1.03
     },
     {
       "source": "Q223679",
       "target": "Q11216",
-      "value": 1.2
+      "value": 0.66
     },
     {
       "source": "Q223679",
       "target": "Q12483",
-      "value": 1.25
+      "value": 1.19
     },
     {
       "source": "Q263544",
       "target": "Q244916",
-      "value": 1.39
+      "value": 1.17
     },
     {
       "source": "Q285886",
       "target": "Q386275",
-      "value": 0.56
+      "value": 0.92
     },
     {
       "source": "Q285886",
       "target": "Q1061635",
-      "value": 0.62
+      "value": 0.84
     },
     {
       "source": "Q286196",
       "target": "Q1201810",
-      "value": 0.91
+      "value": 0.74
     },
     {
       "source": "Q286443",
       "target": "Q3962217",
-      "value": 0.75
+      "value": 0.57
     },
     {
       "source": "Q297730",
       "target": "Q42979",
-      "value": 1.25
+      "value": 0.81
     },
     {
       "source": "Q300867",
       "target": "Q1362142",
-      "value": 0.56
+      "value": 1.33
     },
     {
       "source": "Q300867",
       "target": "Q2727468",
-      "value": 1.46
+      "value": 1.33
     },
     {
       "source": "Q344266",
       "target": "Q1330336",
-      "value": 0.53
+      "value": 0.61
     },
     {
       "source": "Q375913",
       "target": "Q189177",
-      "value": 0.6
+      "value": 1.19
     },
     {
       "source": "Q3411311",
       "target": "Q9143",
-      "value": 0.67
+      "value": 0.79
     },
     {
       "source": "Q3627873",
       "target": "Q201436",
-      "value": 1.25
+      "value": 1.22
     },
     {
       "source": "Q3627876",
       "target": "Q42979",
-      "value": 1.28
+      "value": 0.8
     },
     {
       "source": "Q3841543",
       "target": "Q1201810",
-      "value": 1.29
+      "value": 0.65
     },
     {
       "source": "Q4041852",
       "target": "Q9143",
-      "value": 1.28
+      "value": 0.52
     },
     {
       "source": "Q4046690",
       "target": "Q336",
-      "value": 1.1
+      "value": 0.69
     },
     {
       "source": "Q4651150",
       "target": "Q12483",
-      "value": 1.38
+      "value": 0.9
     },
     {
       "source": "Q4654106",
       "target": "Q336",
-      "value": 0.59
+      "value": 1.1
     },
     {
       "source": "Q4751143",
       "target": "Q336",
-      "value": 1.28
+      "value": 1.39
     },
     {
       "source": "Q4807752",
       "target": "Q2990416",
-      "value": 1.17
+      "value": 0.55
     },
     {
       "source": "Q4817198",
       "target": "Q1335007",
-      "value": 1.26
+      "value": 1.1
     },
     {
       "source": "Q5499643",
       "target": "Q336",
-      "value": 0.74
+      "value": 1.16
     },
     {
       "source": "Q5527588",
       "target": "Q9143",
-      "value": 1.38
+      "value": 0.76
     },
     {
       "source": "Q5555121",
       "target": "Q183065",
-      "value": 0.8
+      "value": 1.0
     },
     {
       "source": "Q5583799",
       "target": "Q1330336",
-      "value": 1.23
+      "value": 1.36
     },
     {
       "source": "Q5644861",
       "target": "Q14663",
-      "value": 0.6
+      "value": 1.4
     },
     {
       "source": "Q5933700",
       "target": "Q1143118",
-      "value": 1.49
+      "value": 1.34
     },
     {
       "source": "Q5957572",
       "target": "Q5508776",
-      "value": 0.54
+      "value": 1.32
     },
     {
       "source": "Q6000370",
       "target": "Q80006",
-      "value": 1.21
+      "value": 1.41
     },
     {
       "source": "Q6398316",
       "target": "Q9143",
-      "value": 1.15
+      "value": 1.34
     },
     {
       "source": "Q6509476",
       "target": "Q431667",
-      "value": 1.25
+      "value": 1.15
     },
     {
       "source": "Q6717087",
       "target": "Q2252405",
-      "value": 0.6
+      "value": 0.81
     },
     {
       "source": "Q6753717",
       "target": "Q483130",
-      "value": 1.06
+      "value": 0.78
     },
     {
       "source": "Q6898824",
       "target": "Q336",
-      "value": 1.02
+      "value": 1.5
     },
     {
       "source": "Q6955411",
       "target": "Q9143",
-      "value": 1.23
+      "value": 1.35
     },
     {
       "source": "Q7119554",
       "target": "Q217602",
-      "value": 0.65
+      "value": 0.89
     },
     {
       "source": "Q7119554",
       "target": "Q857525",
-      "value": 0.57
+      "value": 1.49
     },
     {
       "source": "Q7197271",
       "target": "Q336",
-      "value": 1.48
+      "value": 0.61
     },
     {
       "source": "Q7197271",
       "target": "Q128570",
-      "value": 0.86
+      "value": 1.1
     },
     {
       "source": "Q7257107",
       "target": "Q336",
-      "value": 1.13
+      "value": 0.56
     },
     {
       "source": "Q7450966",
       "target": "Q837900",
-      "value": 0.82
+      "value": 1.1
     },
     {
       "source": "Q7452449",
       "target": "Q336",
-      "value": 0.88
+      "value": 0.54
     },
     {
       "source": "Q7574230",
       "target": "Q336",
-      "value": 0.75
+      "value": 0.53
     },
     {
       "source": "Q7607505",
       "target": "Q1061635",
-      "value": 0.85
+      "value": 1.2
     },
     {
       "source": "Q7931258",
       "target": "Q1781447",
-      "value": 1.1
+      "value": 1.05
     },
     {
       "source": "Q8046036",
       "target": "Q42979",
-      "value": 1.31
+      "value": 1.09
     },
     {
       "source": "Q9161323",
       "target": "Q12483",
-      "value": 0.63
+      "value": 0.56
     },
     {
       "source": "Q14378091",
       "target": "Q9143",
-      "value": 0.9
+      "value": 0.55
     },
     {
       "source": "Q16975484",
       "target": "Q486902",
-      "value": 1.2
+      "value": 0.6
     },
     {
       "source": "Q16976264",
       "target": "Q9143",
-      "value": 0.91
+      "value": 1.37
     },
     {
       "source": "Q17009745",
       "target": "Q336",
-      "value": 0.75
+      "value": 1.05
     },
     {
       "source": "Q17020459",
       "target": "Q1070689",
-      "value": 1.42
+      "value": 0.55
     },
     {
       "source": "Q17042580",
       "target": "Q751424",
-      "value": 0.98
+      "value": 1.0
     },
     {
       "source": "Q17085538",
       "target": "Q9143",
-      "value": 0.6
+      "value": 0.69
     },
     {
       "source": "Q21467844",
       "target": "Q1930895",
-      "value": 1.4
+      "value": 0.93
     },
     {
       "source": "Q25111997",
       "target": "Q9143",
-      "value": 0.59
+      "value": 1.01
     },
     {
       "source": "Q25303708",
       "target": "Q2329",
-      "value": 0.7
+      "value": 1.36
     },
     {
       "source": "Q26898104",
       "target": "Q190247",
-      "value": 1.43
+      "value": 1.36
     },
     {
       "source": "Q27578833",
       "target": "Q189177",
-      "value": 1.48
+      "value": 0.76
     }
   ]
 }
